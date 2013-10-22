@@ -11,3 +11,5 @@ This wiki is powered by [[ikiwiki]].
 Editing with OpenID works -- joar
 
 Editing with creating a new account from scratch works. -- bkuhn
+
+Did it really? -- joar
