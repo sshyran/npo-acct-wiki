@@ -8,4 +8,4 @@ This wiki is powered by [[ikiwiki]].
 
 ---
 
-You should not see any errors when you submit an edit anymore.
+You should not see any errors when you submit an edit anymore. -- joar
