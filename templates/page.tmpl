@@ -15,61 +15,82 @@
     <link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" />
     <link rel="stylesheet" href="<TMPL_VAR BASEURL>bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="<TMPL_VAR BASEURL>local.css" type="text/css" />
+    <TMPL_LOOP TRAILLOOP>
+      <TMPL_IF PREVPAGE>
+        <link rel="prev" href="<TMPL_VAR PREVURL>" title="<TMPL_VAR PREVTITLE>" />
+      </TMPL_IF>
+        <link rel="up" href="<TMPL_VAR TRAILURL>" title="<TMPL_VAR TRAILTITLE>" />
+      <TMPL_IF NEXTPAGE>
+        <link rel="next" href="<TMPL_VAR NEXTURL>" title="<TMPL_VAR NEXTTITLE>" />
+      </TMPL_IF>
+    </TMPL_LOOP>
   </head>
 
   <body>
-
     <header class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
+          <button class="navbar-toggle" data-target=".npoacct-navbar-collapse" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="<TMPL_VAR BASEURL>"><TMPL_VAR WIKINAME></a>
         </div>
-        <nav role="navigation">
+        <nav role="collapse navbar-collapse npoacct-navbar-collapse" role="navigation">
           <ul class="nav navbar-nav">
-            <TMPL_IF EDITURL> 
-            <li><a href="<TMPL_VAR EDITURL>" rel="nofollow">Edit</a></li> 
-            </TMPL_IF> 
-            <TMPL_IF HISTORYURL> 
-            <li><a href="<TMPL_VAR HISTORYURL>">History</a></li> 
-            </TMPL_IF> 
-            <TMPL_IF GETSOURCEURL> 
-            <li><a href="<TMPL_VAR GETSOURCEURL>">Source</a></li> 
-            </TMPL_IF> 
-            <TMPL_IF PREFSURL> 
-            <li><a href="<TMPL_VAR PREFSURL>">Preferences</a></li> 
-            </TMPL_IF> 
-            <TMPL_IF ACTIONS> 
-            <TMPL_LOOP ACTIONS> 
-            <li><TMPL_VAR ACTION></li> 
-            </TMPL_LOOP> 
-            </TMPL_IF> 
-            <TMPL_IF COMMENTSLINK> 
-            <li><TMPL_VAR COMMENTSLINK></li> 
-            <TMPL_ELSE> 
-            </TMPL_IF> 
+            <TMPL_IF EDITURL>
+            <li><a href="<TMPL_VAR EDITURL>" rel="nofollow">Edit</a></li>
+            </TMPL_IF>
+            <TMPL_IF HISTORYURL>
+            <li><a href="<TMPL_VAR HISTORYURL>">History</a></li>
+            </TMPL_IF>
+            <TMPL_IF GETSOURCEURL>
+            <li><a href="<TMPL_VAR GETSOURCEURL>">Source</a></li>
+            </TMPL_IF>
+            <TMPL_IF PREFSURL>
+            <li><a href="<TMPL_VAR PREFSURL>">Preferences</a></li>
+            </TMPL_IF>
+            <TMPL_IF ACTIONS>
+            <TMPL_LOOP ACTIONS>
+            <li><TMPL_VAR ACTION></li>
+            </TMPL_LOOP>
+            </TMPL_IF>
+            <TMPL_IF COMMENTSLINK>
+            <li><TMPL_VAR COMMENTSLINK></li>
+            <TMPL_ELSE>
+            </TMPL_IF>
           </ul>
           <ul class="nav navbar-nav">
-            <TMPL_IF DISCUSSIONLINK> 
+            <TMPL_IF DISCUSSIONLINK>
             <li class="navbar-text"><TMPL_VAR DISCUSSIONLINK></li>
-            </TMPL_IF> 
+            </TMPL_IF>
           </ul>
           <ul class="nav navbar-nav">
-            <TMPL_IF RECENTCHANGESURL> 
-            <li><a href="<TMPL_VAR RECENTCHANGESURL>">RecentChanges</a></li> 
-            </TMPL_IF> 
+            <TMPL_IF RECENTCHANGESURL>
+            <li><a href="<TMPL_VAR RECENTCHANGESURL>">RecentChanges</a></li>
+            </TMPL_IF>
           </ul>
         </nav>
-      </div>
+      </div><!-- /container -->
     </header>
 
 
     <div class="content">
       <div class="container">
-          <header class="page-header">
-            <h1><TMPL_VAR TITLE></h1>
-          </header>
+        <TMPL_IF PARENTLINKS>
+          <ol class="breadcrumb">
+            <TMPL_LOOP PARENTLINKS>
+            <li><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a></li>
+            </TMPL_LOOP>
+          </ol>
+        </TMPL_IF>
+        <div class="page-header">
+          <h1><TMPL_VAR TITLE></h1>
+        </div>
 
-            <TMPL_VAR CONTENT>
+        <TMPL_VAR CONTENT>
       </div> <!-- /container -->
     </div>
 
@@ -84,7 +105,7 @@
             </p>
         </div>
       </footer>
-
-
+      <script src="<TMPL_VAR BASEURL>jquery-1.10.2.js"></script>
+      <script src="<TMPL_VAR BASEURL>bootstrap.js"></script>
   </body>
 </html>
