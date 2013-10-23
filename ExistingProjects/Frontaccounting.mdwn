@@ -8,6 +8,7 @@
 
 - PHP
 - MySQL
+- GPLv3 or later
 
 ## Preliminary evaluation
 
@@ -19,4 +20,5 @@
 
 ### Negative
 
-- [Somewhat outdated design](https://my.frontaccounting.com/index.php/register.php)
+- It seems to be built from scratch and not leverage any frameworks.
+- Seems like a messy codebase: Table-based design. No templating, HTML is `echo`-ed to stdout.
