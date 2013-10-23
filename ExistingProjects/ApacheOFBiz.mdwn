@@ -1,3 +1,4 @@
 Links
 
-* [[!wikipedia Apache_OFBiz]] (Wikipedia)
+* [[!wikipedia Apache_OFBiz]] - Wikipedia
+* <http://ofbiz.apache.org/> - Project homepage
