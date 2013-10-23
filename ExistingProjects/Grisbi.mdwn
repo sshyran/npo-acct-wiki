@@ -1,0 +1,9 @@
+Links:
+
+- [[!wikipedia Grisbi]]
+
+## Preliminary evaluation
+
+### Negative
+
+- Does not support double-entry -- <http://en.wikipedia.org/wiki/Grisbi>
