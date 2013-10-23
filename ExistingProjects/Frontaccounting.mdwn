@@ -7,7 +7,7 @@
 ## Technical
 
 - PHP
--  MySQL
+- MySQL
 
 ## Preliminary evaluation
 
@@ -15,6 +15,7 @@
 
 - [Most recent release 2013-09-05](http://frontaccounting.com/wb3/pages/posts/release-2.3.18193.php)
 - Themable
+- Seemingly easy to deploy (Looking at their source release, structure looks similar to wordpress, for good or worse)
 
 ### Negative
 
