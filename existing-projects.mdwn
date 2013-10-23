@@ -1,1 +1,1 @@
-# Existing projects
+There are a number of existing accounting projects. Some of these are listed under http://en.wikipedia.org/wiki/Category:Free_accounting_software and will be evaluated for adaptability.
