@@ -18,11 +18,11 @@ Links:
 
 ## Preliminary evaluation
 
+Somewhat stable development with peaks during 2011 & 2012, dropping in 2013 -- <https://github.com/huerlisi/bookyt/graphs/contributors>
+
 ### Positive
 
-- First commit 2007[1], last commit 2013-09-06
-
-[1]: https://github.com/huerlisi/bookyt/commit/d56c8e43235109e71855f8ffb5b6809cddb51bf4
+- [First commit 2007](https://github.com/huerlisi/bookyt/commit/d56c8e43235109e71855f8ffb5b6809cddb51bf4), last commit 2013-09-06
 
 ### Negative
 
