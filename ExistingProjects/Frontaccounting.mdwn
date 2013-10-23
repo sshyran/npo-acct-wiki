@@ -22,3 +22,4 @@
 
 - It seems to be built from scratch and not leverage any frameworks.
 - Seems like a messy codebase: Table-based design. No templating, HTML is `echo`-ed to stdout.
+- Uses the [deprecated](http://php.net/manual/en/function.mysql-connect.php) PHP `mysql_*` functions.
