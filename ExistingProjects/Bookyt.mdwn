@@ -3,3 +3,28 @@ Links:
 * [[!wikipedia Bookyt]] - Wikipedia
 * <http://bookyt.ch/> - Project homepage
 * <https://github.com/huerlisi/bookyt> - Source code
+
+> Bookyt is a bookkeeping/ERP application designed for small-to-medium-sized companies. It can handle debit invoices, credit invoices, projects with timelogs, swiss salary management, and much more.
+> -- <https://github.com/huerlisi/bookyt>
+
+
+## Technical
+
+- Ruby
+- Rails
+- Bootstrap
+
+-- <https://github.com/huerlisi/bookyt>
+
+## Preliminary evaluation
+
+### Positive
+
+- First commit 2007[1], last commit 2012-09-06
+
+[1]: https://github.com/huerlisi/bookyt/commit/d56c8e43235109e71855f8ffb5b6809cddb51bf4
+
+### Negative
+
+- Targeted against the swiss community.
+- Still in development.
