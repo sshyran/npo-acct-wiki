@@ -1,0 +1,14 @@
+Links:
+
+- [[!wikipedia GNUCash]] - Wikipedia
+- <http://www.gnucash.org/> - Project homepage
+
+## Preliminary evaluation
+
+### Positive
+
+- [Cross-platform](http://www.gnucash.org/)
+- [Track-record](http://en.wikipedia.org/wiki/GnuCash#Users) with 501(c)3 orgs.
+- [Very mature codebase](http://www.ohloh.net/p/gnucash)
+
+### Negative
