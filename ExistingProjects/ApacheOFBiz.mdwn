@@ -2,3 +2,6 @@ Links
 
 * [[!wikipedia Apache_OFBiz]] - Wikipedia
 * <http://ofbiz.apache.org/> - Project homepage
+
+> Apache OFBiz (The Apache Open For Business Project) is an open source enterprise automation software project licensed under the Apache License Version 2.0. By open source enterprise automation we mean: Open Source ERP (Enterprise Resource Planning), Open Source CRM (Customer RelationShip Management), Open Source E-Business / E-Commerce, Open Source SCM (Supply Chain Management), Open Source MRP (Manufacturing Resources Planning), Open Source CMMS/EAM (Maintenance Management System/Enterprise Asset Management), Open Source POS (Point Of Sale), and so on.
+> -- Project homepage
