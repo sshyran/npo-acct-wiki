@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title><TMPL_LOOP NAME="PARENTLINKS"><TMPL_VAR NAME=PAGE>/</TMPL_LOOP><TMPL_VAR TITLE></title>
+
+    <TMPL_IF NAME="META"><TMPL_VAR META></TMPL_IF>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" />
+    <link rel="stylesheet" href="<TMPL_VAR BASEURL>bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="<TMPL_VAR BASEURL>local.css" type="text/css" />
+  </head>
+
+  <body>
+
+    <header class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="<TMPL_VAR BASEURL>"><TMPL_VAR WIKINAME></a>
+        </div>
+        <nav role="navigation">
+          <ul class="nav navbar-nav">
+            <TMPL_LOOP BOOTMENU>
+                <TMPL_IF FIRSTNAV>
+                    <li <TMPL_IF ACTIVE>class="active"</TMPL_IF>><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a></li>
+                </TMPL_IF>
+            </TMPL_LOOP>
+          </ul>
+          <ul class="nav pull-right">
+            <TMPL_LOOP BOOTMENU>
+                <TMPL_IF FIRSTNAV>
+                <TMPL_ELSE>
+                    <li <TMPL_IF ACTIVE>class="active"</TMPL_IF>><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a></li>
+                </TMPL_IF>
+            </TMPL_LOOP>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="content">
+      <div class="container">
+          <header class="page-header">
+            <h1><TMPL_VAR TITLE></h1>
+          </header>
+
+            <TMPL_VAR CONTENT>
+      </div> <!-- /container -->
+    </div>
+
+      <footer role="contentinfo">
+        <div class="container">
+            <p>
+                Template by <a href="http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=blob;f=templates/page.tmpl;h=e2190af9df068b06cfc346905ef3cf3a558aace7;hb=HEAD">Julian Andres Klode</a> - Creative Commons 3.0 BY-SA licensed<br/>
+
+                Powered by <a href="http://ikiwiki.info/">ikiwiki</a> -
+
+                <a href="http://validator.w3.org/check?uri=referer">Valid (X)HTML 5</a>
+            </p>
+        </div>
+      </footer>
+
+
+  </body>
+</html>
