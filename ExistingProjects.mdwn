@@ -20,7 +20,7 @@ These projects will be evaluated for suitability and/or adaptability.
 * [[ExistingProjects/Ofuz]]
 * [[ExistingProjects/OpenERP]]
 * [[ExistingProjects/Phreedom]]
-* [[ExistingProjects/Postbooiks]]
+* [[ExistingProjects/Postbooks]]
 * [[ExistingProjects/ROSA]]
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
