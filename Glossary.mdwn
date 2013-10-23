@@ -1,0 +1,11 @@
+A list of terms commonly used in the applications considered for evaluation:
+
+## POS - Point of sale
+
+> The place where a retail transaction is completed.
+> -- [[!wikipedia Point_of_sale]]
+
+## ERP - Enterprise resource planning - 
+
+> ERP systems track business resources (such as cash, raw materials, and production capacity) and the status of commitments made by the business (such as customer orders, purchase orders, and employee payroll), no matter which department (manufacturing, purchasing, sales, accounting, and so on) has entered the data into the system. ERP facilitates information flow between all business functions inside the organization, and manages connections to outside stakeholders.
+> -- [[!wikipedia Enterprise_resource_planning]]
