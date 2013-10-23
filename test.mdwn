@@ -1,5 +1,0 @@
-Test to see if mirroring to the gitorious repo works.
-
--- 
-
-Test after adding a post-receive hook
