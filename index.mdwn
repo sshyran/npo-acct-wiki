@@ -7,7 +7,7 @@ About This Wiki
 ===============
 This wiki is powered by [[ikiwiki]], which allows for the Wiki contents to be stored in Git.
 
-There is a [https://gitorious.org/conservancy/npo-acct-wiki/](mirror on Gitorious as well), but [https://issues.gitorious.org/issues/333](due to a bug in Gitorious), this mirror isn't up to date.
+There is a [mirror on Gitorious as well](https://gitorious.org/conservancy/npo-acct-wiki/), but [due to a bug in Gitorious](https://issues.gitorious.org/issues/333), this mirror isn't up to date.
 
 This Wiki also has a [[SandBox]].
 
