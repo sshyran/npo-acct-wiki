@@ -12,3 +12,5 @@ Links:
 - [Very mature codebase](http://www.ohloh.net/p/gnucash)
 
 ### Negative
+
+- Uses svn for source code management.
