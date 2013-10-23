@@ -27,4 +27,4 @@ The information on this page is preliminary, open for comments.
 ### Negative
 
 * [In transitional phase](https://en.wikipedia.org/wiki/Apache_OFBiz#Open_Source_Libraries)
-* One tool for everything, possibly hard to streamline.
+* One tool for everything, possibly hard to streamline. <https://cwiki.apache.org/confluence/display/OFBREQDES/OFBiz+EZBiz> points to the contrary.
