@@ -12,7 +12,7 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" /> -->
     <link rel="stylesheet" href="<TMPL_VAR BASEURL>bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="<TMPL_VAR BASEURL>local.css" type="text/css" />
   </head>
@@ -26,19 +26,35 @@
         </div>
         <nav role="navigation">
           <ul class="nav navbar-nav">
-            <TMPL_LOOP BOOTMENU>
-                <TMPL_IF FIRSTNAV>
-                    <li <TMPL_IF ACTIVE>class="active"</TMPL_IF>><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a></li>
-                </TMPL_IF>
-            </TMPL_LOOP>
+            <TMPL_IF EDITURL> 
+            <li><a href="<TMPL_VAR EDITURL>" rel="nofollow">Edit</a></li> 
+            </TMPL_IF> 
+            <TMPL_IF HISTORYURL> 
+            <li><a href="<TMPL_VAR HISTORYURL>">History</a></li> 
+            </TMPL_IF> 
+            <TMPL_IF GETSOURCEURL> 
+            <li><a href="<TMPL_VAR GETSOURCEURL>">Source</a></li> 
+            </TMPL_IF> 
+            <TMPL_IF PREFSURL> 
+            <li><a href="<TMPL_VAR PREFSURL>">Preferences</a></li> 
+            </TMPL_IF> 
+            <TMPL_IF ACTIONS> 
+            <TMPL_LOOP ACTIONS> 
+            <li><TMPL_VAR ACTION></li> 
+            </TMPL_LOOP> 
+            </TMPL_IF> 
+            <TMPL_IF COMMENTSLINK> 
+            <li><TMPL_VAR COMMENTSLINK></li> 
+            <TMPL_ELSE> 
+            </TMPL_IF> 
           </ul>
           <ul class="nav pull-right">
-            <TMPL_LOOP BOOTMENU>
-                <TMPL_IF FIRSTNAV>
-                <TMPL_ELSE>
-                    <li <TMPL_IF ACTIVE>class="active"</TMPL_IF>><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a></li>
-                </TMPL_IF>
-            </TMPL_LOOP>
+            <TMPL_IF DISCUSSIONLINK> 
+            <li class="nav-text"><TMPL_VAR DISCUSSIONLINK></li>
+            </TMPL_IF> 
+            <TMPL_IF RECENTCHANGESURL> 
+            <li><a href="<TMPL_VAR RECENTCHANGESURL>">RecentChanges</a></li> 
+            </TMPL_IF> 
           </ul>
         </nav>
       </div>
@@ -58,7 +74,7 @@
       <footer role="contentinfo">
         <div class="container">
             <p>
-                Template by <a href="http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=blob;f=templates/page.tmpl;h=e2190af9df068b06cfc346905ef3cf3a558aace7;hb=HEAD">Julian Andres Klode</a> - Creative Commons 3.0 BY-SA licensed<br/>
+                Base template by <a href="http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=blob;f=templates/page.tmpl;h=e2190af9df068b06cfc346905ef3cf3a558aace7;hb=HEAD">Julian Andres Klode</a> - Creative Commons 3.0 BY-SA licensed, modified by <a href="http://wandborg.se">Joar Wandborg</a> under the same license.<br/>
 
                 Powered by <a href="http://ikiwiki.info/">ikiwiki</a> -
 
