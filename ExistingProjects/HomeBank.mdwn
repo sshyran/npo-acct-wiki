@@ -1,0 +1,7 @@
+Links:
+
+- [[!wikipedia HomeBank]] - Wikipedia
+- <http://homebank.free.fr/> - Project homepage
+- <https://launchpad.net/homebank> - Source code
+
+## Technical
