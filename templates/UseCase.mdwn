@@ -1,0 +1,8 @@
+<dl>
+<dt>Entity</dt>
+<dd><TMPL_VAR name></dd>
+<dt>Requirement</dt>
+<dd><TMPL_VAR requirement></dd>
+<dt>Reason</dt>
+<dd><TMPL_VAR reason></dd>
+</dl>
