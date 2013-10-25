@@ -1,0 +1,6 @@
+As an accountant that collaborates with other accountants I need:
+
+- Simultaneous editing of the same ledger
+- Easy synchronization of entries from separate ledgers
+
+in order to efficiently and collaboratively perform accounting tasks.
