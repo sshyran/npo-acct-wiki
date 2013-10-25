@@ -10,3 +10,7 @@ A simple form of a use case is
 > “As a \<type of user>, I want \<some goal> so that \<some reason>.”
 
 You should add your use case as a subpage of the [[UseCases]] page, to create a new page, simply enter the name of the subpage in the address bar after `/UseCases/`.
+
+## Use cases
+
+- [[GenerateReports]]
