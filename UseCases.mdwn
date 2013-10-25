@@ -14,3 +14,4 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 ## Use cases
 
 - [[GeneratingReports]]
+- [[Collaborating]]
