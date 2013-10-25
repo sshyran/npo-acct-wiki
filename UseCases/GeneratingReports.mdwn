@@ -1,1 +1,1 @@
-As an US-based NPO I need a way to generate reports based on a specific fiscal year in order to send the reports to an auditor.
+As an US-based NPO I need a way to generate reports based on a specific fiscal year in order to, primarily, send the reports to an auditor,  and secondarily, forward them to organization members.
