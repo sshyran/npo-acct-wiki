@@ -1,0 +1,20 @@
+# LedgerSMB
+
+## Links
+
+* [Web Site](http://www.ledgersmb.org)
+* [Ohloh Metrics](https://www.ohloh.net/p/ledger-smb/)
+* [Manual](https://demo.cloud.efficito.com/erp/doc/LedgerSMB-manual.pdf)
+* [Secondary Documentation](http://book.ledgersmb.org)
+* [Changelog of current beta and past versions](https://demo.cloud.efficito.com/erpbeta/Changelog)
+* [Demo of current beta](https://demo.cloud.efficito.com/erpbeta/login.pl?login=demo)
+* [Demo of current stable](https://cust0.cloud.efficito.com/beta/login.pl?login=demo)
+
+## Technical
+
+* Perl
+* PostgreSQL
+* In transition:
+   * Old codebase Perl, DBI, few if any templates
+   * New codebase Perl, Stored procedures, templates
+   * Moving further to Moose and Dojo in 1.4
