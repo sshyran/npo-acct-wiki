@@ -1,4 +1,4 @@
-# LedgerSMB
+
 
 ## Links
 
@@ -18,3 +18,7 @@
    * Old codebase Perl, DBI, few if any templates
    * New codebase Perl, Stored procedures, templates
    * Moving further to Moose and Dojo in 1.4
+
+## Note from Developers
+
+LedgerSMB is very much in transition and will be for a number of years.  We are unhappy with the old financial framework (messy code, SQL assembled as strings, HTML printed to STDOUT) and are trying to move to a more modern/postmodern architecture which uses stored procedures as named queries, supports applications written in many languages, and the like. What we are shooting for is an accounting engine written in SQL which can be automated by applications written in whatever languages folks want to use. This ideal is still many years out, but we do have an application which is working today and can be customized with some patience and effort.
