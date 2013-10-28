@@ -5,3 +5,10 @@ Links:
 - <https://launchpad.net/homebank> - Source code
 
 ## Technical
+
+- C, make, autoconf
+- GTK+
+
+## Preliminary evaluation
+
+Seems to be targeted at personal/home accounting.
