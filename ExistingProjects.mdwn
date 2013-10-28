@@ -11,7 +11,7 @@ These projects will be evaluated for suitability and/or adaptability.
 * [[ExistingProjects/GNUCash]]
 * [[ExistingProjects/Grisbi]]
 * [[ExistingProjects/HomeBank]]
-* [[ExistingProjects/JFin]]
+<!-- * [[ExistingProjects/JFin]] - Does not seem to be an accounting application project -->
 * [[ExistingProjects/JFire]]
 * [[ExistingProjects/JGnash]]
 * [[ExistingProjects/KMyMoney]]
