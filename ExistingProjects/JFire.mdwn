@@ -1,0 +1,17 @@
+Links:
+
+- [[!wikipedia JFire]] - Wikipedia
+- <http://www.jfire.net/> - Project homepage
+- <http://www.jfire.org/> - "Community site" - *Not reachable as of 2013-10-28*
+- <http://sourceforge.net/p/jfire/code/HEAD/tree/trunk/> - Source code
+
+## Technical
+
+- Java
+- JDO
+- Eclipse RCP
+- GPL
+
+## Preliminary evaluation
+
+TBD
