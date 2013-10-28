@@ -1,0 +1,23 @@
+Links:
+
+- [[!wikipedia SQL-Ledger]] - Wikipedia
+- <http://www.sql-ledger.com/> - Project homepage
+- <https://github.com/Tekki/sql-ledger> - Source code
+
+## Technical
+
+- Perl
+- SQL DB (Postgres mentioned on project homepage)
+- Web-based
+- GPL
+
+## Preliminary evaluation
+
+### Positive
+
+- i18n
+
+### Negative
+
+- Unclear directory structure
+- Seemingly no API documentation
