@@ -7,12 +7,12 @@ npo-ledger-cli is in part published to <https://gitorious.org/ledger/npo-ledger-
 
 ## Preliminary evaluation
 
-## Positive
+### Positive
 
 - As flexible as ledger-cli is
 - Stored in plain text files, easy to collaborate over a distributed version control system.
 
-## Negative
+### Negative
 
 - Not well documented
 - The skills of a collaborative software developer will be necessary for any accountant wanting to collaborate.
