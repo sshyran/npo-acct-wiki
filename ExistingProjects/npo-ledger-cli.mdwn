@@ -2,7 +2,7 @@ npo-ledger-cli is in part published to <https://gitorious.org/ledger/npo-ledger-
 
 ## Technical
 
-- Uses ledger-cli as a base
+- Uses [[Ledger]] as a base
 - Perl scripts to automate tasks
 
 ## Preliminary evaluation
