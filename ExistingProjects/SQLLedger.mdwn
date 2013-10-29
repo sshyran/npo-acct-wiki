@@ -1,3 +1,8 @@
+[[LedgerSMB]] is a fork of SQLLedger:
+
+- [[!wikipedia SQL-Ledger#Licensing_Issues]]
+- [[!wikipedia LedgerSMB#Forking_controversy]]
+
 Links:
 
 - [[!wikipedia SQL-Ledger]] - Wikipedia
