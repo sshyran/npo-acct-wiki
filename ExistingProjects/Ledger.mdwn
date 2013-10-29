@@ -1,0 +1,19 @@
+Links:
+
+- [[!wikipedia Ledger_(software)]] - Wikipedia
+- <http://ledger-cli.org/> - Project homepage
+
+## Technical
+
+- Written in C++ using boost libraries.
+- Python interface, might need some work
+
+## Preliminary evaluation
+
+### Positive
+
+- Version controllable file format
+
+### Negative
+
+- You should preferably have the discipline of a programmer to use it
