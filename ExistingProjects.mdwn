@@ -16,6 +16,7 @@ These projects will be evaluated for suitability and/or adaptability.
 * [[ExistingProjects/KMyMoney]]
 * [[ExistingProjects/Ledger]]
 * [[ExistingProjects/LedgerSMB]]
+* [[ExistingProjects/npo-ledger-cli]]
 * [[ExistingProjects/Ofuz]]
 * [[ExistingProjects/OpenERP]]
 * [[ExistingProjects/Phreedom]]
