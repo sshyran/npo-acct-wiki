@@ -1,0 +1,6 @@
+Targets personal accounting use.
+
+Links:
+
+- [[!wikipedia JGnash]] - Wikipedia
+- <http://sourceforge.net/projects/jgnash/> - Project homepage
