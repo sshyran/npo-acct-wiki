@@ -1,0 +1,6 @@
+Targeted for personal use.
+
+Links:
+
+- [[!wikipedia KMyMoney]] - Wikipedia
+- <http://kmymoney2.sourceforge.net/index-home.html> - Project homepage
