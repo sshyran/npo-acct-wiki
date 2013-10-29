@@ -17,7 +17,6 @@ These projects will be evaluated for suitability and/or adaptability.
 * [[ExistingProjects/Ledger]]
 * [[ExistingProjects/LedgerSMB]]
 * [[ExistingProjects/npo-ledger-cli]]
-* [[ExistingProjects/Ofuz]]
 * [[ExistingProjects/OpenERP]]
 * [[ExistingProjects/Phreedom]]
 * [[ExistingProjects/Postbooks]]
