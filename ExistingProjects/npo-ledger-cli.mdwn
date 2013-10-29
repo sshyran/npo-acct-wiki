@@ -1,0 +1,18 @@
+npo-ledger-cli is in part published to <https://gitorious.org/ledger/npo-ledger-cli/source/> and <https://github.com/ledger/ledger/tree/master/contrib/non-profit-audit-reports>.
+
+## Technical
+
+- Uses ledger-cli as a base
+- Perl scripts to automate tasks
+
+## Preliminary evaluation
+
+## Positive
+
+- As flexible as ledger-cli is
+- Stored in plain text files, easy to collaborate over a distributed version control system.
+
+## Negative
+
+- Not well documented
+- The skills of a collaborative software developer will be necessary for any accountant wanting to collaborate.
