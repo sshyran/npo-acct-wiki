@@ -15,7 +15,7 @@ Links:
 
 ### Positive
 
-- Modular application
+- Modular application, [wide range of modules](http://hg.tryton.org/modules/)
 - Separated client and server presumably making collaboration easy
 - Can create reports -- [[!wikipedia Tryton#Technical_features]]
 
