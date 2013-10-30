@@ -1,4 +1,4 @@
-Tryton is a fork of [[OpenERP]] a comparison of Tryton and OpenERP is available at [[!wikipedia Comparison_of_Tryton_and_Open_ERP]].
+Tryton is a fork of [[OpenERP]]. A comparison of Tryton and OpenERP is available at [[!wikipedia Comparison_of_Tryton_and_Open_ERP]].
 
 Links:
 
