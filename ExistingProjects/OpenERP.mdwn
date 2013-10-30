@@ -17,4 +17,11 @@ Links:
 2013-10-30T16:09:51  &lt;joar> I'll look into it
 2013-10-30T16:15:49  &lt;bkuhn> joar: I think you'll find it's completely copyrighted by one entity.
 2013-10-30T16:15:53  &lt;bkuhn> and they require copyright assignment on patches, IIRC
+2013-10-30T17:01:34  &lt;joar> bkuhn: I'll quote this discussion in the article and move on to tryton.
+2013-10-30T17:01:41  &lt;bkuhn> ok.
+2013-10-30T17:02:01  &lt;bkuhn> joar: please note that it's entirely possible OpenERP changed their policies at some point.  It's unlikely, but it's possible.
+2013-10-30T17:02:21  &lt;joar> I've been trying to find out details
+2013-10-30T17:02:28  *** vmargarita has joined #npoacct
+2013-10-30T17:02:32  &lt;joar> asked in the #openobject channel, no reply this far
+2013-10-30T17:02:44  &lt;joar> I'll include your disclaimer
 </pre>
