@@ -19,7 +19,6 @@ These projects will be evaluated for suitability and/or adaptability.
 * [[ExistingProjects/OpenERP]]
 * [[ExistingProjects/Phreedom]]
 * [[ExistingProjects/Postbooks]]
-* [[ExistingProjects/ROSA]]
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
 * [[ExistingProjects/TurboCASH]]
