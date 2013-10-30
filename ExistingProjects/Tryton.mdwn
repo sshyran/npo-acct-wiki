@@ -5,6 +5,7 @@ Links:
 - [[!wikipedia Tryton]] - Wikipedia
 - <http://www.tryton.org/> - Project homepage
 - <http://hg.tryton.org> - Source code
+- <http://www.ohloh.net/p/tryton>
 
 ## Technical
 
