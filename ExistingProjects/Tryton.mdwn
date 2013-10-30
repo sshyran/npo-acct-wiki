@@ -1,0 +1,20 @@
+Tryton is a fork of [[OpenERP]] a comparison of Tryton and OpenERP is available at [[!wikipedia Comparison_of_Tryton_and_Open_ERP]].
+
+Links:
+
+- [[!wikipedia Tryton]] - Wikipedia
+- <http://www.tryton.org/> - Project homepage
+
+## Technical
+
+- Python for server
+- Python/GTK+ for desktop client
+
+## Preliminary evaluation
+
+### Positive
+
+- Modular application
+- Separated client and server presumably making collaboration easy.
+
+### Negative
