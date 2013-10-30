@@ -1,3 +1,3 @@
-https://erpnext.com
+<https://erpnext.com>
 
 Demo: <https://demo.erpnext.com>
