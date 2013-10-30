@@ -20,7 +20,8 @@ LedgerSMB is a fork of [[SQLLedger]]:
 * In transition:
    * Old codebase Perl, DBI, few if any templates
    * New codebase Perl, Stored procedures, templates
-   * Moving further to Moose and Dojo in 1.4
+   * Moving further to the Moose object-oriented programming framework and the Dojo Javascript framework in 1.4  
+   * PHP integration classes working for areas of the software re-engineered since 1.3 (though may need some extension to reach all these areas)
 
 ## Note from Developers
 
