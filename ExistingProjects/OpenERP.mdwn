@@ -1,0 +1,20 @@
+Links:
+
+- [[!wikipedia OpenERP]] - Wikipedia
+- <https://www.openerp.com/> - Project homepage
+- <https://launchpad.net/openobject/> - Developer portal
+
+<pre>
+2013-10-30T16:02:43  &lt;joar> OpenERP seems promising, I just need to navigate launchpad
+2013-10-30T16:02:56  &lt;joar> trying to find the source code
+2013-10-30T16:06:48  &lt;bkuhn> joar: I'm dubious about openERP myself.
+2013-10-30T16:07:02  &lt;bkuhn> I tried it for use for Conservancy for three months once back in 2008 (before I solidifed on Ledger)
+2013-10-30T16:07:10  &lt;bkuhn> it was highly problematic
+2013-10-30T16:07:13  &lt;bkuhn> for various reasons.
+2013-10-30T16:07:20  &lt;bkuhn> joar: Also, it's a proprietary relicensed codebase.
+2013-10-30T16:07:33  &lt;bkuhn> I think if we were to go with OpenERP, we'd want to prefer Tryton, which is a fork of OpenERP
+2013-10-30T16:09:43  &lt;joar> their codebase seems GPL, but it's hard to get an overview
+2013-10-30T16:09:51  &lt;joar> I'll look into it
+2013-10-30T16:15:49  &lt;bkuhn> joar: I think you'll find it's completely copyrighted by one entity.
+2013-10-30T16:15:53  &lt;bkuhn> and they require copyright assignment on patches, IIRC
+</pre>
