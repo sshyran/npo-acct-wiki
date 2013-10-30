@@ -4,6 +4,10 @@ There are a number of existing accounting projects. Some of these are listed und
 
 These projects will be evaluated for suitability and/or adaptability.
 
+TODO:
+
+- Look at the packages listed in <https://en.wikipedia.org/wiki/List_of_ERP_software_packages>
+
 ## List of projects under evaluation
 
 * [[ApacheOFBiz]]
