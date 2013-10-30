@@ -9,6 +9,7 @@ Links:
 
 - Python for server
 - Python/GTK+ for desktop client
+- Forked from [[OpenERP]] in 2008 -- [[!wikipedia Tryton#Origin_and_history]]
 
 ## Preliminary evaluation
 
