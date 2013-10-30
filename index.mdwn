@@ -1,6 +1,7 @@
 NPO Accounting Software Project
 ====================
 
+- [The fundraising campaign](http://sfconservancy.org/campaign/)
 - <https://gitorious.org/ledger/npo-ledger-cli/> - A tutorial on a ledger setup for fiscal sponsor 501(c)3 organizations
 - [[ExistingProjects]] - Existing open souce accounting projects
 - [[UseCases]] - Use cases for an NPO accounting system
