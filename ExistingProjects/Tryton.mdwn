@@ -4,6 +4,7 @@ Links:
 
 - [[!wikipedia Tryton]] - Wikipedia
 - <http://www.tryton.org/> - Project homepage
+- <http://hg.tryton.org> - Source code
 
 ## Technical
 
@@ -15,6 +16,7 @@ Links:
 
 ### Positive
 
+- Documented modules
 - Modular application, [wide range of modules](http://hg.tryton.org/modules/)
 - Separated client and server presumably making collaboration easy
 - Can create reports -- [[!wikipedia Tryton#Technical_features]]
