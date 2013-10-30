@@ -6,6 +6,7 @@ These projects will be evaluated for suitability and/or adaptability.
 
 * [[ApacheOFBiz]]
 * [[ExistingProjects/Bookyt]]
+* [[ExistingProjects/ERPNext]]
 * [[ExistingProjects/Frontaccounting]]
 * [[ExistingProjects/GNUEnterprise]]
 * [[ExistingProjects/GNUCash]]
