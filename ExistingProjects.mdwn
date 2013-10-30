@@ -9,7 +9,6 @@ These projects will be evaluated for suitability and/or adaptability.
 * [[ExistingProjects/Frontaccounting]]
 * [[ExistingProjects/GNUEnterprise]]
 * [[ExistingProjects/GNUCash]]
-* [[ExistingProjects/Grisbi]]
 * [[ExistingProjects/HomeBank]]
 * [[ExistingProjects/JFire]]
 * [[ExistingProjects/JGnash]]
