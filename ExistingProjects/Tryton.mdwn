@@ -15,6 +15,7 @@ Links:
 ### Positive
 
 - Modular application
-- Separated client and server presumably making collaboration easy.
+- Separated client and server presumably making collaboration easy
+- Can create reports -- [[!wikipedia Tryton#Technical_features]]
 
 ### Negative
