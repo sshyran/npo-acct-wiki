@@ -1,3 +1,7 @@
-<https://erpnext.com>
+Links:
+
+- <https://erpnext.com> - Commercial homepage
+- <https://erpnext.com/open-source> - Community homepage
+- <https://github.com/webnotes/erpnext> - Source code
 
 Demo: <https://demo.erpnext.com>
