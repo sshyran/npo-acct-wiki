@@ -1,5 +1,5 @@
 Links:
 
 - [[!wikipedia ADempiere]] - Wikipedia
-- </files/ADempiere+ERP+%26+CRM+Booklet+2013-04+v2.pdf> - Booklet
+- [[Files/ADempiere_ERP_and_CRM_Booklet_2013-04_v2.pdf]] - Booklet (PDF, 806K)
 - <http://www.adempiere.com/ADempiere_ERP> - Project wiki/homepage
