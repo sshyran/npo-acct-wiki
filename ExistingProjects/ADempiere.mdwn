@@ -9,3 +9,7 @@ Links:
 ### Negative
 
 - ERP system might mean that there's a lot of complexity and integration in the application, making modifications harder.
+
+### Comments
+
+Josh Berkus: basically a more enterprise, complex version of PostBooks or LedgerSMB.  Likely to be impenetrably difficult to customize.
