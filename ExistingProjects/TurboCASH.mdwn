@@ -1,0 +1,10 @@
+Links:
+
+- [[!wikipedia TurboCASH]] - WIkipedia
+
+
+## Preliminary evaluation
+
+### Negative
+
+- Developed in delphi, runs on the win32 platform, and win32 APIs such as WINE.
