@@ -4,6 +4,8 @@ Links:
 - <https://www.openerp.com/> - Project homepage
 - <https://launchpad.net/openobject/> - Developer portal
 
+## Comments
+
 <pre>
 2013-10-30T16:02:43  &lt;joar> OpenERP seems promising, I just need to navigate launchpad
 2013-10-30T16:02:56  &lt;joar> trying to find the source code
