@@ -20,7 +20,6 @@ TODO:
 * [[ExistingProjects/HomeBank]]
 * [[ExistingProjects/JFire]]
 * [[ExistingProjects/JGnash]]
-* [[ExistingProjects/KMyMoney]]
 * [[ExistingProjects/Ledger]]
 * [[ExistingProjects/LedgerSMB]]
 * [[ExistingProjects/npo-ledger-cli]]
