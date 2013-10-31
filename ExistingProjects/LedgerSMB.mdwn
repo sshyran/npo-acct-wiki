@@ -26,3 +26,9 @@ LedgerSMB is a fork of [[SQLLedger]]:
 ## Note from Developers
 
 LedgerSMB is very much in transition and will be for a number of years.  We are unhappy with the old financial framework (messy code, SQL assembled as strings, HTML printed to STDOUT) and are trying to move to a more modern/postmodern architecture which uses stored procedures as named queries, supports applications written in many languages, and the like. What we are shooting for is an accounting engine written in SQL which can be automated by applications written in whatever languages folks want to use. This ideal is still many years out, but we do have an application which is working today and can be customized with some patience and effort.
+
+Also clarifications as requested:
+
+We chose Moose over other object frameworks in Perl because it offers a heavily declarative object system along with a very rich set of property constraints.  We use this extensively.  However it does have a startup cost, which is why, in 1.4, FCGI will be the preferred way to run the software.  Moose is an extremely powerful object system which borrows many ideas from CLOS.
+
+Dojo is a Javascript framework for dynamic web applications.  It handles everything from tabular-like layout to complex controls, like date selections with popup calendars.
