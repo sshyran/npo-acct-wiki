@@ -3,3 +3,9 @@ Links:
 - [[!wikipedia ADempiere]] - Wikipedia
 - [[Files/ADempiere_ERP_and_CRM_Booklet_2013-04_v2.pdf]] - Booklet (PDF, 806K)
 - <http://www.adempiere.com/ADempiere_ERP> - Project wiki/homepage
+
+## Preliminary evaluation
+
+### Negative
+
+- ERP system might mean that there's a lot of complexity and integration in the application, making modifications harder.
