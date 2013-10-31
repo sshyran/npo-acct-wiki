@@ -21,10 +21,14 @@ The information on this page is preliminary, open for comments.
 ### Positive
 
 * [Active development](https://issues.apache.org/jira/browse/OFBIZ)
-* [Customizable](https://cwiki.apache.org/confluence/display/OFBIZ/Is+OFBiz+for+Me#IsOFBizforMe-AskingBuildvs.Buy)
+* Highly [Customizable](https://cwiki.apache.org/confluence/display/OFBIZ/Is+OFBiz+for+Me#IsOFBizforMe-AskingBuildvs.Buy)
 * Seems well-documented
 
 ### Negative
 
 * [In transitional phase](https://en.wikipedia.org/wiki/Apache_OFBiz#Open_Source_Libraries)
 * One tool for everything, possibly hard to streamline. <https://cwiki.apache.org/confluence/display/OFBREQDES/OFBiz+EZBiz> points to the contrary.
+
+### Comments
+
+Josh Berkus: there's no question that OFBiz could be customized into an NPO accounting program; it is tremendously customizable.  It is also, however, difficult and complex to install, maintain, or understand, and lacks the kind of documentation and existing user community required to support advanced usages from non-project-participants; we would need the direct assistance of the primary developers to accomplish anything.  More importantly, it would never be installable in standalone mode on a desktop machine; it would always need to be a server install.
