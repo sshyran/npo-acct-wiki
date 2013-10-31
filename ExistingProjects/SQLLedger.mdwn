@@ -26,3 +26,7 @@ Links:
 
 - Unclear directory structure
 - Seemingly no API documentation
+- Documentation not open source
+- Many known security holes
+- Primary developer hostile to outside contributions
+- Basically the primitive ancestor of LedgerSMB
