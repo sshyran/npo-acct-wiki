@@ -1,0 +1,3 @@
+### Comments
+
+Josh Berkus: PostBooks is the pure-OSS GL module from xTuple, which was renamed from OpenMFG.  It is an ERP system, very strongly aimed at manufacturers, so would require some substantial adaptation to NPOs.  However, it benefits from a strong API in the form of PostgreSQL stored procedures, which would make adapting the basic GL functionality to a more complex NPO module feasible, since interaction with the PostBooks GUI would not be required.  One possibility would be to use PostBooks as the backend for a system which also supported ledger-cli; that way users could have the choice of SQL or Git backend.
