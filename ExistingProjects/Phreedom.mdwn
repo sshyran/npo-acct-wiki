@@ -1,0 +1,13 @@
+Links:
+
+- [[!wikipedia Phreedom]] - Wikipedia
+- <http://www.phreesoft.com/> - Old project homepage
+- <http://www.phreebooks.com/> - New project homepage
+
+The name seems to have changed to *PhreeBooks*.
+
+## Preliminary evaluation
+
+### Negative
+
+- Seems like it's in a transitional phase and might soon be abandoned in favour of *product X* by PhreeSoft.
