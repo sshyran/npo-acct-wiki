@@ -1,0 +1,4 @@
+Links:
+
+- [[!wikipedia ADempiere]] - Wikipedia
+- <http://www.adempiere.com/ADempiere_ERP> - Project wiki/homepage
