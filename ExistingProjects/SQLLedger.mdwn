@@ -27,6 +27,10 @@ Links:
 - Unclear directory structure
 - Seemingly no API documentation
 - Documentation not open source
-- Many known security holes
-- Primary developer hostile to outside contributions
+
+### Comments
+
+Josh Berkus:  I was an early (uncredited) contributor to SQL-Ledger, and part of the fork.  The reasons we created the fork:
+- Many known security holes (reference early LedgerSMB releases, which fix these.  They are still not fixed in current SQLLedger)
+- Primary developer hostile to outside contributions, and did not credit the contributions he did receive.  Also relicensed contributions without permission.  I know, because some of the contributions were mine.
 - Basically the primitive ancestor of LedgerSMB
