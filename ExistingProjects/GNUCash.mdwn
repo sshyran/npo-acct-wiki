@@ -21,3 +21,7 @@ Actually not named "GNUCach" but GnuCash although it is part of the GNU Project.
 ### Negative
 
 - Uses svn for source code management.
+
+### Comments
+
+Josh Berkus: from my perspective, this has all of the drawbacks of ledger-cli, without the advantages.
