@@ -29,3 +29,4 @@ TODO:
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
 * [[ExistingProjects/TurboCASH]]
+* [[ExistingProjects/ERP5]]
