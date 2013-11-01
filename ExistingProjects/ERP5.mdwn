@@ -1,0 +1,27 @@
+## Links
+
+* <http://www.erp5.com/> - Project homepage
+* <http://git.erp5.org/gitweb/erp5.git/tree?js=1> - Source code
+* <http://www.erp5.com/P-CLOUDIA-Howto.ERP5.VM> - Virtual Machine for evaluation(You can use VirtualBox to run it).
+* <http://www.osoe-project.org/web_page_module/3278> - How to install and use the ERP5 VM
+* <http://www.osoe-project.org/lesson/osoe-Lecture.ERP.Configuration.Introduction> - Online Lectures including accounting.
+* <http://www.erp5.com/documentation/user> - Other user documents.
+
+## Technical
+
+* Web application
+* Python2
+* Zope2
+* MariaDB(MySQL)
+
+## Preliminary evaluation
+
+### Positive
+
+
+### Negative
+
+
+### Comments
+
+Yusei Tahara(an ERP5 developer): I'm sure ERP5 can be customized into an international NPO accounting program. ERP5 is very flexible, customizable, strong i18n/l10n support. However it takes time to understand how to use/develop. Let me know if there are any questions.
