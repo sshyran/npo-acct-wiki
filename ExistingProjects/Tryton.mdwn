@@ -30,7 +30,7 @@ Links:
 ### Positive
 
 - Documented modules
-- Modular application, [wide range of modules]( Official modules: <http://hg.tryton.org/modules/>) (Comunity modules available on bitbucket, see >http://bitbucket.org/trytonspain> <http://bitbucket.org/zikzakmedia> <http://bitbucket.org/nantic> <http://bitbucket.org/pokoli>  (and others)) Also avaiilable on pypy  <https://pypi.python.org/pypi?%3Aaction=search&term=tryton&submit=search>
+- Modular application, [wide range of modules]( Official modules: <http://hg.tryton.org/modules/>) (Comunity modules available on bitbucket, see <http://bitbucket.org/trytonspain> <http://bitbucket.org/zikzakmedia> <http://bitbucket.org/nantic> <http://bitbucket.org/pokoli>  (and others)) Also avaiilable on pypy  <https://pypi.python.org/pypi?%3Aaction=search&term=tryton&submit=search>
 - Separated client and server presumably making collaboration easy
 - Can create reports -- [[!wikipedia Tryton#Technical_features]]
 
