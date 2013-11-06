@@ -1,0 +1,55 @@
+# Fund Accounting
+
+Many non-profits, in particular a
+[fiscal sponsor](http://en.wikipedia.org/wiki/Fiscal_sponsorship), use some
+form of [fund accounting](http://en.wikipedia.org/wiki/Fund_accounting) to
+handle accounting tracking of income and expenses for specific projects, or
+funds.
+
+In fiscal sponsors, these funds are typically classified by auditors and/or
+accountants as "temporarily restricted assets", and spending of the assets
+are governed by a fiscal sponsorship agreement
+([[see examples below|FundAccounting#Other_Resources]]).
+
+## Fund Report
+
+The "fund report" is a shorthand name for a Temporarily Restricted Net Assets
+Report.  This report shows the temporarily restricted income, expenses and
+assets.  (An example of such a report can be found on page 6 of
+[Conservancy's FY 2011 Audited Financial statement](http://sfconservancy.org/docs/conservancy_independent-audit_fy-2011.pdf).)
+
+## Subset of the Books
+
+Ultimately, any account system that truly supports fiscal sponsorship must
+provide all functions, reports, editing, interaction and viewing to allow a
+user to view a "subset" of the books that are specific to any given fund.  In
+essence, the books of a fiscal sponsoring org are proper superset of all the
+books of its projects.
+
+Thus, an individual project contributor wants to:
+
+- View the books for that project as an independent set, unencumbered by
+  transactions for other projects.
+
+- [[Generate reports|UseCases/GenerateReports]] for that project's financial
+  data, and have those reports only include data specific to that project.
+
+The non-profit administrators want to:
+
+- View the entire set of books for the organization, treating all income,
+  expenses, and assets as belonging to the entire org, and only seeing the
+  differences treating the project funds merely as "temporarily restricted
+  assets".
+
+- Be able to perform operations that span the entire books, such as
+  reconciling bank accounts that are contain funds temporarily restricted for
+  different projects.
+
+## Other Resources
+
+### Examples of Fiscal Sponsorship Agreements
+
+- [[Software Freedom Conservancy's fiscal sponsorship agreement template]](http://sfconservancy.org/members/apply/ConservancyFSATemplate.pdf)
+- [[Insight Center for Community Economic Development fiscal sponsorship agreement]](http://www.google.com/url?q=http://www.insightcced.org/uploads/publications/legal/721.pdf&sa=U&ei=4UR6UuCONNSrkQfz5YDYCw&ved=0CCAQFjAC&usg=AFQjCNG8usFKh8jSdMM9cG1SAOVUb2Neig)
+
+More about [fiscal sponsors from the National Council of Non-Profits](http://www.councilofnonprofits.org/resources/resources-topic/fundraising/fiscal-sponsors).
