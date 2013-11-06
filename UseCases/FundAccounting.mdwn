@@ -31,7 +31,7 @@ Thus, an individual project contributor wants to:
 - View the books for that project as an independent set, unencumbered by
   transactions for other projects.
 
-- [Generate_reports|GenerateReports] for that project's financial
+- [[Generate_reports|GenerateReports]] for that project's financial
   data, and have those reports only include data specific to that project.
 
 The non-profit administrators want to:
