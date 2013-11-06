@@ -31,7 +31,7 @@ Thus, an individual project contributor wants to:
 - View the books for that project as an independent set, unencumbered by
   transactions for other projects.
 
-- [[Generate reports|UseCases/GenerateReports]] for that project's financial
+- [Generate_reports|GenerateReports] for that project's financial
   data, and have those reports only include data specific to that project.
 
 The non-profit administrators want to:
@@ -49,7 +49,7 @@ The non-profit administrators want to:
 
 ### Examples of Fiscal Sponsorship Agreements
 
-- [[Software Freedom Conservancy's fiscal sponsorship agreement template]](http://sfconservancy.org/members/apply/ConservancyFSATemplate.pdf)
-- [[Insight Center for Community Economic Development fiscal sponsorship agreement]](http://www.google.com/url?q=http://www.insightcced.org/uploads/publications/legal/721.pdf&sa=U&ei=4UR6UuCONNSrkQfz5YDYCw&ved=0CCAQFjAC&usg=AFQjCNG8usFKh8jSdMM9cG1SAOVUb2Neig)
+- [Software Freedom Conservancy's fiscal sponsorship agreement template](http://sfconservancy.org/members/apply/ConservancyFSATemplate.pdf)
+- [Insight Center for Community Economic Development fiscal sponsorship agreement](http://www.google.com/url?q=http://www.insightcced.org/uploads/publications/legal/721.pdf&sa=U&ei=4UR6UuCONNSrkQfz5YDYCw&ved=0CCAQFjAC&usg=AFQjCNG8usFKh8jSdMM9cG1SAOVUb2Neig)
 
 More about [fiscal sponsors from the National Council of Non-Profits](http://www.councilofnonprofits.org/resources/resources-topic/fundraising/fiscal-sponsors).
