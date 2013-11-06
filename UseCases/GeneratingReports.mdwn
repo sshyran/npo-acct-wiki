@@ -3,4 +3,15 @@ As an US-based NPO I need a way to *generate reports* in order to:
 - Send the reports to an auditor
 - Forward them to organization members.
 
-*This is a stub. It will hopefully be expanded.*
+The usual reports an NPO is expected to generate, and all of these should be generatable for any given date period:
+
+- [Trial balance](http://en.wikipedia.org/wiki/Trial_balance)
+- [Bank Reconciliation Report](http://en.wikipedia.org/wiki/Bank_reconciliation)
+    + This report often needs to be generated with input from the user, since [the subset sum problem](http://en.wikipedia.org/wiki/Subset_sum_problem) is NP-complete, human intervention is often needed to identify the specific transactions to show on this report.
+- [Chart of accounts](http://en.wikipedia.org/wiki/Chart_of_accounts)
+- Cash Disbursments Journal
+- Income Report (just a list/sum of all Income accounts for a period)
+- Expenses Report  (just a list/sum of all Expenses accounts for a period)
+- [[Fund Report|UseCases/FundAccounting#FundReport]]
+
+Also, To handle [[UseCases/FundAccounting]] all of these reports should be generatable narrowed to specific funds.
