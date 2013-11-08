@@ -42,3 +42,9 @@ Links:
 - Can create reports -- [[!wikipedia Tryton#Technical_features]]
 
 ### Negative
+
+
+## [[UseCases/GeneratingReports]] Evaluation
+
+- Generated <./General Ledger.odt>.
+
