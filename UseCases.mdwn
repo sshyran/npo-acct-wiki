@@ -16,4 +16,4 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 - [[GeneratingReports]]
 - [[Collaborating]]
 - [[Fund Accounting|UseCases/FundAccounting]]
-- [[Dual-entry Accounting|UseCases/DualEntryAccounting]]
+- [[Double-entry Accounting|UseCases/DoubleEntryAccounting]]
