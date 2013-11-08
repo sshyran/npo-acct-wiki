@@ -1,0 +1,17 @@
+Directly quoting bkuhn from #npoacct @ irc.freenode.net:
+
+    │17:31:34 bkuhn | oh, reason is easy: in the USA, any bookkeeping system that isn't double-entry would   │    
+    │               | likely not be considered appropriate GAAP                                              │    
+    │17:31:50 bkuhn | you can link GAAP to                                                                   │    
+    │               | http://en.wikipedia.org/wiki/Generally_accepted_accounting_principles                  │    
+    │17:31:54 bkuhn | GAAP is an odd thing.                                                                  │    
+    │17:31:58 bkuhn | It's not the "law"                                                                     │              
+    │17:32:10 bkuhn | but accountants would tell the IRS "we think something bad is going on" if you didn't  │    
+    │               | follow GAAP                                                                            │    
+    │17:32:20 bkuhn | Also, GAAP isn't a list of rules.                                                      │    
+    │17:32:29 bkuhn | It's basically 'rough consensus' of accountants                                        │    
+    │17:33:08 bkuhn | So, it's somewhere in between "implicit norm" and the "law"                            │    
+    │17:33:27 bkuhn | in the sense that you'd probably loose your non-profit status from the IRS if your     │    
+    │               | auditors said you weren't following GAAP   
+
+For convenience: [[!wikipedia Generally_accepted_accounting_principles]] [wikipedia]
