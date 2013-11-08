@@ -1,0 +1,65 @@
+#+LaTeX_CLASS: djcb-org-article
+#+TITLE: Consulting Services for Software Freedom Conservancy in October 2013
+* 2013-10-22
+  :PROPERTIES:
+  :Effort:   8
+  :END:
+** Set up ikiwiki wiki
+*** Set up nginx, fcgiwrap, spawn-fcgi, system accounts
+*** Filed a feature request with gitorirous
+    https://issues.gitorious.org/issues/333
+** Set up an IRC log bot
+*** Tried out eggdrop
+*** Tried out ibid
+*** Decided on supybot
+**** Set up logging for supybot
+** Set up nginx to publish the IRC logs
+* 2013-10-23
+  :PROPERTIES:
+  :Effort:   8
+  :END:
+** Theme wiki
+*** Adapted ikiwiki bootstrap 2.x theme file
+    .. to use bootstrap 3.0 and not use site-specific plugins.
+*** Adapted the wiki theme to smaller devices
+** Compiled a list of existing projects
+** Preliminary evaluation of existing projects
+** Reading on the subject of double-entry accounting
+** Reading on the subject of fund accounting
+* 2013-10-24
+  :PROPERTIES:
+  :Effort:   4
+  :END:
+** Practicing double-entry fund accounting
+** Enabled easy page creation in the wiki
+** Researched use cases and created a UseCases section in the wiki
+* 2013-10-25
+  :PROPERTIES:
+  :Effort:   5
+  :END:
+** Practicing ledger-cli and reviewing the examples in npo-ledger-cli
+** Writing use cases, researching accounting principles
+* 2013-10-28
+  :PROPERTIES:
+  :Effort:   4
+  :END:
+** Preliminary evaluation SQL-Ledger, HomeBank, JFire, SFCs ledger setup
+* 2013-10-29
+  :PROPERTIES:
+  :Effort:   6
+  :END:
+** Preliminary evaluations, continued
+** Evaluation of ledger's python bindings
+* 2013-10-30
+  :PROPERTIES:
+  :Effort:   5
+  :END:
+** Preliminary evaluations: OpenERP, Tryton
+** Wiki editing
+* 2013-10-31
+  :PROPERTIES:
+  :Effort:   5
+  :END:
+** Preliminary evaluations: ADempiere, Phreedom, TurboCASH
+** Call for comments
+
