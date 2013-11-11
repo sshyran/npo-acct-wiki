@@ -20,4 +20,4 @@ This Wiki also has a [[SandBox]].
 
 ## IRC logs
 
-You can find the IRC logs at [/irclogs/](/irclogs/).  Currently, they are not formatted nicely, so we'd love someone who wanted to help with that.
+You can find the IRC logs at [/irclogs/](/irclogs/).
