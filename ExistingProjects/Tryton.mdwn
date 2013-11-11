@@ -43,7 +43,11 @@ Links:
 
 ## [[UseCases/GeneratingReports]] Evaluation
 
+### Positive
 - Possible to create [custom reports](http://doc.tryton.org/3.0/trytond/doc/topics/reports/index.html)
+
+### Negative
+- Does not seem to support funds, thus it is not possible to generate reports for a specific fund.
 
 ### Examples
 - Generated [[General_Ledger.odt]].
