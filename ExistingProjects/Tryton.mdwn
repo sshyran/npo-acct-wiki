@@ -44,6 +44,8 @@ Links:
 ## [[UseCases/GeneratingReports]] Evaluation
 
 ### Positive
+- Capable of Trial Balance and Chart of Accounts reports.
+- Probably capable of Expense, Income reports with minor, semantic[report templates] development effort.
 - Possible to create [custom reports](http://doc.tryton.org/3.0/trytond/doc/topics/reports/index.html)
 
 ### Negative
