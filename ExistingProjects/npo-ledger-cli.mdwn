@@ -1,4 +1,12 @@
-npo-ledger-cli is in part published to <https://gitorious.org/ledger/npo-ledger-cli/source/> and <https://github.com/ledger/ledger/tree/master/contrib/non-profit-audit-reports>.
+npo-ledger-cli is in part published to
+<https://gitorious.org/ledger/npo-ledger-cli/source/> and
+<https://github.com/ledger/ledger/tree/master/contrib/non-profit-audit-reports>.
+
+npo-ledger-cli is a setup for ledger-cli built for direct project (Model A)
+fiscal sponsor NPOs. It enables the separation of fund accounts and internal
+accounts by using ledger's hierarchical account namespaces.
+
+npo-ledger-cli uses ledger-cli to attach metadata such as invoices, receipts to a transaction.
 
 ## Technical
 
@@ -7,13 +15,16 @@ npo-ledger-cli is in part published to <https://gitorious.org/ledger/npo-ledger-
 
 ## Preliminary evaluation
 
-Documentation provided in <https://gitorious.org/ledger/npo-ledger-cli/source/c9fc4a8761cd31b28282b9baa21b79f173b03807:npo-ledger-cli-tutorial.md>. Users may benefit from familiarity with ledger-cli.
+Documentation provided in
+<https://gitorious.org/ledger/npo-ledger-cli/source/c9fc4a8761cd31b28282b9baa21b79f173b03807:npo-ledger-cli-tutorial.md>.
+Users may benefit from familiarity with ledger-cli.
 
 ### Positive
 
-- As flexible as ledger-cli is
+- Built on ledger-cli, inherits much of the flexibility of ledger-cli.
 - Stored in plain text files, easy to collaborate over a distributed version control system.
 
 ### Negative
 
-- The skills of a collaborative software developer will be necessary for any accountant wanting to collaborate.
+- The skills of a collaborative software developer will be necessary for any
+accountant wanting to collaborate.
