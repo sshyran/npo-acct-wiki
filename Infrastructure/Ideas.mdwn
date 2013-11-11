@@ -1,3 +1,3 @@
 ## IRC logging
 
-The folks at #tryton use [ii](http://tools.suckless.org/ii/) and [logs2html](https://pypi.python.org/pypi/irclog2html), that might provide better IRC log viewing over HTTP. See an example at <http://www.tryton.org/~irclog/>.
+The folks at #tryton use [ii](http://tools.suckless.org/ii/) and [logs2html](https://pypi.python.org/pypi/irclog2html), that might provide better IRC log viewing over HTTP. See an example at <http://www.tryton.org/~irclog/>. - DONE.
