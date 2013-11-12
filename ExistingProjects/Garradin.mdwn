@@ -1,0 +1,24 @@
+Links:
+
+- <http://dev.kd2.org/garradin/> - Project homepage
+
+## Technical
+
+- PHP, object-oriented, namespaced.
+- Own templating engine, "Squelettes", looks good.
+
+## Preliminary evaluation
+
+I have not yet tried the frontend of the application. -- joar
+
+### Positive
+
+- Well-structured application with class files, views, libs, templates.
+
+### Negative
+
+- Database tables named in french.
+- Developed mostly using french variable names.
+- Most files are named in french.
+- Part of templating uses french operator names.
+- All strings in the UI are in french.
