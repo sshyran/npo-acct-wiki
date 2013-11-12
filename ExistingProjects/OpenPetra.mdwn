@@ -1,0 +1,17 @@
+Links
+
+- [Project homepage](http://openpetra.org)
+- [Source code](https://code.launchpad.net/~openpetracore/openpetraorg/trunkhosted)
+
+## Technical
+
+- C# [.NET, Mono]
+- SQL [SQLite, MySQL, PostgreSQL]
+
+## Preliminary evaluation
+
+### Positive
+
+- Supports server-client deployments as well as standalone deployment.
+
+### Negative
