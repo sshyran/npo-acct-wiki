@@ -30,7 +30,7 @@ TODO:
 * [[ExistingProjects/Tryton]]
 * [[ExistingProjects/TurboCASH]]
 * [[ExistingProjects/ERP5]]
-* [[ExistingProjects/Garradin]] [Garradin's website](http://dev.kd2.org/garradin/)
-* [[ExistingProjects/Kuali]] [Kuali's website](http://www.kuali.org)
-* [[ExistingProjects/OpenPetra]] [OpenPetra's Website](http://www.openpetra.org)
-* [[ExistingProjects/BeanBooks]] [BeanBook's website](http://www.beansbooks.com)
+* [[ExistingProjects/Garradin]]
+* [[ExistingProjects/Kuali]]
+* [[ExistingProjects/OpenPetra]]
+* [[ExistingProjects/BeanBooks]]
