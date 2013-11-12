@@ -31,3 +31,4 @@ TODO:
 * [[ExistingProjects/TurboCASH]]
 * [[ExistingProjects/ERP5]]
 * [[ExistingProjects/Garradin]] [Garradin's website](http://dev.kd2.org/garradin/)
+* [[ExistingProjects/Kuali]] [Kuali's website](http://www.kuali.org)
