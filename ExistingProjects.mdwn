@@ -33,3 +33,4 @@ TODO:
 * [[ExistingProjects/Garradin]] [Garradin's website](http://dev.kd2.org/garradin/)
 * [[ExistingProjects/Kuali]] [Kuali's website](http://www.kuali.org)
 * [[ExistingProjects/OpenPetra]] [OpenPetra's Website](http://www.openpetra.org)
+* [[ExistingProjects/moneyGuru]] [moneyGuru's Website](http://www.hardcoded.net/moneyguru/)
