@@ -2,6 +2,7 @@ Links
 
 - [Project homepage](http://openpetra.org)
 - [Source code](https://code.launchpad.net/~openpetracore/openpetraorg/trunkhosted)
+- [ohloh](http://www.ohloh.net/p/openpetraorg)
 
 ## Technical
 
@@ -12,6 +13,14 @@ Links
 
 ### Positive
 
+- i18n, l10n
 - Supports server-client deployments as well as standalone deployment.
+- [Actively developed](http://www.ohloh.net/p/openpetraorg)
+- [35 contributors](http://www.ohloh.net/p/openpetraorg)
+- [Well-commented source code](http://www.ohloh.net/p/openpetraorg)
+- [Extensibility is core](http://www.openpetra.org/organisation-benefits)
 
 ### Negative
+
+- [Started in 2009](http://www.ohloh.net/p/openpetraorg)
+- [Decreasing Y-O-Y commits](http://www.ohloh.net/p/openpetraorg)
