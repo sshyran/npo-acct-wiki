@@ -1,0 +1,36 @@
+Links:
+
+- [Project homepage](https://beansbooks.com/home/opensource)
+- [Source code](https://github.com/system76/beansbooks/tree/master/application/config)
+
+## Technical
+
+- PHP, with the [Kohana](http://kohanaframework.org/) framework
+- Supports MySQL and PDO databases
+  - In turn, [PDO supports](http://www.php.net/manual/en/pdo.drivers.php)
+    - MySQL
+    - PostgreSQL
+    - SQLite
+    - Oracle
+    - ODBC and DB2
+    - 4D
+    - MS SQL
+    - CUBRID
+    - Informix
+    - Firebird
+    - IBM
+
+## Preliminary evaluation
+
+- [Initial open source release in August 2013](https://github.com/system76/beansbooks/commit/96e8605d7553e56004376336bb961ffcd9380b3c)
+
+### Positive
+
+- Built on an existing framework
+- i18n
+- l10n
+
+### Negative
+
+- 1 [active contributor](https://github.com/system76/beansbooks/graphs/contributors) as of 2013-11-12
+- Odd licensing: <https://beansbooks.com/home/opensource>
