@@ -1,0 +1,17 @@
+Links:
+
+- [Project homepage](http://kuali.org)
+
+## Technical
+
+- Java
+
+## Preliminary evaluation
+
+### Positive
+
+- Backed by Kuali Foundation
+
+### Negative
+
+- [Goofy licensing](http://testdrive.kfs.kuali.org/kfs-ptd/acknowledgements.jsp)
