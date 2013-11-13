@@ -1,0 +1,95 @@
+# Supporting Multiple Currencies
+
+Most modern accounting systems offer some sort of support for multiple
+currencies, but the details of how it is done matter greatly, as lack of
+flexibility in how multiple currencies are supported can render the feature
+useless to some organizations.
+
+There are roughly two operating modes that I've observed in use by non-profit
+organizations.
+
+## A "One Native Currency" Organization
+
+In the USA at least, and perhaps elsewhere, the native currency to the
+location of the entity is treated as the "one true currency" (which the USA
+IRS calls your "functional currency") of the organization.  Specifically in
+the USA, the IRS makes
+[the following recommendation regarding currency conversion](http://www.irs.gov/Businesses/Small-Businesses-&-Self-Employed/Foreign-Currency-and-Currency-Exchange-Rates):
+
+> Make all &hellip; determinations in your functional currency.  If your
+> functional currency is the U.S. dollar, you must immediately translate into
+> dollars all items of income, expense, etc. (including taxes), that you
+> receive, pay, or accrue in a foreign currency and that will affect
+> computation of your income tax.
+
+(While this advice is specifically in the "small businesses" section of the
+IRS website, it can be reasonably assumed that the IRS would apply a similar
+rule to non-profits.)
+
+As such, the accounting system that supports multi-currency should allow for
+the handling of this rule.  Most non-profits simply do the currency
+calculation "off book" and enter the USD determination into the system.  What
+[Conservancy](https://sfconservancy.org) does, which probably makes sense for
+our system, is to store a fixated rate, based on the prevailing exchange rate
+for the currency on the date of the transaction.  (Conservancy, which
+currently uses Ledger-CLI, uses Ledger-CLI's
+[fixated prices feature](http://www.ledger-cli.org/3.0/doc/ledger3.html#Fixated-prices-and-costs)
+to implement this).
+
+The primary advantage of this method over an "off book" calculation is that
+while you don't lose the detail that the transaction actually occurred in a
+currency other than the organization's functional currency.
+
+### Handling End-To-End Transactions In Non-Functional Currencies
+
+If this representation system is chosen, the problem occurs in situations
+where an entire sequence of related transactions -- from accrual to payment
+-- must occur in a currency other than the organization's functional
+currency.  The easiest example is a traveler who lives in Europe books a
+flight in EUR, and seeks to be reimbursed in EUR, but the organization's
+functional currency is USD.
+
+In this case, again, the entire EUR-side of the transaction can be done "off
+book", and the balancing amount at reimbursement time can be recorded simply
+as a currency conversion expense (or income).  This again has the problem
+that the detail of what actually happened is never recorded in the books.
+
+The suggested way of solving this problem is to take the amount of EUR that
+was fixated at a specific USD conversion rate at the time of accrual, and
+then consider it to be "sold" at whatever the available exchange rate that
+occurs.  (Again, Conservancy solves this with Ledger-CLI and
+[a mix of the fixed lot prices and fixated cost feature](http://www.ledger-cli.org/3.0/doc/ledger3.html#Fixing-Lot-Prices)).
+
+### Simplicity In Functional Currency
+
+If an non-profit organization has a single functional currency, then most
+aspects of the system, such as [[reporting|GeneratingReports]], can (and, in
+fact, should) be done only in the functional currency.
+
+## A "Multi-Native Currency" Organization
+
+Multi-currency support is more complicated if an organization considers more
+than one currency to be its native currency, which means that
+[[reports|GeneratingReports]] must handle multiple currency.
+
+FIXME: It would be useful if someone who has run an organization that has
+more than one functional currency could describe the use cases on this issue.
+
+## Choosing an Exchange Rate
+
+Regarding exchange rates,  the
+[USA IRS has no official policy on exchange rates](http://www.irs.gov/Individuals/International-Taxpayers/Yearly-Average-Currency-Exchange-Rates),
+stating:
+> The Internal Revenue Service has no official exchange rate. Generally, it 
+> accepts any posted exchange rate that is used consistently.
+
+> When valuing currency of a foreign country that uses multiple exchange
+> rates, use the rate that applies to your specific facts and circumstances.
+> For example, if you have a single transaction such as the sale of a
+> business that occurred on a single day, use the exchange rate for that day.
+> However, if you receive income evenly throughout the tax year, you may
+> translate the foreign currency to U.S. dollars using the yearly average
+> currency exchange rate for the tax year.
+
+Given this IRS recommendation, it may make sense for the system to allow a
+pluggable exchange rate system based on local policies of the organization.
