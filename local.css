@@ -17,6 +17,7 @@ footer {
 .npoacct-navbar.navbar-default .navbar-nav > li > a:hover,
 .npoacct-navbar.navbar-default .navbar-nav > li > a,
 .npoacct-navbar.navbar-default .navbar-brand,
+.npoacct-navbar.navbar-default .navbar-text,
 .npoacct-navbar {
   color: white;
 }
