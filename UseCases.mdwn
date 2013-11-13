@@ -27,3 +27,4 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 ### Technical-User-Center Use Cases
 
 - [[Reading and Reporting API|UseCases/ReadAPI]]
+- [[Storage API|UseCases/StorageAPI]]
