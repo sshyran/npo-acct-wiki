@@ -1,10 +1,36 @@
 NPO Accounting Software Project
 ====================
 
-- [The fundraising campaign](http://sfconservancy.org/campaign/)
-- <https://gitorious.org/ledger/npo-ledger-cli/> - A tutorial on a ledger setup for fiscal sponsor 501(c)3 organizations
-- [[ExistingProjects]] - Existing open souce accounting projects
-- [[UseCases]] - Use cases for an NPO accounting system
+[Software Freedom Conservancy](https://sfconservancy.org/) is leading an
+[effort to create accounting software for non-profit organizations](https://sfconservancy.org/campaign/).
+
+Conservancy welcomes the help of anyone who is interested in this issue to
+design and develop this software.  Initially, during Phase 0 of this project,
+Conservancy is doing the following things:
+
+- [Writing a tutorial on a ledger setup for fiscal sponsor 501(c)3 organizations](https://gitorious.org/ledger/npo-ledger-cli/)
+- [[Finding and evaluating existing Free Software accounting systems|ExistingProjects]],
+- [[Writing use cases for non-profit accounting|UseCases]]
+
+
+Learning more about this project
+========================
+
+You can learn more about what we done so far on this project by:
+
+- Reading this Wiki!
+- Reading the [mailing list archives for this project](http://lists.sfconservancy.org/pipermail/npo-accounting/).
+- Reading the [the IRC logs of the #npoacct channel](/irclogs/).
+
+Collaborating on the Project
+========================
+
+You can collaborate with us on this project by:
+
+  * Editing this Wiki!
+  * Joining the discussion on [the mailing list for this projecdt](https://lists.sfconservancy.org/mailman/listinfo/npo-accounting)
+  * Joining the discussion on
+    [the IRC channel, #npoacct on irc.freenode.net](irc:irc.freenode.net/npoacct).
 
 ----
 
@@ -12,7 +38,15 @@ About This Wiki
 ===============
 This wiki is powered by [[ikiwiki]], which allows for the Wiki contents to be stored in Git.
 
-There is a [mirror on Gitorious as well](https://gitorious.org/conservancy/npo-acct-wiki/), but [due to a bug in Gitorious](https://issues.gitorious.org/issues/333), this mirror isn't up to date.
+There is a
+[mirror on Gitorious as well](https://gitorious.org/conservancy/npo-acct-wiki/),
+but [due to a bug in Gitorious](https://issues.gitorious.org/issues/333),
+this mirror isn't up to date.  We push to that repository on a regular basis,
+though.
+
+In the meantime, if you'd like write access via Git to this wiki, please just
+[ask for it on the mailing list](https://lists.sfconservancy.org/mailman/listinfo/npo-accounting)
+or ping joar or bkuhn on [#npoaccount on irc.freenode.net](irc:irc.freenode.net/npoacct).
 
 This Wiki also has a [[SandBox]].
 
@@ -20,4 +54,4 @@ This Wiki also has a [[SandBox]].
 
 ## IRC logs
 
-You can find the IRC logs at [/irclogs/](/irclogs/).
+
