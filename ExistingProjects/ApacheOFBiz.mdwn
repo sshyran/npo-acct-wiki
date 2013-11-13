@@ -22,12 +22,12 @@ The information on this page is preliminary, open for comments.
 
 * [Active development](https://issues.apache.org/jira/browse/OFBIZ)
 * Highly [Customizable](https://cwiki.apache.org/confluence/display/OFBIZ/Is+OFBiz+for+Me#IsOFBizforMe-AskingBuildvs.Buy)
-* Seems well-documented
 
 ### Negative
 
 * [In transitional phase](https://en.wikipedia.org/wiki/Apache_OFBiz#Open_Source_Libraries)
 * One tool for everything, possibly hard to streamline. <https://cwiki.apache.org/confluence/display/OFBREQDES/OFBiz+EZBiz> points to the contrary.
+* Documentation is spotty
 
 ### Comments
 
