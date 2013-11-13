@@ -7,7 +7,7 @@ The usual reports an NPO is expected to generate, and all of these should be gen
 
 - [Trial balance](http://en.wikipedia.org/wiki/Trial_balance)
 - [Bank Reconciliation Report](http://en.wikipedia.org/wiki/Bank_reconciliation)
-    + This report often needs to be generated with input from the user, since [the subset sum problem](http://en.wikipedia.org/wiki/Subset_sum_problem) is NP-complete, human intervention is often needed to identify the specific transactions to show on this report.
+    + This report often needs to be generated with input from the user, since [the subset sum problem](http://en.wikipedia.org/wiki/Subset_sum_problem) is [NP-complete](http://en.wikipedia.org/wiki/NP-complete), human intervention is often needed to identify the specific transactions to show on this report.
 - [Chart of accounts](http://en.wikipedia.org/wiki/Chart_of_accounts)
 - Cash Disbursments Journal
 - Income Report (just a list/sum of all Income accounts for a period)
