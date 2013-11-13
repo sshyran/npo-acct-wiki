@@ -21,6 +21,7 @@ Links
 - [35 contributors](http://www.ohloh.net/p/openpetraorg)
 - [Well-commented source code](http://www.ohloh.net/p/openpetraorg)
 - [Extensibility is core](http://www.openpetra.org/organisation-benefits)
+- Ledger-specific access control, three access levels.
 
 ### Negative
 
@@ -31,6 +32,11 @@ Links
 ## [[UseCases/FundAccounting]] evaluation
 
 - Supports multiple ledgers
+
+<pre>
+2013-11-13 16:09:36     robp    quick reply re: fund accounting (and, to clarify, I'm not a "finance expert" but do have a good understanding of what the finance module in Petra - the percursor to OpenPetra - does)...as Tim points out we need to know from our finance users where Petra falls short of the requirements for fund accounting. Based on my rudimentary understanding of the term, I would think that much of what is needed for fund accounting can be achived with out Cost Centre structu
+2013-11-13 16:09:36     robp    re (eg. production of BS and I&E reports on a specific part of the CC structure)
+</pre>
 
 ## Comments
 
