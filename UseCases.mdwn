@@ -13,13 +13,17 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 
 ## Use cases
 
+### Non-Technical-User-Centric Use Cases
 - [[GeneratingReports]]
 - [[Collaborating]]
 - [[Fund Accounting|UseCases/FundAccounting]]
 - [[Double-entry Accounting|UseCases/DoubleEntryAccounting]]
-- [[Reading and Reporting API|UseCases/ReadAPI]]
 - [[TrackingIncomeType|UseCases/TrackingIncomeType]]
 - [[TrackingDocumentation|UseCases/TrackingDocumentation]]
 - [[Handling expense reports and reimbursement requests|UseCases/ReimbursementRequest]]
 - [[Handling contractors and contracts|UseCases/ContractorsAndContracts]]
 - [[Handling multiple currencies|UseCases/MultiCurrency]]
+
+### Technical-User-Center Use Cases
+
+- [[Reading and Reporting API|UseCases/ReadAPI]]
