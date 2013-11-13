@@ -18,3 +18,4 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 - [[Fund Accounting|UseCases/FundAccounting]]
 - [[Double-entry Accounting|UseCases/DoubleEntryAccounting]]
 - [[API|UseCases/API]]
+- [[TrackingIncomeType|UseCases/TrackingIncomeType]]

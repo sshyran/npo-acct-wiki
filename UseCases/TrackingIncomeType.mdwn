@@ -1,0 +1,14 @@
+# Tracking Income Type
+
+As a 501(c)(3) non-profit manager, I need to track various income types.
+Specifically, there are three types of income that can be generated:
+
+  * Grants and donations
+  * Related Business Income (RBI)
+  * [Unrelated Business Taxable Income (UBTI)](http://www.irs.gov/Charities-&-Non-Profits/Unrelated-Business-Income-Defined)
+
+Sometimes, these income types may go to the same account.  For example, a
+conference sponsorship may generate some amount of UBTI if some amount of
+advertising was part of the sponsorship.  Thus, this categorization should
+not be encoded into the account name, but is rather meta-data about specific
+transactions.
