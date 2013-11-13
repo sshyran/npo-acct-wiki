@@ -24,4 +24,18 @@ Links
 
 ### Negative
 
+- In BETA state, presently used by at least two organizations, one for accounting, one for contact management.
 - [Decreasing Y-O-Y commits](http://www.ohloh.net/p/openpetraorg)
+
+## [[UseCases/FundAccounting]] evaluation
+
+- Supports multiple ledgers
+
+## Comments
+
+    │15:48:14      christiank [\n]
+    | In case you or bkuhn want to read up for yourself what OpenPetra will be  │
+    | covering in its Finance Module when it is completed then you can have a   │
+    | look at the Petra Finance User Guide                                      │
+    | (http://www.openpetra.org/en/user-manuals). OpenPetra is based on Petra   │
+    | in terms of functionality.      
