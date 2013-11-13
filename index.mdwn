@@ -22,15 +22,16 @@ You can learn more about what we done so far on this project by:
 - Reading the [mailing list archives for this project](http://lists.sfconservancy.org/pipermail/npo-accounting/).
 - Reading the [the IRC logs of the #npoacct channel](/irclogs/).
 
-Collaborating on the Project
+Helping and Collaborating on this Project
 ========================
 
-You can collaborate with us on this project by:
+You can help us and/or collaborate with us on this project by:
 
   * Editing this Wiki!
   * Joining the discussion on [the mailing list for this projecdt](https://lists.sfconservancy.org/mailman/listinfo/npo-accounting)
   * Joining the discussion on
     [the IRC channel, #npoacct on irc.freenode.net](irc:irc.freenode.net/npoacct).
+  * [Donating money to fund this effort!](https://sfconservancy.org/campaign/)
 
 ----
 
