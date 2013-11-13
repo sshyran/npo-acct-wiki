@@ -8,7 +8,7 @@ backup documentation relate to a given accounting document.
 An adequate accounting system should provide easy link-up between
 double-entry accounting transactions and the documentation that relates to
 the transactions.  For example,
-[[expense reports and reimbursement requests|UseCases/ReimbursementRequests]]
+[[expense reports and reimbursement requests|UseCases/ReimbursementRequest]]
 often have a myriad of receipts and invoices associated with them.
 [[Handling contractors|UseCases/ContractorsAndContracts]] has similar types
 of backup documentation.
@@ -19,7 +19,7 @@ such as:
 
    * I have this receipt/invoice from our document repository.  Which
      accounting transactions relate to this receipt?  Has the transaction
-     been [[reimbursed|UseCases/ReimbursementRequests]]?
+     been [[reimbursed|UseCases/ReimbursementRequest]]?
 
    * Looking at this invoice, can I see the transaction where it was accrued
      and paid?

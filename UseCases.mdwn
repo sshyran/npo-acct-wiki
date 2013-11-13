@@ -20,6 +20,6 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 - [[API|UseCases/API]]
 - [[TrackingIncomeType|UseCases/TrackingIncomeType]]
 - [[TrackingDocumentation|UseCases/TrackingDocumentation]]
-- [[Handling expense reports and reimbursement requests|UseCases/ReimbursementRequests]]
+- [[Handling expense reports and reimbursement requests|UseCases/ReimbursementRequest]]
 - [[Handling contractors and contracts|UseCases/ContractorsAndContracts]]
 - [[Handling multiple currencies|UseCases/MultiCurrency]]
