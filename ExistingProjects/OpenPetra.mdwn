@@ -11,6 +11,8 @@ Links
 
 ## Preliminary evaluation
 
+- [Started in 2009](http://www.ohloh.net/p/openpetraorg)
+
 ### Positive
 
 - i18n, l10n
@@ -22,5 +24,4 @@ Links
 
 ### Negative
 
-- [Started in 2009](http://www.ohloh.net/p/openpetraorg)
 - [Decreasing Y-O-Y commits](http://www.ohloh.net/p/openpetraorg)
