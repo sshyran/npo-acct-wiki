@@ -54,6 +54,9 @@ Links
 2013-11-13 16:28:48     christiank      - even for not-trained book-keepers.
 2013-11-13 16:29:23     christiank      I mean users who aren't trained accountants, but learn accounting in the organisation on-the-job.
 2013-11-13 16:31:57     christiank      joar: Not sure if numbers are important, but a quick check revealed that there are at least 32 Reports in the Finance Module of OpenPetra.
+2013-11-13 16:34:30     christiank      joar: It has to be mentioned that OpenPetra is developed as a 'global solution' and hence some terms perhaps esp. in the Finance Module might deviate from US-specific terms.
+2013-11-13 16:36:25     christiank      A bookkeeper (read: bkuhn in your case) would need to have a close look at what functionatlity in the Finance Module of OpenPetra does what to find those potential differences.
+
 </pre>
 
 ## Comments
