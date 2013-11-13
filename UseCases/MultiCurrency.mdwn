@@ -66,6 +66,8 @@ If an non-profit organization has a single functional currency, then most
 aspects of the system, such as [[reporting|GeneratingReports]], can (and, in
 fact, should) be done only in the functional currency.
 
+---
+
 ## A "Multi-Native Currency" Organization
 
 Multi-currency support is more complicated if an organization considers more
@@ -74,6 +76,8 @@ than one currency to be its native currency, which means that
 
 FIXME: It would be useful if someone who has run an organization that has
 more than one functional currency could describe the use cases on this issue.
+
+---
 
 ## Choosing an Exchange Rate
 
