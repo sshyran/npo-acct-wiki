@@ -5,3 +5,11 @@ First download the [[OpenPetra]] source code by running `bzr branch lp:openpetra
 1. Install `lxc-docker`
 2. [Create a base image](http://docs.docker.io/en/latest/use/baseimages/) for docker, verify that the image has been created by running `docker images`, it should output something similar to <pre>REPOSITORY          TAG                 ID                  CREATED             SIZE
 raring              latest              9546392d2f16        About an hour ago   191 MB (virtual 191 MB)</pre>
+3.
+
+
+Oops, I've been thinking of [vagrant](http://vagrantup.com) all this time.
+
+1. Download vagrant: <http://downloads.vagrantup.com/tags/v1.3.5>
+
+Available boxes: https://github.com/fgrehm/vagrant-lxc/wiki/Base-boxes#available-boxes
