@@ -1,0 +1,62 @@
+# Storage API
+
+Most accounting systems continually reimplement double-entry accounting.  As
+a developer, I find this frustrating because very commonly, user-interface
+code for accounting systems is co-mingled with details of the double entry
+accounting implementation.
+
+What I propose is a clear API that simply does the basic functions of
+double-entry accounting, treating double-entry accounting more like
+mathematical operations and less like business logic.  Business logic varies,
+but the rules of double entry accounting remain roughly the same.
+
+Users of the API would be those who write accounting applications and want to
+treat the double-entry portion purely as a black box.
+
+The ideal scenario would be an known double-entry accounting API that
+different accounting projects could support, separating the problem of
+storage of double-entry accounting data from specific accounting systems.
+
+A very rough idea of the API's core data structures follows.  This is not
+fully baked.
+
+# Postings
+
+The primary record of a double-entry accounting is a posting, which has the
+following fields:
+
+- Date
+- Payee
+- Two or more entries, and the sum of the amounts on all entries must
+  balance, otherwise the posting is not valid.
+- State
+
+## State
+
+State has the following fields:
+
+- User
+- Value
+
+
+The idea behind posting state is that it is somewhat user-configurable.
+Typical posting states would be things like CLEARED for items that have
+cleared a bank account.  However, one idea behind the state is use it to
+allow for "user-specific" versions of the books.  The goal is to allow users
+to "stage" postings that may or may not be accepted.  For example, a user
+might submit an expense report, and the state might be "REQUESTED".
+Generally, the rest of the system would ignore REQUESTED postings, as they
+aren't officially approved for the books yet.
+
+# Entry
+
+Entries have the following fields:
+
+- Account
+- Amount
+- Currency
+- (optional) fixated price per unit price to another Currency
+- (optional) entry-specific price to another Currency
+- (optional) zero or more key value pairs for tagging
+
+
