@@ -7,6 +7,11 @@ footer {
   padding-top: 40px;
   padding-bottom: 30px;
 }
+
+.npoacct-navbar.navbar-default {
+  background-color: #577632;
+}
+
 .npoacct-navbar.navbar-default .navbar-nav > li > a:focus,
 .npoacct-navbar.navbar-default .navbar-nav > li > a:active,
 .npoacct-navbar.navbar-default .navbar-nav > li > a:hover,
