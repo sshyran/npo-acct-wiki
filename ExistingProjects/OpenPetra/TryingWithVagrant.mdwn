@@ -1,0 +1,6 @@
+First download the [[OpenPetra]] source code by running `bzr branch lp:openpetraorg`. This might take up to 40 minutes depending on the connection speed.
+
+1. Download vagrant: <http://downloads.vagrantup.com/tags/v1.3.5>
+2. Install the vagrant-lxc plugin: `vagrant plugin install vagrant-lxc`
+3. Download one of the [vagrant-lxc boxes](https://github.com/fgrehm/vagrant-lxc/wiki/Base-boxes#available-boxes): `vagrant box add openpetra-lxc BOX_URL` where `BOX_URL` is the URL of one of the base boxes.
+4. TBD
