@@ -1,0 +1,31 @@
+# Tracking Documentation on Accounting Transactions
+
+While [[double entry accounting|UseCases/DoubleEntryAccounting]] transactions
+are the heart of any accounting system, auditors and managers need the
+ability to dig down and determine what contracts, invoices, receipts or other
+backup documentation relate to a given accounting document.
+
+An adequate accounting system should provide easy link-up between
+double-entry accounting transactions and the documentation that relates to
+the transactions.  For example,
+[[expense reports and reimbursement requests|UseCases/ReimbursementRequests]]
+often have a myriad of receipts and invoices associated with them.
+[[Handling contractors|UseCases/ContractorsAndContracts]] has similar types
+of backup documentation.
+
+Ideally, the system should allow the exploration of and linkage to
+documentation in both directions.  It should be trivial to answer questions
+such as:
+
+   * I have this receipt/invoice from our document repository.  Which
+     accounting transactions relate to this receipt?  Has the transaction
+     been [[reimbursed|UseCases/ReimbursementRequests]]?
+
+   * Looking at this invoice, can I see the transaction where it was accrued
+     and paid?
+
+   * Show me a list of invoices that haven't been paid, with links to those
+     invoices.
+
+   * Who approved this expense or payment?  Show me the email where they
+     approved it.
