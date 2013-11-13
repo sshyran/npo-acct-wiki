@@ -47,6 +47,8 @@ though.
 
 In the meantime, if you'd like write access via Git to this wiki, please just
 [ask for it on the mailing list](https://lists.sfconservancy.org/mailman/listinfo/npo-accounting)
-or ping joar or bkuhn on [#npoaccount on irc.freenode.net](irc:irc.freenode.net/npoacct).
+or ping joar or bkuhn on
+[#npoaccount on irc.freenode.net](irc:irc.freenode.net/npoacct).  You should
+however be able to edit this Wiki using the web interface, too.
 
 This Wiki also has a [[SandBox]].
