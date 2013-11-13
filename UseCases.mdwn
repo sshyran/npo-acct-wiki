@@ -22,3 +22,4 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 - [[TrackingDocumentation|UseCases/TrackingDocumentation]]
 - [[Handling expense reports and reimbursement requests|UseCases/ReimbursementRequests]]
 - [[Handling contractors and contracts|UseCases/ContractorsAndContracts]]
+- [[Handling multiple currencies|UseCases/MultiCurrency]]

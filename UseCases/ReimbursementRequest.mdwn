@@ -1,0 +1,42 @@
+# Handling Requests for Reimbursements
+
+Most non-profit organizations have to reimburse employees, contractors and
+volunteers for expenses, such as travel expenses.  There are two sides to the
+reimbursement process that must be adequately handled by a non-profit
+accounting system.
+
+## Reimbursement: The Organization's View
+
+The organization has to be able to easily:
+
+    * Receive and store receipts.
+      [[Track those receipts|UseCases/TrackingDocumentation]] in the context
+      of the
+      [[double entry accounting entries|UseCases/DoubleEntryAccounting]] that
+      relate to those receipts.
+    * Track the reimbursement request as an invoice.
+    * Handle any [[currency conversion|UseCases/MultiCurrency]] related to
+      the receipts, both from the point of view of international travel, and
+      also considering the fact that the person reimbursed may seek
+      reimbursement in a different currency than the native currency of the
+      organization's.
+    * Track approvals of the expenses by multiple parties.  (For example,
+      perhaps a volunteer project leader must approve, and then later by with
+      fiduciary duty to the organization itself).
+    * Ideally, the system would auto-detect any places where a travel and/or
+      reimbursement policy for the organization is violated (or mandates
+      additional approvals).
+    * Ideally, the system could "set up" accounting entries for "merger" into
+      the accounts, based on an expense report submitted.
+   
+## Reimbursement: The Traveler's View
+
+From traveler's/reimbursement-requester's view, they'll need:
+
+    * An easy, outward-facing web interface for submitting receipts.
+    * Ideally, flagging them when additional approval is needed before
+      submitting their expense report, so that they can seek additional
+      approval before submitting.
+    * Updates on the external web interface system about status when the
+      expense is moving through the internal system at the organization. 
+    * Automatic calculation of any per-diem allowances.
