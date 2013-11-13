@@ -50,9 +50,3 @@ In the meantime, if you'd like write access via Git to this wiki, please just
 or ping joar or bkuhn on [#npoaccount on irc.freenode.net](irc:irc.freenode.net/npoacct).
 
 This Wiki also has a [[SandBox]].
-
----
-
-## IRC logs
-
-
