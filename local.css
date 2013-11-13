@@ -7,3 +7,16 @@ footer {
   padding-top: 40px;
   padding-bottom: 30px;
 }
+.npoacct-navbar a:focus,
+.npoacct-navbar a:active,
+.npoacct-navbar a:hover,
+.npoacct-navbar a,
+.npoacct-navbar {
+  color: white;
+}
+.npoacct-navbar .createlink a:focus,
+.npoacct-navbar .createlink a:active,
+.npoacct-navbar .createlink a:hover,
+.npoacct-navbar .createlink a {
+  color: #ce1f1f;
+}
