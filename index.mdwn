@@ -8,7 +8,7 @@ Conservancy welcomes the help of anyone who is interested in this issue to
 design and develop this software.  Initially, during Phase 0 of this project,
 Conservancy is doing the following things:
 
-- [Writing a tutorial on a ledger setup for fiscal sponsor 501(c)3 organizations](https://gitorious.org/ledger/npo-ledger-cli/).
+- [Writing a tutorial on a Ledger-CLI setup for fiscal sponsor 501(c)3 organizations](https://gitorious.org/ledger/npo-ledger-cli/).
 - [[Finding and evaluating existing Free Software accounting systems|ExistingProjects]].
 - [[Writing use cases for non-profit accounting|UseCases]].
 
