@@ -38,6 +38,11 @@ Links
 2013-11-13 16:09:36     robp    re (eg. production of BS and I&E reports on a specific part of the CC structure)
 </pre>
 
+## [[UseCases/Collaborating]] evaluation
+
+- Possible to have a central application server with multiple ledgers, access control per ledger
+- Multiple users can work on the same or separate ledgers at the same time
+
 ## Comments
 
     │15:48:14      christiank [\n]
