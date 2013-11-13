@@ -25,7 +25,8 @@ Links
 ### Negative
 
 - In BETA state, presently used by at least two organizations, one for accounting, one for contact management.
-- [Decreasing Y-O-Y commits](http://www.ohloh.net/p/openpetraorg)
+- [Decreasing Y-O-Y commits](http://www.ohloh.net/p/openpetraorg) <pre>2013-11-13 16:10:00     christiank      joar: I have checked for the source of increased commits in January 2011: It is a mixture of a huge bug-fixing spree and the result of a merge-into-trunk of a Sideline Branch, which then still needed more development</pre>
+
 
 ## [[UseCases/FundAccounting]] evaluation
 
