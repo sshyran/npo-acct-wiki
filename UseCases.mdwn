@@ -17,3 +17,4 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 - [[Collaborating]]
 - [[Fund Accounting|UseCases/FundAccounting]]
 - [[Double-entry Accounting|UseCases/DoubleEntryAccounting]]
+- [[API|UseCases/API]]

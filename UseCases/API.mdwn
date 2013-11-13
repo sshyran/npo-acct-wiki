@@ -1,0 +1,13 @@
+# API
+
+As a developer, it's essential that I have access to a clearly documented API
+(at least) to read and (possibly) to write/update the financial data.
+
+Specifically, the need to generate reports and analyze data in new ways is
+essential, and while many systems try to give some sort of "report builder",
+which are perhaps useful for some needs, are never adequate to foresee every
+type of necessary issue.
+
+The API should allow for not only custom reports, but the ability to generate
+a programmatic analysis.  For example, this sort of API would be used to
+compute the [[public support test for USA 501(c)(3) organizations|UseCases/PublicSupportTest]].
