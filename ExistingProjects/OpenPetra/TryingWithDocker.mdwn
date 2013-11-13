@@ -8,8 +8,4 @@ raring              latest              9546392d2f16        About an hour ago   
 3.
 
 
-Oops, I've been thinking of [vagrant](http://vagrantup.com) all this time.
-
-1. Download vagrant: <http://downloads.vagrantup.com/tags/v1.3.5>
-
-Available boxes: https://github.com/fgrehm/vagrant-lxc/wiki/Base-boxes#available-boxes
+Oops, I've been thinking of [vagrant](http://vagrantup.com) all this time. [[TryingWithVagrant]]
