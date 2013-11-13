@@ -7,10 +7,11 @@ footer {
   padding-top: 40px;
   padding-bottom: 30px;
 }
-.npoacct-navbar a:focus,
-.npoacct-navbar a:active,
-.npoacct-navbar a:hover,
-.npoacct-navbar a,
+.npoacct-navbar.navbar-default .navbar-nav > li > a:focus,
+.npoacct-navbar.navbar-default .navbar-nav > li > a:active,
+.npoacct-navbar.navbar-default .navbar-nav > li > a:hover,
+.npoacct-navbar.navbar-default .navbar-nav > li > a,
+.npoacct-navbar.navbar-default .navbar-brand,
 .npoacct-navbar {
   color: white;
 }
