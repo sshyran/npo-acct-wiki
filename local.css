@@ -27,3 +27,6 @@ footer {
 .npoacct-navbar .createlink a {
   color: #ce1f1f;
 }
+a.idOnly {
+text-decoration: none !important;
+}
