@@ -27,7 +27,6 @@ TODO:
 * [[ExistingProjects/npo-ledger-cli]]
 * [[ExistingProjects/OpenERP]]
 * [[ExistingProjects/OpenPetra]]
-* [[ExistingProjects/Phreedom]]
 * [[ExistingProjects/Postbooks]]
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
