@@ -1,0 +1,10 @@
+<a id="GeneratingReports"></a>
+## [[UseCases/GeneratingReports]] evaluation
+
+- Does it support Fund Reports?
+
+<a id="Collaborating"></a>
+## [[UseCases/Collaborating]] evaluation
+
+- Does it support multiple users working on the same ledger?
+- ...
