@@ -1,10 +1,10 @@
-## Evaluation of GeneratingReports UseCases
-- [[Trial Balance Report|GeneratingReports#trial-balance]]: FIXME
-- [[Bank Reconciliation Report|GeneratingReports#bank-reconcilation]]: FIXME
-- [[Chart of Accounts|GeneratingReports#chart-of-accounts]]: FIXME
-- [[Cash Disbursements Journal|GeneratingReports#cash-disbursements]]: FIXME
-- [[Income Report|GeneratingReports#income-report]]: FIXME
-- [[Expense Report|GeneratingReports#expense-report]]: FIXME
+## Evaluation of UseCases/GeneratingReports UseCases
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
+- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
+- [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
 - 
 <a id="Collaborating"></a>
 ## [[UseCases/Collaborating]] evaluation
