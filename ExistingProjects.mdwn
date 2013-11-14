@@ -20,7 +20,6 @@ TODO:
 * [[ExistingProjects/Garradin]]
 * [[ExistingProjects/GNUEnterprise]]
 * [[ExistingProjects/GNUCash]]
-* [[ExistingProjects/JFire]]
 * [[ExistingProjects/Kuali]]
 * [[ExistingProjects/Ledger]]
 * [[ExistingProjects/LedgerSMB]]
