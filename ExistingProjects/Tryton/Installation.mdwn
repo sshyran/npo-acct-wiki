@@ -5,5 +5,5 @@
 ## Tryton installation
 
 1. `sudo apt-get update`
-2. `sudo apt-get install python-pip python-dev`
+2. `sudo apt-get install python-pip python-dev libxml2-dev libxslt1-dev`
 3. `sudo pip install tryton trytond`
