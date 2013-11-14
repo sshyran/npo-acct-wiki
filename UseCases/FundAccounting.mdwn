@@ -11,6 +11,7 @@ accountants as "temporarily restricted assets", and spending of the assets
 are governed by a fiscal sponsorship agreement
 ([[see examples below|FundAccounting#Other_Resources]]).
 
+<a id="Fund_Report"></a>
 ## Fund Report
 
 The "fund report" is a shorthand name for a Temporarily Restricted Net Assets
@@ -18,6 +19,7 @@ Report.  This report shows the temporarily restricted income, expenses and
 assets.  (An example of such a report can be found on page 6 of
 [Conservancy's FY 2011 Audited Financial statement](http://sfconservancy.org/docs/conservancy_independent-audit_fy-2011.pdf).)
 
+<a id="Subset_of_the_Books"></a>
 ## Subset of the Books
 
 Ultimately, any account system that truly supports fiscal sponsorship must
