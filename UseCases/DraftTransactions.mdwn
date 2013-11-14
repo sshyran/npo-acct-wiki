@@ -1,0 +1,12 @@
+# Generating Draft Transactions
+
+As a manager at a nonprofit, I need the ability to have staff propose draft
+transactions that are not added to the books official until approved.
+
+As a bookkeeper, I'd like the ability to set up and review draft transactions
+before officially adding them to the books, so I can see if they were entered
+correctly.
+
+It should be possible to view any [[reports|GeneratingReports]] or other
+system information as if the draft transactions have been applied, via some
+configurable option.

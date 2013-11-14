@@ -23,6 +23,7 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 - [[Handling expense reports and reimbursement requests|UseCases/ReimbursementRequest]]
 - [[Handling contractors and contracts|UseCases/ContractorsAndContracts]]
 - [[Handling multiple currencies|UseCases/MultiCurrency]]
+- [[Draft transactions and approval|UseCases/DraftTransactions]]
 
 ### Technical-User-Center Use Cases
 

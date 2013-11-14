@@ -25,7 +25,8 @@ The organization has to be able to easily:
     reimbursement policy for the organization is violated (or mandates
     additional approvals).
   * Ideally, the system could "set up" accounting entries for "merger" into
-    the accounts, based on an expense report submitted.
+    the accounts, based on an expense report submitted, via some
+    [[draft transacting approval process|DraftTransactions]].
    
 ## Reimbursement: The Traveler's View
 
