@@ -10,5 +10,5 @@
 - [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
 - FIXME: Other uses cases need rewrite.
 
-## [[WorkFlow]] evaluation
+## [[UseCases/WorkFlow]] evaluation
 - [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]]: FIXME
