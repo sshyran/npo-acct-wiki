@@ -6,7 +6,7 @@
 - [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
 - [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
 - 
-<a id="Collaborating"></a>
+
 ## [[UseCases/Collaborating]] evaluation
 - [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
 - FIXME: Other uses cases need rewrite.
