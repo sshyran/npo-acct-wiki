@@ -1,7 +1,7 @@
 As an accountant that collaborates with other accountants I need:
 
 
-- <a id="simultaneous-ledger-edits">Simultaneous editing of the same ledger</a>
+- <a style="text-decoration: none" id="simultaneous-ledger-edits">Simultaneous editing of the same ledger</a>
 - FIXME: this should probably be stated differently: In the case of decentralized ledgers, such as ledger-cli files shared via DVCS
   - Easy synchronization of entries from separate ledgers
 

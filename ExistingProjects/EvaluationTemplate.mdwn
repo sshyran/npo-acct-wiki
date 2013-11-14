@@ -12,4 +12,4 @@
 - FIXME: Other uses cases need rewrite.
 
 ## Evaluation of WorkFlow UseCases
-- [[Unaccrued Invoice?|UseCases/WorkFlow#unaccrued-invioice]]: FIXME
+- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]]: FIXME

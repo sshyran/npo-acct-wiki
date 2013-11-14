@@ -5,13 +5,13 @@ As an US-based NPO I need a way to *generate reports* in order to:
 
 The usual reports an NPO is expected to generate, and all of these should be generatable for any given date period:
 
-- <a id="trial-balance"></a>[Trial balance](http://en.wikipedia.org/wiki/Trial_balance)
-- <a id="bank-reconciliation"></a> [Bank Reconciliation Report](http://en.wikipedia.org/wiki/Bank_reconciliation)
+- <a style="text-decoration: none" id="trial-balance"></a>[Trial balance](http://en.wikipedia.org/wiki/Trial_balance)
+- <a style="text-decoration: none" id="bank-reconciliation"></a> [Bank Reconciliation Report](http://en.wikipedia.org/wiki/Bank_reconciliation)
     + This report often needs to be generated with input from the user, since [the subset sum problem](http://en.wikipedia.org/wiki/Subset_sum_problem) is [NP-complete](http://en.wikipedia.org/wiki/NP-complete), human intervention is often needed to identify the specific transactions to show on this report.
--  <a id="chart-of-accounts"></a> [Chart of accounts](http://en.wikipedia.org/wiki/Chart_of_accounts)
--  <a id="cash-disbursements">Cash Disbursements Journal</a>
-- <a id="income-report">Income Report</a> (just a list/sum of all Income accounts for a period)
-- <a id="expenses-report">Expenses Report</a>  (just a list/sum of all Expenses accounts for a period)
+-  <a style="text-decoration: none" id="chart-of-accounts"></a> [Chart of accounts](http://en.wikipedia.org/wiki/Chart_of_accounts)
+-  <a style="text-decoration: none" id="cash-disbursements">Cash Disbursements Journal</a>
+- <a style="text-decoration: none" id="income-report">Income Report</a> (just a list/sum of all Income accounts for a period)
+- <a style="text-decoration: none" id="expenses-report">Expenses Report</a>  (just a list/sum of all Expenses accounts for a period)
 - [[Fund Report|UseCases/FundAccounting#FundReport]]
 
 Also, To handle [[UseCases/FundAccounting]] all of these reports should be generatable narrowed to specific funds.
