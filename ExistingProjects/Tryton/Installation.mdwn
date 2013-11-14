@@ -7,3 +7,7 @@
 1. `sudo apt-get update`
 2. `sudo apt-get install python-pip python-dev python-gtk2 libxml2-dev libxslt1-dev`
 3. `sudo pip install tryton trytond`
+
+## Testing the client
+
+The Tryton project has a demo server up and running, to connect to the demo server, simply start the tryton client with `tryton` and use the username and password `demo`, the host should be the demo server by default.
