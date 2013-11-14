@@ -1,0 +1,4 @@
+1. TBD: Insert Vagrantfile here
+2. `sudo apt-get update`
+3. `sudo apt-get install python-pip python-dev`
+4. `sudo pip install tryton trytond`
