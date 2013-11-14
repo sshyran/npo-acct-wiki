@@ -24,6 +24,7 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 - [[Handling contractors and contracts|UseCases/ContractorsAndContracts]]
 - [[Handling multiple currencies|UseCases/MultiCurrency]]
 - [[Draft transactions and approval|UseCases/DraftTransactions]]
+- [[Workflow for Non-Profit Accounting|UseCases/WorkFlow]]
 
 ### Technical-User-Center Use Cases
 

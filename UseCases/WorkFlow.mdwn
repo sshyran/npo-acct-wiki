@@ -1,0 +1,26 @@
+# Non-Profit Workflow
+
+Many accounting systems seem to assume that the workflow fits a certain type
+of uses.  While the ability to impose a specific workflow (e.g., for a
+bookkeeper who might make an error easily if the system doesn't require a
+workflow), the  workflow should not be dictated.
+
+## The "Unaccrued Invoice" Example
+
+The easiest example I have of this relates to accruing income upon invoice
+generation.  Non-profits very typically generate invoices as part of a
+fundraising discussion *even though* the non-profit doesn't have a good faith
+belief that the invoice will be paid.  Using an invoice to convince a donor
+to make a donation is, in essence, just a fundraising strategy to pressure
+for them to commit to a donation that the donor has hinted they might make.
+
+Under GAAP, these invoices should **not** be accrued nor recognized, because
+the organization doesn't have a good faith belief that the income is
+forthcoming.
+
+Many accounting systems assume that the user would never possibly generate an
+invoice without realizing the income immediately.  In most for-profit setups,
+this is true, but for non-profits, there is good reason to generate invoices
+before accruing the income.  In fact, if you're  generating an invoice merely
+to "inspire" a donation, it's wrong to accrue that, since you don't have a
+good faith belief that the invoice will be paid.
