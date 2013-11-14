@@ -10,7 +10,7 @@ First download the [[OpenPetra]] source code by running `bzr branch lp:openpetra
 Instructions for an Ubuntu Precise 64-bit system.
 
 1. Install `bzr` by running `sudo apt-get install -y bzr`
-1. Download OpenPetra using `bzr branch lp:openpetraorg`
+1. Download OpenPetra using `bzr branch lp:openpetraorg`, this may take a long time depending on your connection speed.
 
 ## Mono patch
 
