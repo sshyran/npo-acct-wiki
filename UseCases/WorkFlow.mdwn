@@ -1,12 +1,17 @@
 # Non-Profit Workflow
 
+<a id="workflow-dictated"></a>
+
 Many accounting systems seem to assume that the workflow fits a certain type
 of uses.  While the ability to impose a specific workflow (e.g., for a
 bookkeeper who might make an error easily if the system doesn't require a
-workflow), the  workflow should not be dictated.
+workflow), the workflow should not be dictated.
+
+<a id="workflow-configurable"></a> Ideally, in fact workflows should be
+configurable in some way.  Many systems try to do this and are a bit
+constraining on it.
 
 ## <a id="unaccrued-invoice"></a>The "Unaccrued Invoice" Example
-
 
 The easiest example I have of this relates to accruing income upon invoice
 generation.  Non-profits very typically generate invoices as part of a
