@@ -1,6 +1,7 @@
 Links:
 
 - [Project homepage](http://kuali.org)
+- [Live demo](http://testdrive.kfs.kuali.org/kfs-ptd/portal.do)
 
 ## Technical
 
