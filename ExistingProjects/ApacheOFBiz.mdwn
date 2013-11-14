@@ -27,7 +27,8 @@ The information on this page is preliminary, open for comments.
 
 * [In transitional phase](https://en.wikipedia.org/wiki/Apache_OFBiz#Open_Source_Libraries)
 * One tool for everything, possibly hard to streamline. <https://cwiki.apache.org/confluence/display/OFBREQDES/OFBiz+EZBiz> points to the contrary.
-* Documentation is spotty
+* Documentation is split up in one page per section, hard to overview (it uses confluence, the same documentation system as [[Kuali]]). The documentation also has TODOs in multiple locations and is lacking content.
+* The community is hard to get in contact with, three mailing lists are provided, a request for assistance has been sent to the `user` mailing list.
 
 ### Comments
 
