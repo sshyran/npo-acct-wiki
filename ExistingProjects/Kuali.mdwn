@@ -20,4 +20,4 @@ Kuali seems like a complex set of machinery, with many projects or distributions
 ### Negative
 
 - No public source control.
-- No open community channels such as mailing list, message board, IRC channel.
+- No open community channels such as mailing list, message board, IRC channel. This makes it very hard to find information about Kuali. The documentation is also very inconvenient as every section is a separate page, making it hard to get an overview of how Kuali works and its capabilities.
