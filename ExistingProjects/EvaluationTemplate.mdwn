@@ -1,4 +1,4 @@
-## Evaluation of UseCases/GeneratingReports UseCases
+## [[UseCases/GeneratingReports]] evaluation
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
 - [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
@@ -10,5 +10,5 @@
 - [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
 - FIXME: Other uses cases need rewrite.
 
-## Evaluation of WorkFlow UseCases
+## [[WorkFlow]] evaluation
 - [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]]: FIXME
