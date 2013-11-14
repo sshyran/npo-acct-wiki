@@ -1,6 +1,30 @@
 First download the [[OpenPetra]] source code by running `bzr branch lp:openpetraorg`. This might take up to 40 minutes depending on the connection speed.
 
 1. Download vagrant: <http://downloads.vagrantup.com/tags/v1.3.5>
-2. Install the vagrant-lxc plugin: `vagrant plugin install vagrant-lxc`
-3. Download one of the [vagrant-lxc boxes](https://github.com/fgrehm/vagrant-lxc/wiki/Base-boxes#available-boxes): `vagrant box add openpetra-lxc BOX_URL` where `BOX_URL` is the URL of one of the base boxes.
-4. TBD
+2. Create a new Vagrantfile using the `precise64` vagrant box
+3. Run `vagrant up` and wait for it to finish
+4. Run `vagrant ssh`
+
+## OpenPetra installation
+
+Instructions for an Ubuntu Precise 64-bit system.
+
+1. Install `bzr` by running `sudo apt-get install -y bzr`
+1. Download OpenPetra using `bzr branch lp:openpetraorg`
+
+## Mono patch
+
+If you're having issues related to the crossdomainmarshaller you have to [install a patch](http://software.opensuse.org/download.html?project=home%3Atpokorra%3Aopenpetra&package=mono-openpetra).
+
+    sudo su -c "echo 'deb http://download.opensuse.org/repositories/home:tpokorra:openpetra/xUbuntu_12.04/ /' >> /etc/apt/sources.list.d/mono-openpetra.list"
+    wget http://download.opensuse.org/repositories/home:tpokorra:openpetra/xUbuntu_12.04/Release.key
+    sudo apt-key add - < Release.key
+    sudo apt-get update
+    sudo apt-get install mono-openpetra
+
+Resources
+
+- <https://build.opensuse.org/project/show/home:tpokorra:openpetra>
+- <http://sourceforge.net/apps/mediawiki/openpetraorg/index.php?title=Setup_of_Development_environment>
+- <http://sourceforge.net/apps/mediawiki/openpetraorg/index.php?title=Setup_of_Development_Environment_for_Ubuntu>
+- <https://github.com/openpetra/openpetra/blob/master/setup/petra0300/linuxserver/INSTALL>
