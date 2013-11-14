@@ -5,7 +5,6 @@
 - [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
 - [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
 - [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
-- 
 
 ## [[UseCases/Collaborating]] evaluation
 - [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
