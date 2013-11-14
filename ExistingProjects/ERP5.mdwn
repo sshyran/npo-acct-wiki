@@ -6,6 +6,8 @@
 * <http://www.osoe-project.org/web_page_module/3278> - How to install and use the ERP5 VM
 * <http://www.osoe-project.org/lesson/osoe-Lecture.ERP.Configuration.Introduction> - Online Lectures including accounting.
 * <http://www.erp5.com/documentation/user> - Other user documents.
+* <http://www.osoe-project.org/lesson/osoe-Lecture.ERP.Configuration.Introduction/P-OSOE-Accounting.Mathematician/view> - Accounting for Mathematicians
+
 
 ## Technical
 
