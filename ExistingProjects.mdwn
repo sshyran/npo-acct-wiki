@@ -30,4 +30,3 @@ TODO:
 * [[ExistingProjects/Postbooks]]
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
-* [[ExistingProjects/TurboCASH]]
