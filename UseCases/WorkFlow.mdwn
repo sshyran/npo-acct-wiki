@@ -5,7 +5,7 @@ of uses.  While the ability to impose a specific workflow (e.g., for a
 bookkeeper who might make an error easily if the system doesn't require a
 workflow), the  workflow should not be dictated.
 
-## <a class="idOnly" id="unaccrued-invoice">The "Unaccrued Invoice" Example</a>
+## <a id="unaccrued-invoice"></a>The "Unaccrued Invoice" Example
 
 
 The easiest example I have of this relates to accruing income upon invoice
