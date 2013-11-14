@@ -9,7 +9,7 @@ Here's another one with *emphasised* text.
 # Header
 
 ## Subheader
-<a id="test">&nbsp;</a>
+<a id="test"></a>
 
 > This is a blockquote.
 >
