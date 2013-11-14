@@ -22,7 +22,7 @@ Links:
 
 ## Preliminary evaluation
 
-- [Initial open source release in August 2013](https://github.com/system76/beansbooks/commit/96e8605d7553e56004376336bb961ffcd9380b3c)
+- [Initial source release in August 2013](https://github.com/system76/beansbooks/commit/96e8605d7553e56004376336bb961ffcd9380b3c)
 
 ### Positive
 
@@ -33,4 +33,4 @@ Links:
 ### Negative
 
 - 1 [active contributor](https://github.com/system76/beansbooks/graphs/contributors) as of 2013-11-12
-- Odd licensing: <https://beansbooks.com/home/opensource>
+- Not free software: <https://beansbooks.com/home/opensource>
