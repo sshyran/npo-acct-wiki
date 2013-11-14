@@ -1,10 +1,15 @@
-<a id="GeneratingReports"></a>
-## [[UseCases/GeneratingReports]] evaluation
-
-- Does it support Fund Reports?
-
+## Evaluation of GeneratingReports UseCases
+- [[Trial Balance Report|GeneratingReports#trial-balance]]: FIXME
+- [[Bank Reconciliation Report|GeneratingReports#bank-reconcilation]]: FIXME
+- [[Chart of Accounts|GeneratingReports#chart-of-accounts]]: FIXME
+- [[Cash Disbursements Journal|GeneratingReports#cash-disbursements]]: FIXME
+- [[Income Report|GeneratingReports#income-report]]: FIXME
+- [[Expense Report|GeneratingReports#expense-report]]: FIXME
+- 
 <a id="Collaborating"></a>
 ## [[UseCases/Collaborating]] evaluation
+- [[Simultaneous Editing of Ledger|Collaborating#simultaneous-ledger-edits]]: FIXME
+- FIXME: Other uses cases need rewrite.
 
-- Does it support multiple users working on the same ledger?
-- ...
+## Evaluation of WorkFlow UseCases
+- [[Unaccrued Invoice?|UseCases/WorkFlow#unaccrued-invioice]]: FIXME

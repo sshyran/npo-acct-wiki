@@ -6,6 +6,7 @@ bookkeeper who might make an error easily if the system doesn't require a
 workflow), the  workflow should not be dictated.
 
 ## The "Unaccrued Invoice" Example
+<a id="unaccrued-invoice"/>
 
 The easiest example I have of this relates to accruing income upon invoice
 generation.  Non-profits very typically generate invoices as part of a
