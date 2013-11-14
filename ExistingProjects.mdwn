@@ -16,7 +16,6 @@ TODO:
 * [[ExistingProjects/Bookyt]]
 * [[ExistingProjects/ERP5]]
 * [[ExistingProjects/ERPNext]]
-* [[ExistingProjects/Frontaccounting]]
 * [[ExistingProjects/Garradin]]
 * [[ExistingProjects/GNUEnterprise]]
 * [[ExistingProjects/GNUCash]]
