@@ -27,4 +27,4 @@ Resources
 - <https://build.opensuse.org/project/show/home:tpokorra:openpetra>
 - <http://sourceforge.net/apps/mediawiki/openpetraorg/index.php?title=Setup_of_Development_environment>
 - <http://sourceforge.net/apps/mediawiki/openpetraorg/index.php?title=Setup_of_Development_Environment_for_Ubuntu>
-- <https://github.com/openpetra/openpetra/blob/master/setup/petra0300/linuxserver/INSTALL>
+- <https://github.com/openpetra/openpetra/blob/master/setup/petra0300/linuxserver/INSTALL>, or up to date <https://github.com/tpokorra/openpetragit/blob/feature2013_09_remoting/setup/petra0300/linuxserver/INSTALL>
