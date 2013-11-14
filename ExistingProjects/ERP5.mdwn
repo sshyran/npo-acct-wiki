@@ -23,6 +23,7 @@
 
 ### Negative
 
+- Community: The mailing lists are not very active, see <http://mail.tiolive.com/pipermail/erp5-users/>, <http://mail.tiolive.com/pipermail/erp5-dev/>
 
 ### Comments
 
