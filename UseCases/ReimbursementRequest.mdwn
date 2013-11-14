@@ -39,3 +39,12 @@ From traveler's/reimbursement-requester's view, they'll need:
   * Updates on the external web interface system about status when the
     expense is moving through the internal system at the organization. 
   * Automatic calculation of any per-diem allowances.
+
+## Reimbursement on Behalf Of
+
+A classic scenario that occurs for non-profits is an employee or a contractor
+buys an item that is actually for someone else.  For example, a volunteer
+needs a plane ticket to go to a conference, so an employee or someone else
+(the "Floater") who can "float" the expense makes the purchase.  The
+reimbursement request comes in from the Floater but the real person who
+received the item should be recorded.
