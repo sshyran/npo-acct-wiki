@@ -11,10 +11,13 @@ Links:
 
 Kuali seems like a complex set of machinery, with many projects or distributions with different attributes.
 
+- Partially under "All rights reserved" licensing: http://testdrive.kfs.kuali.org/kfs-ptd/acknowledgements.jsp, should not be an issue.
+
 ### Positive
 
-- Backed by Kuali Foundation
+- Backed by Kuali Foundation.
 
 ### Negative
 
-- [Goofy licensing](http://testdrive.kfs.kuali.org/kfs-ptd/acknowledgements.jsp)
+- No public source control.
+- No open community channels such as mailing list, message board, IRC channel.
