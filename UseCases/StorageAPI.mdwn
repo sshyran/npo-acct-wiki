@@ -65,3 +65,14 @@ Entries have the following fields:
 
 Each entry has a globally unique identifier that does not change after its
 first creation.
+
+# Storage in RDF
+<a id="rdf"></a>
+It was suggested on the
+[mailing list that RDF might be an interesting format to explore for representation of the stored data](http://lists.sfconservancy.org/pipermail/npo-accounting/2013q4/000097.html).
+This idea might be worth exploring, but the open question is whether or not
+the StorageAPI needs to specify a specific format?
+
+Regarding this, review of
+[Up The Asset](https://github.com/zacharyvoase/uptheasset) and
+[3account](https://code.google.com/p/3account/) might be useful.
