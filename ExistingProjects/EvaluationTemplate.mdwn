@@ -67,4 +67,5 @@ does, so I think it's tough to do it as a list of questions.
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
 - Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?
-- Is the [[license GPL-compatible||USeCases/CommunityHealth#gpl-compatible]]?
+- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]?
+- Does the project [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?

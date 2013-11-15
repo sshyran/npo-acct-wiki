@@ -1,6 +1,6 @@
 # Health of the Development Community
 
-## Good License Choice
+## Good License and Legal Requirements Choices
 
 <a id="license-approved"></a>
 Obviously, code that's not under a license that is both
@@ -15,4 +15,19 @@ so that code from GPL'd projects can be easily shared and GPL'd applications
 can be built on top of anything we build.  Code not under a GPL-compatible
 license would face a high burden (i.e., the code would really have to be
 absolutely wonderful in all other respects) to dictate such a license choice.
+
+<a id="no-cla-for-profit"></a>
+If the project has a CLA other than inbound=outbound, or has copyright
+assignment, the beneficiary has to be a 501(c)(3) non-profit, as non-profit
+contributors may not be legally permitted to give away code assets to a
+for-profit entity or an entity with a different tax status.
+
+Even for 501(c)(3)'s requesting a CLA or copyright assignment, there would
+need to be a confirmation that the missions of the orgs were sufficiently
+aligned.
+
+Given that the project is going to solicit support and contributions from
+501(c)(3)'s, this issue is particularly important.
+
+## No Legal Barriers
 
