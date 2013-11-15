@@ -26,3 +26,73 @@
 - It seems to be built from scratch and not leverage any frameworks.
 - Seems like a messy codebase: Table-based design. No templating, HTML is `echo`-ed to stdout.
 - Uses the [deprecated](http://php.net/manual/en/function.mysql-connect.php) PHP `mysql_*` functions.
+
+## Detailed Evaluation
+
+## Evaluation of [Reporting|UseCases/GeneratingReports] UseCases
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: Yes, seems ok
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: Yes
+- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: Yes, looks like GL Account Transactions works for this
+- [[Income Report|UseCases/GeneratingReports#income-report]]: Not obviously
+  there, but should be easy given the number of reports available.
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: Not obviously
+  there, but should be easy given the number of reports available.
+
+## Evaluation of [Reporting|UseCases/GeneratingReports] UseCases for Fund Accounting
+
+It seems FrontAccounting's "Dimension" feature likely can do all of these,
+since it seems you can limit any of the above reports by "Dimension".
+
+## Evaluation of [[Fund Accounting|UseCases/FundAccounting]] UseCases
+
+- [[Fund-only View|UseCases/FundAccounting#fund-view]]: No, seems to be no way to
+restrict a user to a specific Dimension.
+- [[Funds as part of whole org View|UseCases/FundAccounting#fundless-view]]:
+  Yes, dimensions appear to be purely informative.
+- [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]]:
+  Yes, dimensions appear to be purely informative.
+
+# Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
+
+- Does the system implement pure double-entry accounting?  Yes, it appears to
+  do so.
+
+# Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
+
+- Does the system
+  [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]?
+  Not that I can find.  It doesn't seem to allow addition links to external documents.
+
+- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]?
+  Not that I can find.
+
+# Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
+
+- Does it support the concept of
+  [[a single functional currency|UseCases/MultiCurrency]], while still
+  permitting multi-currency entries?  It probably could be beat in submission
+  to work.  It does have the knowledge of a default currency and converts to
+  it based on stored rates and reports come in the default currency.
+  However, it doesn't appear that you can confine those to a single
+  transaction.
+
+## Evaluation of WorkFlow UseCases
+- Is a
+  [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]]
+  ?  It does appear that there are certain automated operations that occur
+  upon creation of invoices, and purchase orders are required.
+  
+- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]]
+  ? No.
+- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ? Seems you
+  can't generate an invoice without accruing it.
+- [[Purchase Order required|UseCases/WorkFlow#purchase-order-required]] ?
+  Seems that way.
+
+# Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
+
+Interaction with the data seems to happen with embedded SQL statements
+intermixed with PHP code.
+
+# Evaluation of the [[Storage API|UseCases/StorageAPI]]
