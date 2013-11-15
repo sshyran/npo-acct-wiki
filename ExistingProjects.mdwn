@@ -14,7 +14,6 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/Bookyt]]
 * [[ExistingProjects/ERP5]]
 * [[ExistingProjects/ERPNext]]
-* [[ExistingProjects/Frontaccounting]]
 * [[ExistingProjects/Garradin]]
 * [[ExistingProjects/GNUEnterprise]]
 * [[ExistingProjects/GNUCash]]
@@ -29,3 +28,17 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
 * [[ExistingProjects/webERP]]: <http://www.weberp.org/> NOTE: [[Frontaccounting|ExistingProjects/Frontaccounting]] is a fork of webERP.
+
+
+## Projects Rejected
+
+These projects have been evaluated as part of this effort and rejected, both
+for a basis of this project or for any code reuse.  A few of the primary
+reasons are given on this page, but the whole evaluation can be read on the
+linked page.
+
+* [[ExistingProjects/Frontaccounting#final-eval]]
+  * Straight PHP with no framework
+  * Data model somewhat messy, accounting not clearly separated.
+  * Only one or two developers.
+  * Workflow not easily configured.

@@ -104,3 +104,40 @@ Again, SQL appears to be the only way to interact with the storage of
 double-entry data.  Double-entry data does not appear to be segmented away
 from the other information.
 
+### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
+- Is the
+  [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?
+  Yes, it's GPL'ed.
+- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]? Yes.
+- Does the project
+  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?
+  Doesn't seem to require that.
+- How many
+  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]?
+  Likely two, as two developers made 98% of the commits:
+        hg log|egrep '^user'|sort | uniq
+     * If there aren't many, how hard would it be to take over the project if
+       needed? Does not seem that easy given how it's designed.
+- Is there good
+  [[developer documentation|UseCases/CommunityHealth#dev-docs]]?
+  There's a
+  [bit on the wiki](http://frontaccounting.com/fawiki/index.php?n=Devel.Devel)
+  but not much.
+- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?
+  [Developers mailing list](http://sourceforge.net/mailarchive/forum.php?forum_name=frontaccounting-fa_list)
+  is barely active.
+
+## Final Evaluation
+<a id="final-eval"></a>
+
+Frontaccounting seems to be a project kept alive by just two people who
+presumably have deployments that are driving their work, but generally, there
+is not much unique about this codebase, and the design doesn't seem to have
+many reusuable components.  Converting it for use with non-profits would be
+an uphill battle.  While the system clearly works, and is in fact very easy
+to install, it has many assumptions about workflow that are likely specific
+to its current deployments and inappropriate for non-profits. 
+
+Finally, The use of straight PHP without a framework, and use of deprecated
+techniques and APIs means that it will be difficult to attract new
+developers.
