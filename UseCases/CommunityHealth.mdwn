@@ -29,5 +29,17 @@ aligned.
 Given that the project is going to solicit support and contributions from
 501(c)(3)'s, this issue is particularly important.
 
-## No Legal Barriers
+## Developer Documentation
 
+<a id="dev-docs"></a>
+
+The right choice has to have an accessible codebase.  Since no accounting
+package yet deals with the issues specific to non-profit organizations, this
+project will have to focus on bringing developers *to* the new project.
+
+<a id="dev-welcoming"></a>
+
+As such, the codebase needs to be accessible.  Communication with the
+core developers should be possible and interactive.  The project should
+be willing to accept new contributors who might want to make substantial
+changes to the codebase.
