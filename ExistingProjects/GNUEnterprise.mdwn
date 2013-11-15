@@ -14,4 +14,4 @@ Links
 - GNUe-dev mailing list is not very active: <http://lists.gnu.org/archive/html/gnue-dev/>
 - GNUe mailing list is not very active: <http://lists.gnu.org/archive/html/gnue/>
 - No GNUe announcements since 2009: <http://lists.gnu.org/archive/html/gnue-announce/>
-- I can get the bazaar repo and then get all the GNUe packages by running `./bin/bzr-get-all`, each of the GNUe packages then have an `INSTALL` file in its subdirectory but I cannot find meta-installation instructions for the GNUe anywhere.
+- I can get the bazaar repo and then get all the GNUe packages by running `./bin/bzr-get-all`, each of the GNUe packages then have an `INSTALL` file in its subdirectory but I cannot find meta-installation instructions for GNUe anywhere.
