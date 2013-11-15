@@ -7,12 +7,12 @@ Links:
 Demo: <https://demo.erpnext.com>
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
-- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
-- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
-- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: [Yes](https://demo.erpnext.com/app.html#trial-balance)
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: [Yes](https://demo.erpnext.com/app.html#Form/Bank%20Reconciliation/Bank%20Reconciliation)
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: [Yes](https://demo.erpnext.com/app.html#Accounts%20Browser/Account)
 - [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
-- [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
-- [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
+- [[Income Report|UseCases/GeneratingReports#income-report]]: [Kind of](https://demo.erpnext.com/app.html#financial-analytics)
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: Yes, shown together with "Income Report" and a graph.
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases for Fund Accounting
 
