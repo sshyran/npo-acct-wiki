@@ -2,5 +2,14 @@ Links
 
 - [[!wikipedia GNU_Enterprise]] - Wikipedia
 - <http://www.gnuenterprise.org> - Project homepage
+- <http://www.gnu.org/software/gnue/gnue.html> - FSF's GNUe page, which http://gnuenterprise.org redirects to.
 
-<http://www.gnuenterprise.org> and <http://gnuenterprise.org> has been unreachable on 2013-10-22, 2013-10-23, 2013-10-24.
+<http://www.gnuenterprise.org> and <http://gnuenterprise.org> has been unreachable on 2013-10-22, 2013-10-23, 2013-10-24. It is reachable as of 2013-11-15.
+
+## Technical
+
+## Preliminary evaluation
+
+- GNUe-dev mailing list is not very active: http://lists.gnu.org/archive/html/gnue-dev/
+- GNUe mailing list is not very active: http://lists.gnu.org/archive/html/gnue/
+<!-- - The savannah source code repository contains only two revisions, it does not seem to contain : http://bzr.savannah.gnu.org/lh/gnue/changes -->
