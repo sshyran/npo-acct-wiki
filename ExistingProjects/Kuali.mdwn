@@ -23,6 +23,7 @@ Kuali seems like a complex set of machinery, with many projects or distributions
 - No open community channels such as mailing list, message board, IRC channel. This makes it very hard to find information about Kuali. The documentation is also very inconvenient as every section is a separate page, making it hard to get an overview of how Kuali works and its capabilities.
 - Uses the `<iframe>` element to wrap the content of the pages.
 - Uses tables for layout
+- User interface is "very confusing"
 
 ## Detailed evaluation
 
@@ -95,11 +96,11 @@ does, so I think it's tough to do it as a list of questions.
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
 - Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]? Yes
-- Is the [[license GPL-compatible|UseCases/CommunityHealth#gpl-compatible]]?
+- Is the [[license GPL-compatible|UseCases/CommunityHealth#gpl-compatible]]? No
 - Does the project
   [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?
 - How many
-  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]?
+  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]? Unknown
      * If there aren't many, how hard would it be to take over the project if needed?
-- Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]?
-- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?
+- Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]? Collaboration documentation is `404 Not found` - <http://www.kuali.org/kfs/support>, developer documentation might be in the [public documentation](https://wiki.kuali.org/display/KULDOC/Home). The documentation is not very browsing-friendly.
+- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]? Collaboration documentation is `404 Not found` - <http://www.kuali.org/kfs/support>
