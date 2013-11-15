@@ -30,3 +30,13 @@ this is true, but for non-profits, there is good reason to generate invoices
 before accruing the income.  In fact, if you're  generating an invoice merely
 to "inspire" a donation, it's wrong to accrue that, since you don't have a
 good faith belief that the invoice will be paid.
+
+## <a id="purchase-order-required"></a>The "Purchase Order Required" Example
+
+Many organizations do require issuance of a purchase order before invoicing
+is permitted.  However, this isn't mandatory, it's just common practice and
+likely this isn't even possible with the types of
+[[reimbursement requests|UseCases/ReimbursementRequests]] that some
+non-profits have.  (By way of example, Conservancy is sometimes "surprised"
+by a volunteer [[reimbursement requests|UseCases/ReimbursementRequests]], so
+there's no way we can "require" a PO issuance before accepting any invoice.
