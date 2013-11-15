@@ -3,6 +3,7 @@ Links
 - [[!wikipedia GNU_Enterprise]] - Wikipedia
 - <http://www.gnuenterprise.org> - Project homepage
 - <http://www.gnu.org/software/gnue/gnue.html> - FSF's GNUe page, which http://gnuenterprise.org redirects to.
+- <http://bzr.savannah.gnu.org/lh/gnue/> - Source code
 
 <http://www.gnuenterprise.org> and <http://gnuenterprise.org> has been unreachable on 2013-10-22, 2013-10-23, 2013-10-24. It is reachable as of 2013-11-15.
 
