@@ -27,7 +27,7 @@ essence, the books of a fiscal sponsoring org are proper superset of all the
 books of its projects.
 
 Thus, an individual project contributor wants to:
-
+<a id="fund-view"></a>
 - View the books for that project as an independent set, unencumbered by
   transactions for other projects.
 
@@ -36,11 +36,13 @@ Thus, an individual project contributor wants to:
 
 The non-profit administrators want to:
 
+<a id="fundless-view"></a>
 - View the entire set of books for the organization, treating all income,
   expenses, and assets as belonging to the entire org, and only seeing the
   differences treating the project funds merely as "temporarily restricted
   assets".
 
+<a id="fundless-operation"></a>
 - Be able to perform operations that span the entire books, such as
   reconciling bank accounts that are contain funds temporarily restricted for
   different projects.
