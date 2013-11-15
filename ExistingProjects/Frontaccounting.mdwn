@@ -29,7 +29,7 @@
 
 ## Detailed Evaluation
 
-## Evaluation of [Reporting|UseCases/GeneratingReports] UseCases
+## Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: Yes, seems ok
 - [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: Yes
@@ -39,7 +39,7 @@
 - [[Expense Report|UseCases/GeneratingReports#expense-report]]: Not obviously
   there, but should be easy given the number of reports available.
 
-## Evaluation of [Reporting|UseCases/GeneratingReports] UseCases for Fund Accounting
+## Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases for Fund Accounting
 
 It seems FrontAccounting's "Dimension" feature likely can do all of these,
 since it seems you can limit any of the above reports by "Dimension".
