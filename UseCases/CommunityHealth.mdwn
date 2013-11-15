@@ -1,0 +1,18 @@
+# Health of the Development Community
+
+## Good License Choice
+
+<a id="license-approved"></a>
+Obviously, code that's not under a license that is both
+[OSI approved](http://opensource.org/licenses/alphabetical) and is not
+[approved by FSF as a Free Software license](http://www.gnu.org/licenses/license-list.html#SoftwareLicenses)
+is completely useless to us.
+
+<a id="gpl-compatible"></a>
+It would also be quite preferable if the code were under a
+[a license that FSF has determined is GPL-compatible](http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses),
+so that code from GPL'd projects can be easily shared and GPL'd applications
+can be built on top of anything we build.  Code not under a GPL-compatible
+license would face a high burden (i.e., the code would really have to be
+absolutely wonderful in all other respects) to dictate such a license choice.
+

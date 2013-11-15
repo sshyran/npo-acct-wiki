@@ -36,3 +36,4 @@ criteria in evaluating ExistingProjects, then please make sure to update the
 
 - [[Reading and Reporting API|UseCases/ReadingAPI]]
 - [[Storage API|UseCases/StorageAPI]]
+- [[Health Assessment of the Development Community|UseCases/CommunityHealth]]

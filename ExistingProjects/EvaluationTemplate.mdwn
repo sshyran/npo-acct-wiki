@@ -64,3 +64,7 @@ data does, so I think it's tough to do it as a list of questions.
 
 FIXME: This is assessment of what the API for storing the accounting data
 does, so I think it's tough to do it as a list of questions.
+
+### Evaluation of the [[Community Health|USeCases/CommunityHealth]]
+- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?
+- Is the [[license GPL-compatible||USeCases/CommunityHealth#gpl-compatible]]?
