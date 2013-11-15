@@ -1,4 +1,4 @@
-## Evaluation of UseCases/GeneratingReports UseCases
+## Evaluation of [Reporting|UseCases/GeneratingReports] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
 - [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
