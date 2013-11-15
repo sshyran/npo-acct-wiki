@@ -29,7 +29,7 @@
 
 ## Detailed Evaluation
 
-## Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
+### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: Yes, seems ok
 - [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: Yes
@@ -39,12 +39,12 @@
 - [[Expense Report|UseCases/GeneratingReports#expense-report]]: Not obviously
   there, but should be easy given the number of reports available.
 
-## Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases for Fund Accounting
+### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases for Fund Accounting
 
 It seems FrontAccounting's "Dimension" feature likely can do all of these,
 since it seems you can limit any of the above reports by "Dimension".
 
-## Evaluation of [[Fund Accounting|UseCases/FundAccounting]] UseCases
+### Evaluation of [[Fund Accounting|UseCases/FundAccounting]] UseCases
 
 - [[Fund-only View|UseCases/FundAccounting#fund-view]]: No, seems to be no way to
 restrict a user to a specific Dimension.
@@ -53,12 +53,12 @@ restrict a user to a specific Dimension.
 - [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]]:
   Yes, dimensions appear to be purely informative.
 
-# Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
+### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
 
 - Does the system implement pure double-entry accounting?  Yes, it appears to
   do so.
 
-# Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
+### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
 - Does the system
   [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]?
@@ -67,7 +67,7 @@ restrict a user to a specific Dimension.
 - Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]?
   Not that I can find.
 
-# Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
+### Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
 
 - Does it support the concept of
   [[a single functional currency|UseCases/MultiCurrency]], while still
@@ -77,7 +77,7 @@ restrict a user to a specific Dimension.
   However, it doesn't appear that you can confine those to a single
   transaction.
 
-## Evaluation of WorkFlow UseCases
+### Evaluation of WorkFlow UseCases
 - Is a
   [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]]
   ?  It does appear that there are certain automated operations that occur
@@ -90,7 +90,7 @@ restrict a user to a specific Dimension.
 - [[Purchase Order required|UseCases/WorkFlow#purchase-order-required]] ?
   Seems that way.
 
-# Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
+### Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
 Interaction with the data seems to happen with embedded SQL statements
 intermixed with PHP code.  Thus, writing SQL statements is really the only
@@ -98,7 +98,7 @@ way to interact with the data, and as such, given that there isn't anything
 specifically innovative about the data model, this is no better nor worse
 than most other projects of this nature.
 
-# Evaluation of the [[Storage API|UseCases/StorageAPI]]
+### Evaluation of the [[Storage API|UseCases/StorageAPI]]
 
 Again, SQL appears to be the only way to interact with the storage of
 double-entry data.  Double-entry data does not appear to be segmented away
