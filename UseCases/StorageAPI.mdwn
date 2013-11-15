@@ -31,6 +31,9 @@ following fields:
   balance, otherwise the posting is not valid.
 - State
 
+Each posting has a globally unique identifier that does not change after its
+first creation.
+
 ## State
 
 State has the following fields:
@@ -60,3 +63,5 @@ Entries have the following fields:
 - (optional) zero or more key value pairs for tagging
 
 
+Each entry has a globally unique identifier that does not change after its
+first creation.
