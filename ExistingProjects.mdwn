@@ -15,7 +15,6 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/ERP5]]
 * [[ExistingProjects/ERPNext]]
 * [[ExistingProjects/Garradin]]
-* [[ExistingProjects/GNUEnterprise]]
 * [[ExistingProjects/GNUCash]]
 * [[ExistingProjects/Kuali]]
 * [[ExistingProjects/Ledger]]
@@ -43,3 +42,6 @@ linked page.
   * Data model somewhat messy, accounting not clearly separated.
   * Only one or two developers.
   * Workflow not easily configured.
+* [[ExistingProjects/GNUEnterprise]] 
+> GNU Enterprise is not a Finance/ERP/Accounting software (yet). While the original project goal was to create exactly that, the maintainers at that time decided that as a first step, good development tools for database centered applications should be created. The focus of development then was strongly on these tools, and while they are to a certain extent usable to actually create database applications, further development in the project has come to a halt because most (all) developers shifted their energy to other projects.  
+ -- Reinhard Mueller
