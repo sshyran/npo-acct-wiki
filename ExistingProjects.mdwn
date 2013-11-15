@@ -6,10 +6,6 @@ These projects will be evaluated for suitability and/or adaptability.  We
 have an [[template you can use|ExistingProjects/EvaluationTemplate]] to
 evaluate these projects to the UseCases we've collected so far.
 
-TODO:
-
-- Look at the packages listed in <https://en.wikipedia.org/wiki/List_of_ERP_software_packages>
-
 ## List of projects under evaluation
 
 * [[ExistingProjects/ADempiere]]
@@ -27,7 +23,9 @@ TODO:
 * [[ExistingProjects/LedgerSMB]]
 * [[ExistingProjects/npo-ledger-cli]]
 * [[ExistingProjects/OpenERP]]
+* [[ExistingProjects/OpenBravo]] : <http://www.openbravo.com/>
 * [[ExistingProjects/OpenPetra]]
 * [[ExistingProjects/Postbooks]]
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
+* [[ExistingProjects/webERP]]: <http://www.weberp.org/> NOTE: [[Frontaccounting|ExistingProjects/Frontaccounting]] is a fork of webERP.
