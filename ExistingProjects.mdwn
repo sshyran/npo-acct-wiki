@@ -2,7 +2,9 @@ There are a number of existing accounting projects. Some of these are listed und
 
 **If your project isn't listed here, feel free to add it!**
 
-These projects will be evaluated for suitability and/or adaptability.
+These projects will be evaluated for suitability and/or adaptability.  We
+have an [[template you can use|ExistingProjects/EvaluationTemplate]] to
+evaluate these projects to the UseCases we've collected so far.
 
 TODO:
 

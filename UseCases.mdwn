@@ -13,6 +13,12 @@ You should add your use case as a subpage of the [[UseCases]] page, to create a 
 
 ## Use cases
 
+If you add or edit UseCases here, please also keep the
+[[evaluation template|ExistingProjects/EvaluationTemplate]] in sync with the
+use cases.  In other words, if you add a UseCase important enough to be a
+criteria in evaluating ExistingProjects, then please make sure to update the
+[[evaluation template|ExistingProjects/EvaluationTemplate]].
+
 ### Non-Technical-User-Centric Use Cases
 - [[GeneratingReports]]
 - [[Collaborating]]
