@@ -93,6 +93,14 @@ restrict a user to a specific Dimension.
 # Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
 Interaction with the data seems to happen with embedded SQL statements
-intermixed with PHP code.
+intermixed with PHP code.  Thus, writing SQL statements is really the only
+way to interact with the data, and as such, given that there isn't anything
+specifically innovative about the data model, this is no better nor worse
+than most other projects of this nature.
 
 # Evaluation of the [[Storage API|UseCases/StorageAPI]]
+
+Again, SQL appears to be the only way to interact with the storage of
+double-entry data.  Double-entry data does not appear to be segmented away
+from the other information.
+
