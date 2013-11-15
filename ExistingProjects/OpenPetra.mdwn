@@ -22,6 +22,7 @@ Links
 - [Well-commented source code](http://www.ohloh.net/p/openpetraorg)
 - [Extensibility is core](http://www.openpetra.org/organisation-benefits)
 - Ledger-specific access control, three access levels.
+- using fixed point arithmetic: System.Decimal data type for all money related variables (changed from Double to Decimal in end of 2010: https://github.com/openpetra/openpetra/commit/a1717237825a6c8f0d5e032c843241ed918e2344)
 
 ### Negative
 
