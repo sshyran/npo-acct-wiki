@@ -13,4 +13,5 @@ Links
 
 - GNUe-dev mailing list is not very active: http://lists.gnu.org/archive/html/gnue-dev/
 - GNUe mailing list is not very active: http://lists.gnu.org/archive/html/gnue/
+- No GNUe announcements since 2009: http://lists.gnu.org/archive/html/gnue-announce/
 <!-- - The savannah source code repository contains only two revisions, it does not seem to contain : http://bzr.savannah.gnu.org/lh/gnue/changes -->
