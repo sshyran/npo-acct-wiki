@@ -40,6 +40,7 @@ Links:
     - Also avaiilable on pypy  <https://pypi.python.org/pypi?%3Aaction=search&term=tryton&submit=search>.
 - Separated client and server presumably making collaboration easy
 - Can create reports -- [[!wikipedia Tryton#Technical_features]]
+- Using fixed point in Accouting. Decimal is used on server layer and numeric on the database layer. 
 
 ## [[UseCases/GeneratingReports]] Evaluation
 
