@@ -9,7 +9,7 @@ There are roughly two operating modes that I've observed in use by non-profit
 organizations.
 
 ## A "One Native Currency" Organization
-<a id="functional-currency"/>
+<a id="functional-currency"></a>
 In the USA at least, and perhaps elsewhere, the native currency to the
 location of the entity is treated as the "one true currency" (which the USA
 IRS calls your "functional currency") of the organization.  Specifically in

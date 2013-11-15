@@ -16,7 +16,7 @@ of backup documentation.
 
 Ideally, the system should allow the exploration of and linkage to
 documentation in both directions.  It should be trivial to answer questions
-such as:<a id="document-link-explore"/>
+such as:<a id="document-link-explore"></a>
 
    * I have this receipt/invoice from our document repository.  Which
      accounting transactions relate to this receipt?  Has the transaction

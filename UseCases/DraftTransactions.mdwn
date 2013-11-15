@@ -1,6 +1,6 @@
 # Generating Draft Transactions
 
-<a id="draft-general"/>
+<a id="draft-general"></a>
 
 As a manager at a nonprofit, I need the ability to have staff propose draft
 transactions that are not added to the books official until approved.
