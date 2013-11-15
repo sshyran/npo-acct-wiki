@@ -2,7 +2,10 @@
 
 - [[!wikipedia Frontaccounting]] - Wikipedia
 - <http://frontaccounting.com> - Project homepage
-
+- Source Code Clone: hg clone http://hg.code.sf.net/p/frontaccounting/mercurial frontaccounting-mercurial
+   (Found only by chasing
+   [Wiki](http://frontaccounting.com/fawiki/) link from homepage, which
+   led to [Sourceforge page](http://sourceforge.net/p/frontaccounting/mercurial/ci/default/tree/)
 
 ## Technical
 
