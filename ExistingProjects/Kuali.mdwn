@@ -21,3 +21,83 @@ Kuali seems like a complex set of machinery, with many projects or distributions
 
 - No public source control.
 - No open community channels such as mailing list, message board, IRC channel. This makes it very hard to find information about Kuali. The documentation is also very inconvenient as every section is a separate page, making it hard to get an overview of how Kuali works and its capabilities.
+
+## Detailed evaluation
+
+### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
+- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
+- [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
+
+### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases for Fund Accounting
+
+Can each of these reports be generated, confined to a specific temporarily
+restricted asset type?
+   
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
+- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
+- [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
+
+### Evaluation of [[Fund Accounting|UseCases/FundAccounting]] UseCases
+
+- [[Fund-only View|UseCases/FundAccounting#fund-view]]
+- [[Funds as part of whole org View|UseCases/FundAccounting#fundless-view]]
+- [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]]
+
+### [[UseCases/Collaborating]] evaluation
+- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
+- FIXME: Other uses cases need rewrite.
+
+### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
+
+- Does the system implement pure double-entry accounting?
+
+### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
+
+- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]?
+
+- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]?
+
+### Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
+
+- Does it support the concept of
+  [[a single functional currency|UseCases/MultiCurrency]], while still
+  permitting multi-currency entries?
+
+### Evaluation of [[draft transaction|UseCases/DraftTransactions]] UseCases
+
+- Does the system allow
+  [[generally for draft transactions|UseCases/DraftTransactions#draft-general]]
+  that can be later approved before officially being posted to the books? 
+
+### Evaluation of WorkFlow UseCases
+- Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]] ?
+- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ?
+- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ?
+
+### Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
+
+FIXME: This is assessment of what the API for manipulating the accounting
+data does, so I think it's tough to do it as a list of questions.
+
+### Evaluation of the [[Storage API|UseCases/StorageAPI]]
+
+FIXME: This is assessment of what the API for storing the accounting data
+does, so I think it's tough to do it as a list of questions.
+
+### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
+- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?
+- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]?
+- Does the project
+  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?
+- How many
+  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]?
+     * If there aren't many, how hard would it be to take over the project if needed?
+- Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]?
+- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?
