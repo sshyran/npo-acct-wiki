@@ -32,7 +32,7 @@ criteria in evaluating ExistingProjects, then please make sure to update the
 - [[Draft transactions and approval|UseCases/DraftTransactions]]
 - [[Workflow for Non-Profit Accounting|UseCases/WorkFlow]]
 
-### Technical-User-Center Use Cases
+### Technical-User-Centeric Use Cases
 
 - [[Reading and Reporting API|UseCases/ReadingAPI]]
 - [[Storage API|UseCases/StorageAPI]]
