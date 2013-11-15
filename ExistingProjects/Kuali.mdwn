@@ -21,6 +21,8 @@ Kuali seems like a complex set of machinery, with many projects or distributions
 
 - No public source control.
 - No open community channels such as mailing list, message board, IRC channel. This makes it very hard to find information about Kuali. The documentation is also very inconvenient as every section is a separate page, making it hard to get an overview of how Kuali works and its capabilities.
+- Uses the `<iframe>` element to wrap the content of the pages.
+- Uses tables for layout
 
 ## Detailed evaluation
 
@@ -92,8 +94,8 @@ FIXME: This is assessment of what the API for storing the accounting data
 does, so I think it's tough to do it as a list of questions.
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
-- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?
-- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]?
+- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]? Yes
+- Is the [[license GPL-compatible|UseCases/CommunityHealth#gpl-compatible]]?
 - Does the project
   [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?
 - How many
