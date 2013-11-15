@@ -70,5 +70,8 @@ does, so I think it's tough to do it as a list of questions.
 - Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]?
 - Does the project
   [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?
+- How many
+  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]?
+     * If there aren't many, how hard would it be to take over the project if needed?
 - Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]?
 - How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?

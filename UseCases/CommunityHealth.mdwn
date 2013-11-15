@@ -29,7 +29,7 @@ aligned.
 Given that the project is going to solicit support and contributions from
 501(c)(3)'s, this issue is particularly important.
 
-## Developer Documentation
+## Developer Documentation and Community
 
 <a id="dev-docs"></a>
 
@@ -43,3 +43,12 @@ As such, the codebase needs to be accessible.  Communication with the
 core developers should be possible and interactive.  The project should
 be willing to accept new contributors who might want to make substantial
 changes to the codebase.
+
+<a id="dev-count"></a>
+
+A project with just one or two active developers, or where all the current
+developers appear to be employed by one company, has serious community health
+issues.  Building a community around such a codebase is an uphill battle.  If
+we build on such a project, we should be prepared to become the maintainer of
+the project if we have to, since the company or few individuals could move on
+with short notice.
