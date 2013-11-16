@@ -11,8 +11,15 @@ The information on this page is preliminary, open for comments.
 ## Technical
 
 * Java
-* Jython
+* XML
 * Groovy
+* Freemarker
+* Javascript
+* CSS
+* Ant
+
+You can rely on [[https://www.ohloh.net/p/Apache-OFBiz/analyses/latest/languages_summary]] for details
+
 
 -- [[!wikipedia Apache_OFBiz#Open_Source_Libraries]]
 
@@ -20,16 +27,20 @@ The information on this page is preliminary, open for comments.
 
 ### Positive
 
+* Apache OFBIz is an ASF (Apache Software Fundation) TLP (Top Level Project) since July 2006. Since OFBiz is community backed (not backed by a company) this guarantees its sustainability (OFBiz exists since 2001). To get the idea, for instance compare [OFBiz activity](https://www.ohloh.net/p/Apache-OFBiz/commits/summary) with [the activity of a previously IBM backed project at the ASF (namely Geronimo)](https://www.ohloh.net/p/geronimo/commits/summary)
 * [Active development](https://issues.apache.org/jira/browse/OFBIZ)
 * Highly [Customizable](https://cwiki.apache.org/confluence/display/OFBIZ/Is+OFBiz+for+Me#IsOFBizforMe-AskingBuildvs.Buy)
 
 ### Negative
 
-* [In transitional phase](https://en.wikipedia.org/wiki/Apache_OFBiz#Open_Source_Libraries)
 * One tool for everything, possibly hard to streamline. <https://cwiki.apache.org/confluence/display/OFBREQDES/OFBiz+EZBiz> points to the contrary.
 * Documentation is split up in one page per section, hard to overview (it uses confluence, the same documentation system as [[Kuali]]). The documentation also has TODOs in multiple locations and is lacking content.
 * The community is hard to get in contact with, three mailing lists are provided, a request for assistance has been sent to the `user` mailing list.
 
 ### Comments
 
-Josh Berkus: there's no question that OFBiz could be customized into an NPO accounting program; it is tremendously customizable.  It is also, however, difficult and complex to install, maintain, or understand, and lacks the kind of documentation and existing user community required to support advanced usages from non-project-participants; we would need the direct assistance of the primary developers to accomplish anything.  More importantly, it would never be installable in standalone mode on a desktop machine; it would always need to be a server install.  Despite this, if we have 5 front-runners for this project, I think OFBiz should be one of them.
+*Josh Berkus:* there's no question that OFBiz could be customized into an NPO accounting program; it is tremendously customizable.  It is also, however, difficult and complex to install, maintain, or understand, and lacks the kind of documentation and existing user community required to support advanced usages from non-project-participants; we would need the direct assistance of the primary developers to accomplish anything.  More importantly, it would never be installable in standalone mode on a desktop machine; it would always need to be a server install.  Despite this, if we have 5 front-runners for this project, I think OFBiz should be one of them.
+
+*Jacques Le Roux (OFBiz committer and PMC member):* You can run OFBiz as a standalone application on a desktop machine as well. Of course if you use a server, people, through their browsers, can access this server instance which allows to share information and minimize resources consumption.
+
+
