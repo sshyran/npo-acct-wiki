@@ -43,6 +43,7 @@ You can rely on [[https://www.ohloh.net/p/Apache-OFBiz/analyses/latest/languages
 
 *Jacques Le Roux (OFBiz committer and PMC member):* You can run OFBiz as a standalone application on a desktop machine as well. Of course if you use a server, people, through their browsers, can access this server instance which allows to share information and minimize resources consumption.
 
+<a id="evaluation"></a>
 ## Evaluation
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
