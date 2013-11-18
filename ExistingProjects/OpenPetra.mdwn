@@ -119,7 +119,10 @@ does, so I think it's tough to do it as a list of questions.
 - How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?
 
 
-## [[UseCases/FundAccounting]] evaluation
+## Pre-evaluation template evaluations
+
+
+### [[UseCases/FundAccounting]] evaluation
 
 - Supports multiple ledgers
 
@@ -128,12 +131,12 @@ does, so I think it's tough to do it as a list of questions.
 2013-11-13 16:09:36     robp    re (eg. production of BS and I&E reports on a specific part of the CC structure)
 </pre>
 
-## [[UseCases/Collaborating]] evaluation
+### [[UseCases/Collaborating]] evaluation
 
 - Possible to have a central application server with multiple ledgers, access control per ledger
 - Multiple users can work on the same or separate ledgers at the same time
 
-## [[UseCases/GeneratingReports]] evaluation
+### [[UseCases/GeneratingReports]] evaluation
 
 <pre>
 2013-11-13 16:25:25     joar    and then about generating reports: http://npoacct.sfconservancy.org/UseCases/GeneratingReports/, ping robp
