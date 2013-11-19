@@ -85,4 +85,5 @@ Unfortunately, we discovered
 and decided that until this policy can be corrected to something more fitting
 with actual copyright law and that will allow us to contribute under the
 stated license of the project, it's not worth further evaluation of the codebase,
-since this policy is just not acceptable.
+since this policy is just not acceptable.  bkuhn has
+[raised the issue on the ERPNext Developers' Forum](https://groups.google.com/forum/?_escaped_fragment_=msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ#!msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ).

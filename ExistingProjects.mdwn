@@ -37,7 +37,9 @@ resolved at a later date and will remove the blocker of looking more closely
 at the project.
 
 * [[ExistingProjects/ERPNext#final-eval]]
-   * [The policy is problematic](https://github.com/webnotes/erpnext#copyright-for-contributors) for various reasons.
+   * [ERPNext's strange would-be copyright assignment policy is problematic](https://github.com/webnotes/erpnext#copyright-for-contributors)
+     for various reasons; bkuhn has
+[raised the issue on the ERPNext Developers' Forum](https://groups.google.com/forum/?_escaped_fragment_=msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ#!msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ).
    
 ## Projects Rejected
 <a id="rejected"></a>
