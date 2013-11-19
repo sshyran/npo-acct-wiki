@@ -28,6 +28,17 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/webERP]]: <http://www.weberp.org/> NOTE: [[Frontaccounting|ExistingProjects/Frontaccounting]] is a fork of webERP.
 
 
+## Projects Temporarily Rejected
+<a id="temp-reject"></a>
+
+These projects have been rejected temporarily (i.e., evaluation is on hold)
+because of some issue that seems unresolvable at the moment, but may be
+resolved at a later date and will remove the blocker of looking more closely
+at the project.
+
+* [[ExistingProjects/ERPNext#final-eval]]
+   * [The policy is problematic](https://github.com/webnotes/erpnext#copyright-for-contributors) for various reasons.
+   
 ## Projects Rejected
 <a id="rejected"></a>
 
@@ -44,10 +55,3 @@ linked page.
 * [[ExistingProjects/GNUEnterprise]] 
 > GNU Enterprise is not a Finance/ERP/Accounting software (yet). While the original project goal was to create exactly that, the maintainers at that time decided that as a first step, good development tools for database centered applications should be created. The focus of development then was strongly on these tools, and while they are to a certain extent usable to actually create database applications, further development in the project has come to a halt because most (all) developers shifted their energy to other projects.  
  -- Reinhard Mueller
-* [[ExistingProjects/ERPNext]] 
-> Unless otherwise asserted in the code files, Web Notes will own the copyright of all contributions too. That means Web Notes holds the rights to change the license in the future or offer Commercial Licenses. 
-> 
-> Web Notes will only accept copyright assertions in case of a significant contribution like a whole new functionality or a major rewrite. We believe if your contribution is significant then you should have a say in what license Web Notes selects in the future and/or have a right to any revenue Web Notes gets from a Commercial License. Either ways Web Notes will have the right to decide what is a "significant" contribution. 
-> 
-> Note: At the moment, Web Notes does not give Commercial License for ERPNext nor has specific plans do so in the future.  
-> -- <https://github.com/webnotes/erpnext/tree/54c1545c49132261f7ac6e9b5c051ed46a965d5c#copyright-for-contributors></p></blockquote>
