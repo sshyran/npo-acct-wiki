@@ -6,6 +6,21 @@ Links:
 
 Demo: <https://demo.erpnext.com>
 
+### Evaluation of codebase & development
+
+The framework [wnframework](https://github.com/webnotes/wnframework) is used and seemingly developed in parallel.
+
+The python code does not follow the guidelines in [PEP8](http://www.python.org/dev/peps/pep-0008/).
+
+
+#### Database
+
+wnframework contains a database model abstraction which is used in some places, though there are > 2000 places where raw SQL is composed using python's `'foo %' % ('bar')` string formatting. I have managed to cause some minor SQL injections, I have not yet found any places where I can cause significant damage / data loss.
+
+Not using a database abstraction model such as SQLAlchemy reduces storage portability and adds security overhead to ensure that no malicious queries can be executed.
+
+In those places I have seen, no input sanitation was performed, although they were only SELECT queries. I suspect that you could alter database contents by modifiying a SELECT query, but I have not managed to do so myself.
+
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: [Yes](https://demo.erpnext.com/app.html#trial-balance)
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: [Yes](https://demo.erpnext.com/app.html#Form/Bank%20Reconciliation/Bank%20Reconciliation)
@@ -18,6 +33,8 @@ Demo: <https://demo.erpnext.com>
 
 Can each of these reports be generated, confined to a specific temporarily
 restricted asset type?
+
+**It does not seem like it***. There are 'Cost Centers', but they do not seem to be usable in fund accounting.
    
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
@@ -28,23 +45,25 @@ restricted asset type?
 
 ### Evaluation of [[Fund Accounting|UseCases/FundAccounting]] UseCases
 
+**No**. It does not seem like 'Cost Centers' can be used this way.
+
 - [[Fund-only View|UseCases/FundAccounting#fund-view]]
 - [[Funds as part of whole org View|UseCases/FundAccounting#fundless-view]]
 - [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]]
 
 ### [[UseCases/Collaborating]] evaluation
-- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
+- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: Yes, the application is web-based.
 - FIXME: Other uses cases need rewrite.
 
 ### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
 
-- Does the system implement pure double-entry accounting?
+- Does the system implement pure double-entry accounting? In my judgement, yes. Money goes into one or more accounts, out of another or more accounts.
 
 ### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
-- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]?
+- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]? Yes, it seems so.
 
-- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]?
+- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]? It does not seem like it.
 
 ### Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
 
@@ -65,17 +84,16 @@ restricted asset type?
 
 ### Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
-FIXME: This is assessment of what the API for manipulating the accounting
-data does, so I think it's tough to do it as a list of questions.
+See below.
 
 ### Evaluation of the [[Storage API|UseCases/StorageAPI]]
 
-FIXME: This is assessment of what the API for storing the accounting data
-does, so I think it's tough to do it as a list of questions.
+It is a web application using JavaScript to communicate with the backend, so there is an API endpoint for everything you'll ever see in the application.
 
-- Is the accounting API separate from the ERP stuff? FIXME
+- Is the accounting API separate from the ERP stuff? Kind of, it's in its own section, but it's still the same application, and I suspect you'll get information about links from any accounting-related models to any of the erp-related models
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
+- To post in [erpnext-developer-forum](https://groups.google.com/forum/#!forum/erpnext-developer-forum) you must first apply for membership.
 - Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]? Yes, it's [GPLv3](https://github.com/webnotes/erpnext/blob/master/license.txt), (CC-BY-SA 3.0 for documentation).
 - Is the [[license GPL-compatible||USeCases/CommunityHealth#gpl-compatible]]? Yes, it's [GPLv3](https://github.com/webnotes/erpnext/blob/master/license.txt), (CC-BY-SA 3.0 for documentation).
 
