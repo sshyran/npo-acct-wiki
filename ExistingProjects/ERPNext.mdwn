@@ -57,13 +57,13 @@ restricted asset type?
 
 ### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
 
-- Does the system implement pure double-entry accounting? In my judgement, yes. Money goes into one or more accounts, out of another or more accounts.
+- Does the system implement pure double-entry accounting? In my judgement, yes. Money goes into one or more accounts, out of another one or more accounts.
 
 ### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
 - Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]? Yes, it seems so.
 
-- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]? It does not seem like it.
+- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]? Yes, you can e.g. filter "Journal Vouchers" by "Bill No".
 
 ### Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
 
