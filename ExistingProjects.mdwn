@@ -13,6 +13,11 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/BeanBooks]]
 * [[ExistingProjects/Bookyt]]
 * [[ExistingProjects/ERP5]]
+* [[ExistingProjects/ERPNext]]
+   * Evaluated by joar
+   * [ERPNext's strange would-be copyright assignment policy is problematic](https://github.com/webnotes/erpnext#copyright-for-contributors)
+     for various reasons; bkuhn has
+[raised the issue on the ERPNext Developers' Forum](https://groups.google.com/forum/?_escaped_fragment_=msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ#!msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ). *[This issue has now been resolved](https://groups.google.com/d/msg/erpnext-developer-forum/jfsURU8Ew9A/Ejz_J_otzDQJ)*.
 * [[ExistingProjects/Garradin]]
 * [[ExistingProjects/GNUCash]]
 * [[ExistingProjects/Kuali]]
@@ -35,11 +40,6 @@ These projects have been rejected temporarily (i.e., evaluation is on hold)
 because of some issue that seems unresolvable at the moment, but may be
 resolved at a later date and will remove the blocker of looking more closely
 at the project.
-
-* [[ExistingProjects/ERPNext#final-eval]]
-   * [ERPNext's strange would-be copyright assignment policy is problematic](https://github.com/webnotes/erpnext#copyright-for-contributors)
-     for various reasons; bkuhn has
-[raised the issue on the ERPNext Developers' Forum](https://groups.google.com/forum/?_escaped_fragment_=msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ#!msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ).
    
 ## Projects Rejected
 <a id="rejected"></a>
