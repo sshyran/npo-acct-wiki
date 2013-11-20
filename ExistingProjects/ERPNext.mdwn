@@ -90,7 +90,7 @@ See below.
 
 It is a web application using JavaScript to communicate with the backend, so there is an API endpoint for everything you'll ever see in the application.
 
-- Is the accounting API separate from the ERP stuff? Kind of, it's in its own section, but it's still the same application, and I suspect you'll get information about links from any accounting-related models to any of the erp-related models
+- Is the accounting API separate from the ERP stuff? No
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
 - To post in [erpnext-developer-forum](https://groups.google.com/forum/#!forum/erpnext-developer-forum) you must first apply for membership.
