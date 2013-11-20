@@ -34,7 +34,7 @@ In those places I have seen, no input sanitation was performed, although they we
 Can each of these reports be generated, confined to a specific temporarily
 restricted asset type?
 
-**It does not seem like it***. There are 'Cost Centers', but they do not seem to be usable in fund accounting.
+**It does not seem like it**. There are 'Cost Centers', but they do not seem to be usable in fund accounting.
    
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
