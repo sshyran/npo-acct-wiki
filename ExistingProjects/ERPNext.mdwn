@@ -15,7 +15,7 @@ The python code does not follow the guidelines in [PEP8](http://www.python.org/d
 
 #### Database
 
-wnframework contains a database model abstraction which is used in some places, though there are > 2000 places where raw SQL is composed using python's `'foo %' % ('bar')` string formatting. I have managed to cause some minor SQL injections, I have not yet found any places where I can cause significant damage / data loss.
+wnframework contains a database model abstraction which is used in some places, though there are > 2000 places where raw SQL is composed using python's `'foo %s' % ('bar')` string formatting. I have managed to cause some minor SQL injections, I have not yet found any places where I can cause significant damage / data loss.
 
 Not using a database abstraction model such as SQLAlchemy reduces storage portability and adds security overhead to ensure that no malicious queries can be executed.
 
