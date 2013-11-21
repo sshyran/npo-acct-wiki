@@ -81,6 +81,7 @@ implementing a security model based on project/group category with hierarchical 
 ### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
 Tracking is possible. In ERP5 any documents can link to any other documents and can add link as many as one wants.
+And ERP5 support not only accounting but invoicing, document management, etc.
 
 - Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]? Yes
 
