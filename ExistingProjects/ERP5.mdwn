@@ -28,6 +28,9 @@
 ### Negative
 
 - Community: The mailing lists are not very active, see <http://mail.tiolive.com/pipermail/erp5-users/>, <http://mail.tiolive.com/pipermail/erp5-dev/>
+- Take time to study(important to understand its design(Unified Business Model))
+- Installation is not simple
+- Need to read source code and need some experience.
 
 ### Comments
 
