@@ -20,6 +20,10 @@
 
 ### Positive
 
+- Flexible system based on a good architecture(Unified Business Model)
+- Highly configurable/customizable
+- i18n/l10n support
+- Rapid application development through the web(easy to do prototyping)
 
 ### Negative
 
