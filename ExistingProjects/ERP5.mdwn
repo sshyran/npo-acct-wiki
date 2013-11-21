@@ -109,10 +109,23 @@ And ERP5 support not only accounting but invoicing, document management, etc.
 FIXME: This is assessment of what the API for manipulating the accounting
 data does, so I think it's tough to do it as a list of questions.
 
+There is so called [Inventory API](http://git.erp5.org/gitweb/erp5.git/blob/HEAD:/product/ERP5/Tool/SimulationTool.py?js=1#l1000) which you can know your inventory from various aspects. From ERP5 design point of view, warehouse inventory management and accounting is same.(container is warehouse or account, resource is currency or physical product, etc) Test code is [here](http://git.erp5.org/gitweb/erp5.git/blob/HEAD:/product/ERP5/tests/testInventoryAPI.py?js=1)
+
+There is also a reporting system and file conversion system. For example you can create a report which can be exported as PDF, ODS or other famous file format.
+
 ### Evaluation of the [[Storage API|UseCases/StorageAPI]]
 
 FIXME: This is assessment of what the API for storing the accounting data
 does, so I think it's tough to do it as a list of questions.
+
+ERP5 uses ZODB(object database for python). API is simple. Following is an example.
+
+    transaction = context.accounting_module.newContent(portal_type='Accounting Transaction')
+    transaction.edit(source_section=xxx, start_date=now)
+    line = transaction.newContent(portal_type='Accounting Transaction Line')
+    line.edit(source_value=context.account_module.sales, source_credit=100)
+    line.getSourceValue().getTitle()
+    line.getSourceCredit()
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
 - Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?
