@@ -96,7 +96,7 @@ Tracking is possible. In ERP5 any documents can link to any other documents and 
 
 - Does the system allow
   [[generally for draft transactions|UseCases/DraftTransactions#draft-general]]
-  that can be later approved before officially being posted to the books? 
+  that can be later approved before officially being posted to the books? Yes thanks to workflow system.
 
 ### Evaluation of WorkFlow UseCases
 - Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]] ?
