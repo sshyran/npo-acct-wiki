@@ -90,7 +90,7 @@ Tracking is possible. In ERP5 any documents can link to any other documents and 
 
 - Does it support the concept of
   [[a single functional currency|UseCases/MultiCurrency]], while still
-  permitting multi-currency entries?
+  permitting multi-currency entries? Yes
 
 ### Evaluation of [[draft transaction|UseCases/DraftTransactions]] UseCases
 
