@@ -71,12 +71,12 @@ implementing a security model based on project/group category with hierarchical 
 - [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]] Possible
 
 ### [[UseCases/Collaborating]] evaluation
-- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
+- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: Yes
 - FIXME: Other uses cases need rewrite.
 
 ### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
 
-- Does the system implement pure double-entry accounting?
+- Does the system implement pure double-entry accounting? Yes
 
 ### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
