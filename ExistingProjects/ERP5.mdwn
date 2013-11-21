@@ -100,9 +100,9 @@ And ERP5 support not only accounting but invoicing, document management, etc.
   that can be later approved before officially being posted to the books? Yes thanks to workflow system.
 
 ### Evaluation of WorkFlow UseCases
-- Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]] ?
-- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ?
-- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ?
+- Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]] ? No. Workflow is completely customizable and you can even remove it if it is not needed.
+- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ?Yes. Workflow is customizable through the web.
+- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ? No problem. For example, it is possible to create invoice transaction once invoice is accepted(once invoice workflow becomes a specific state). And purchase order is not mandatory for example. Everything is customizable.
 
 ### Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
