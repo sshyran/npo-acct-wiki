@@ -39,12 +39,12 @@ Yusei Tahara(an ERP5 developer): I'm sure ERP5 can be customized into an interna
 ## Evaluation
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
-- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
-- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
-- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
-- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
-- [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
-- [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Exist
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: Not exist, it would be needed to implement "bank reconciliation transaction" document.
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: Exist(go to account module)
+- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: Exists.(go to accounting module and filter by document type)
+- [[Income Report|UseCases/GeneratingReports#income-report]]: Use trial balance report.
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: Use trial balance report.
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases for Fund Accounting
 
