@@ -80,9 +80,11 @@ implementing a security model based on project/group category with hierarchical 
 
 ### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
-- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]?
+Tracking is possible. In ERP5 any documents can link to any other documents and can add link as many as one wants.
 
-- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]?
+- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]? Yes
+
+- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]? Yes
 
 ### Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
 
