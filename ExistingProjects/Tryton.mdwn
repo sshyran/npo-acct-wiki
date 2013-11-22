@@ -59,9 +59,9 @@ Links:
 ## Evaluation
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
-- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
-- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
-- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: Yes
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: Yes
 - [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
 - [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
 - [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
@@ -92,12 +92,12 @@ See above.
 -->
 
 ### [[UseCases/Collaborating]] evaluation
-- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
+- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: Yes
 - FIXME: Other uses cases need rewrite.
 
 ### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
 
-- Does the system implement pure double-entry accounting?
+- Does the system implement pure double-entry accounting? Yes
 
 ### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
@@ -109,36 +109,34 @@ See above.
 
 - Does it support the concept of
   [[a single functional currency|UseCases/MultiCurrency]], while still
-  permitting multi-currency entries?
+  permitting multi-currency entries? Yes
 
 ### Evaluation of [[draft transaction|UseCases/DraftTransactions]] UseCases
 
 - Does the system allow
   [[generally for draft transactions|UseCases/DraftTransactions#draft-general]]
-  that can be later approved before officially being posted to the books? 
+  that can be later approved before officially being posted to the books? Yes
 
 ### Evaluation of WorkFlow UseCases
 - Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]] ?
-- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ?
-- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ?
+- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ? It does not seem so.
+- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ? It does not seem so.
 
 ### Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
-FIXME: This is assessment of what the API for manipulating the accounting
-data does, so I think it's tough to do it as a list of questions.
+Since tryton uses RPC for client-server communication, it seems very likely that you could fetch any data from the server using the tryton RPC interface. However, this interface might include cruft that may make the API harder to use for simple reading.
 
 ### Evaluation of the [[Storage API|UseCases/StorageAPI]]
 
-FIXME: This is assessment of what the API for storing the accounting data
-does, so I think it's tough to do it as a list of questions.
+See above.
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
-- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?
-- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]?
+- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]? [GPL](http://hg.tryton.org/3.0/tryton/file/0308bbcc8deb/LICENSE)
+- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]? Yes
 - Does the project
-  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?
+  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]? Does not seem like it, 
 - How many
-  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]?
+  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]? [A handful](http://www.ohloh.net/p/tryton), ranging between 4..11 per month in 2013.
      * If there aren't many, how hard would it be to take over the project if needed?
-- Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]?
-- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?
+- Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]? Reasonably, being a Python programmer primarily might make my opinion biased.
+- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]? They are friendly and helpful.
