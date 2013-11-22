@@ -20,7 +20,7 @@
 
 ### Positive
 
-- Flexible system based on a good architecture(Unified Business Model)
+- Flexible system based on a good architecture([Unified Business Model](http://www.erp5.org/UnifiedBusinessModel))
 - Highly configurable/customizable
 - i18n/l10n support
 - Rapid application development through the web(easy to do prototyping)
@@ -28,7 +28,7 @@
 ### Negative
 
 - Community: The mailing lists are not very active, see <http://mail.tiolive.com/pipermail/erp5-users/>, <http://mail.tiolive.com/pipermail/erp5-dev/>
-- Take time to study(important to understand its design(Unified Business Model))
+- Take time to study(important to understand its design([Unified Business Model](http://www.erp5.org/UnifiedBusinessModel)))
 - Installation is not simple
 - Need to read source code and need some experience.
 
