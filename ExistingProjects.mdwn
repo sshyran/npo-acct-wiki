@@ -12,7 +12,9 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ApacheOFBiz]]
 * [[ExistingProjects/BeanBooks]]
 * [[ExistingProjects/Bookyt]]
+  * Contacted
 * [[ExistingProjects/ERP5]]
+  * Contacted
 * [[ExistingProjects/ERPNext]]
    * Evaluated by joar
    * [ERPNext's strange would-be copyright assignment policy is problematic](https://github.com/webnotes/erpnext#copyright-for-contributors)
@@ -21,6 +23,7 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/Garradin]]
 * [[ExistingProjects/GNUCash]]
 * [[ExistingProjects/Kuali]]
+  * Contacted
 * [[ExistingProjects/Ledger]]
 * [[ExistingProjects/LedgerSMB]]
 * [[ExistingProjects/npo-ledger-cli]]
