@@ -31,9 +31,11 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/OpenERP]]
 * [[ExistingProjects/OpenBravo]] : <http://www.openbravo.com/>
 * [[ExistingProjects/OpenPetra]]
+  * Contacted, due monday
 * [[ExistingProjects/Postbooks]]
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
+  * Template filled in by Joar
 * [[ExistingProjects/webERP]]: <http://www.weberp.org/> NOTE: [[Frontaccounting|ExistingProjects/Frontaccounting]] is a fork of webERP.
 
 
