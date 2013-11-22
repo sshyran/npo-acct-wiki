@@ -10,6 +10,7 @@ evaluate these projects to the UseCases we've collected so far.
 
 * [[ExistingProjects/ADempiere]]
 * [[ApacheOFBiz]]
+  * Contacted
 * [[ExistingProjects/Bookyt]]
   * Contacted
 * [[ExistingProjects/ERP5]]
