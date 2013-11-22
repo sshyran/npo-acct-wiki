@@ -75,8 +75,7 @@ restricted asset type?
 
 # Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
-FIXME: This is assessment of what the API for manipulating the accounting
-data does, so I think it's tough to do it as a list of questions.
+Presumably the same case as the Storage API.
 
 # Evaluation of the [[Storage API|UseCases/StorageAPI]]
 
