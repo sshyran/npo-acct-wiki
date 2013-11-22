@@ -10,7 +10,6 @@ evaluate these projects to the UseCases we've collected so far.
 
 * [[ExistingProjects/ADempiere]]
 * [[ApacheOFBiz]]
-* [[ExistingProjects/BeanBooks]]
 * [[ExistingProjects/Bookyt]]
   * Contacted
 * [[ExistingProjects/ERP5]]
@@ -64,3 +63,6 @@ linked page.
  -- Reinhard Mueller
 * [[ExistingProjects/Garradin]]
   * Entirely in french, would need l10n, i18n and might not be suitable for US or international use. *Disclaimer: I cannot read french, these are assumptions.*
+* [[ExistingProjects/BeansBooks]]
+  * [Not free software](https://beansbooks.com/home/opensource)
+  * The developers have been reached, not yet replied.
