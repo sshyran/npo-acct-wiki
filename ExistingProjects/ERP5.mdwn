@@ -131,7 +131,7 @@ ERP5 uses ZODB(object database for python). API is simple. Following is an examp
 - Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]? Yes (Mainly GPLv2 and some are Zope public license and maybe others)
 - Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]? Yes
 - Does the project
-  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]? (what is CLA?)
+  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?  No, I do not think so.
 - How many
   [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]? ERP5 is a company based free software(not community based). Nexedi is the developer company. And I think there are some companies which can support/use ERP5.
      * If there aren't many, how hard would it be to take over the project if needed?
