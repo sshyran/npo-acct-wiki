@@ -1,7 +1,7 @@
 Links:
 
 - [Project homepage](https://beansbooks.com/home/opensource)
-- [Source code](https://github.com/system76/beansbooks/tree/master/application/config)
+- [Source code](https://github.com/system76/beansbooks/)
 
 ## Technical
 
