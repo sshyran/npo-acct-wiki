@@ -64,7 +64,7 @@ So all of them below are basically possible.
 ### Evaluation of [[Fund Accounting|UseCases/FundAccounting]] UseCases
 
 My intuition tells(although it is necessary to think the design carefully) that this can be done by
-implementing a security model based on project/group category with hierarchical structure. Since ERP5 accounting supports hierarchical structure to manage data, non-profit org can be parent and all fiscal sponsorship users can be children. This way, non-profit org can view everything and each fiscal sponsorship user can view only his data.
+implementing a security rule(note that security rule is configurable) based on project/group category with hierarchical structure. Since ERP5 accounting supports hierarchical structure to manage data, non-profit org can be parent and all fiscal sponsorship users can be children. This way, non-profit org can view everything and each fiscal sponsorship user can view only his data.
 
 - [[Fund-only View|UseCases/FundAccounting#fund-view]] Possible
 - [[Funds as part of whole org View|UseCases/FundAccounting#fundless-view]] Possible
