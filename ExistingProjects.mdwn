@@ -30,8 +30,6 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/npo-ledger-cli]]
 * [[ExistingProjects/OpenERP]]
 * [[ExistingProjects/OpenBravo]] : <http://www.openbravo.com/>
-* [[ExistingProjects/OpenPetra]]
-  * Contacted, due monday
 * [[ExistingProjects/Postbooks]]
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
@@ -68,3 +66,5 @@ linked page.
 * [[ExistingProjects/BeansBooks]]
   * [Not free software](https://beansbooks.com/home/opensource)
   * The developers have been reached, not yet replied.
+* [[ExistingProjects/OpenPetra]]
+  * The linux client is not stable as of 2013-11-25. This using the client from <http://www.pokorra.de/2013/11/install-openpetra-on-linux/>.
