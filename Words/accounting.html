@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>The Models of Accounting</title>
+<!-- 2013-11-25 Mon 22:56 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="author" content="Joar Wandborg"/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012  Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">The Models of Accounting</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Models</a>
+<ul>
+<li><a href="#sec-1-1">1.1. Account</a></li>
+<li><a href="#sec-1-2">1.2. Entry</a></li>
+<li><a href="#sec-1-3">1.3. Change</a></li>
+<li><a href="#sec-1-4">1.4. Reports</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. The Unix philosophy</a>
+<ul>
+<li><a href="#sec-2-1">2.1. Rule of Modularity</a></li>
+<li><a href="#sec-2-2">2.2. Rule of Clarity</a></li>
+<li><a href="#sec-2-3">2.3. Rule of Composition</a></li>
+<li><a href="#sec-2-4">2.4. Rule of Separation</a></li>
+<li><a href="#sec-2-5">2.5. Rule of Simplicity</a></li>
+<li><a href="#sec-2-6">2.6. Rule of Parsimony</a></li>
+<li><a href="#sec-2-7">2.7. Rule of Transparency</a></li>
+<li><a href="#sec-2-8">2.8. Rule of Robustness</a></li>
+<li><a href="#sec-2-9">2.9. Rule of Representation</a></li>
+<li><a href="#sec-2-10">2.10. Rule of Least Surprise</a></li>
+<li><a href="#sec-2-11">2.11. Rule of Silence</a></li>
+<li><a href="#sec-2-12">2.12. Rule of Repair</a></li>
+<li><a href="#sec-2-13">2.13. Rule of Economy</a></li>
+<li><a href="#sec-2-14">2.14. Rule of Generation</a></li>
+<li><a href="#sec-2-15">2.15. Rule of Optimization</a></li>
+<li><a href="#sec-2-16">2.16. Rule of Diversity</a></li>
+<li><a href="#sec-2-17">2.17. Rule of Extensibility</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Models</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+My idea is to write this system in Python, using SQLAlchemy for
+persistent storage.
+</p>
+
+<p>
+The following subsections are the models that I think apply to a
+bare-bone accounting API. The word "Model" is borrowed from
+SQLAlchemy where a Model is an abstraction of an SQL database table.
+</p>
+
+<p>
+Each of the subsections present the attributes of the model, in SQL
+these would be "fields".
+</p>
+
+<p>
+My choice of SQLAlchemy and SQL is because of familiarity [from
+mediagoblin, talkatv, [proprietary] projects] and that transactions,
+accounts both have strong relations inbetween.
+</p>
+</div>
+
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Account</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Unique ID
+</li>
+<li>Name
+</li>
+<li>Parent ID, for hierarchical account structures
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Entry</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Unique ID
+</li>
+<li>Summary, descriptive summary of the Changes herein
+</li>
+<li>Timestamp
+</li>
+</ul>
+
+<p>
+Represents a series of transactions(Changes) between different
+accounts. The sum of the transactions must be 0.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Change</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>Unique ID
+</li>
+<li>Entry ID
+</li>
+<li>Account ID
+</li>
+<li>Value, fixed-precision value between -Infinity..+Infinity
+</li>
+</ul>
+
+<p>
+This model represents a change in an Account's value.
+</p>
+
+<p>
+TODO: multi-currency
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Reports</h3>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> The Unix philosophy</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Included for reference from
+<a href="http://en.wikipedia.org/wiki/Unix_philosophy#Eric_Raymond.E2.80.99s_17_Unix_Rules">http://en.wikipedia.org/wiki/Unix_philosophy#Eric_Raymond.E2.80.99s_17_Unix_Rules</a>
+</p>
+</div>
+
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Rule of Modularity</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Developers should build a program out of simple parts connected by
+well defined interfaces, so problems are local, and parts of the
+program can be replaced in future versions to support new
+features. This rule aims to save time on debugging code that is
+complex, long, and unreadable.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Rule of Clarity</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Developers should write programs as if the most important
+communication is to the developer, including him- or herself, who
+will read and maintain the program rather than the computer. This
+rule aims to make code readable and comprehensible for whomever
+works on the code in future.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> Rule of Composition</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Developers should write programs that can communicate easily with
+other programs. This rule aims to allow developers to break down
+projects into small, simple programs rather than overly complex
+monolithic programs.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> Rule of Separation</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Developers should separate the mechanisms of the programs from the
+policies of the programs; one method is to divide a program into a
+front-end interface and back-end engine that interface communicates
+with. This rule aims to let policies be changed without
+destabilizing mechanisms and consequently reducing the number of
+bugs.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-5" class="outline-3">
+<h3 id="sec-2-5"><span class="section-number-3">2.5</span> Rule of Simplicity</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+Developers should design for simplicity by looking for ways to
+break up program systems into small, straightforward cooperating
+pieces. This rule aims to discourage developers’ affection for
+writing “intricate and beautiful complexities” that are in reality
+bug prone programs.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-6" class="outline-3">
+<h3 id="sec-2-6"><span class="section-number-3">2.6</span> Rule of Parsimony</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+Developers should avoid writing big programs. This rule aims to
+prevent overinvestment of development time in failed or suboptimal
+approaches caused by the owners of the program’s reluctance to
+throw away visibly large pieces of work. Smaller programs are not
+only easier to optimize and maintain; they are easier to delete
+when deprecated.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-7" class="outline-3">
+<h3 id="sec-2-7"><span class="section-number-3">2.7</span> Rule of Transparency</h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+Developers should design for visibility and discoverability by
+writing in a way that their thought process can lucidly be seen by
+future developers working on the project and using input and output
+formats that make it easy to identify valid input and correct
+output. This rule aims to reduce debugging time and extend the
+lifespan of programs.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-8" class="outline-3">
+<h3 id="sec-2-8"><span class="section-number-3">2.8</span> Rule of Robustness</h3>
+<div class="outline-text-3" id="text-2-8">
+<p>
+Developers should design robust programs by designing for
+transparency and discoverability, because code that is easy to
+understand is easier to stress test for unexpected conditions that
+may not be foreseeable in complex programs. This rule aims to help
+developers build robust, reliable products.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-9" class="outline-3">
+<h3 id="sec-2-9"><span class="section-number-3">2.9</span> Rule of Representation</h3>
+<div class="outline-text-3" id="text-2-9">
+<p>
+Developers should choose to make data more complicated rather than
+the procedural logic of the program when faced with the choice,
+because it is easier for humans to understand complex data compared
+with complex logic. This rule aims to make programs more readable
+for any developer working on the project, which allows the program
+to be maintained.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-10" class="outline-3">
+<h3 id="sec-2-10"><span class="section-number-3">2.10</span> Rule of Least Surprise</h3>
+<div class="outline-text-3" id="text-2-10">
+<p>
+Developers should design programs that build on top of the
+potential users' expected knowledge; for example, ‘+’ should always
+mean addition in a calculator program. This rule aims to encourage
+developers to build intuitive products that are easy to use.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-11" class="outline-3">
+<h3 id="sec-2-11"><span class="section-number-3">2.11</span> Rule of Silence</h3>
+<div class="outline-text-3" id="text-2-11">
+<p>
+Developers should design programs so that they do not print
+unnecessary output. This rule aims to allows other programs and
+developers to pick out the information they need from a program's
+output without having to parse verbosity.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-12" class="outline-3">
+<h3 id="sec-2-12"><span class="section-number-3">2.12</span> Rule of Repair</h3>
+<div class="outline-text-3" id="text-2-12">
+<p>
+Developers should design programs that fail in a manner that is
+easy to localize and diagnose or in other words “fail
+noisily”. This rule aims to prevent incorrect output from a program
+from becoming an input and corrupting the output of other code
+undetected.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-13" class="outline-3">
+<h3 id="sec-2-13"><span class="section-number-3">2.13</span> Rule of Economy</h3>
+<div class="outline-text-3" id="text-2-13">
+<p>
+Developers should value developer time over machine time, because
+machine cycles as of the year 2013 are relatively inexpensive
+compared to prices in the 1970s. This rule aims to reduce
+development costs of projects.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-14" class="outline-3">
+<h3 id="sec-2-14"><span class="section-number-3">2.14</span> Rule of Generation</h3>
+<div class="outline-text-3" id="text-2-14">
+<p>
+Developers should avoid writing code by hand and instead write
+abstract high-level programs that generate code. This rule aims to
+reduce humans errors and save time.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-15" class="outline-3">
+<h3 id="sec-2-15"><span class="section-number-3">2.15</span> Rule of Optimization</h3>
+<div class="outline-text-3" id="text-2-15">
+<p>
+Developers should prototype software before polishing it. This rule
+aims to prevent developers from spending too much time for marginal
+gains.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-16" class="outline-3">
+<h3 id="sec-2-16"><span class="section-number-3">2.16</span> Rule of Diversity</h3>
+<div class="outline-text-3" id="text-2-16">
+<p>
+Developers should design their programs to be flexible and
+open. This rule aims to make programs flexible, allowing them to be
+used in other ways than their developers intended.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-17" class="outline-3">
+<h3 id="sec-2-17"><span class="section-number-3">2.17</span> Rule of Extensibility</h3>
+<div class="outline-text-3" id="text-2-17">
+<p>
+Developers should design for the future by making their protocols
+extensible, allowing for easy plugins without modification to the
+program's architecture by other developers, noting the version of
+the program, and more. This rule aims to extend the lifespan and
+enhance the utility of the code the developer writes.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Joar Wandborg</p>
+<p class="date">Created: 2013-11-25 Mon 22:56</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.0.6)</p>
+<p class="xhtml-validation"><a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a></p>
+</div>
+</body>
+</html>
