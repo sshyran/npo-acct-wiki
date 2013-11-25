@@ -38,10 +38,11 @@ Links
     | (http://www.openpetra.org/en/user-manuals). OpenPetra is based on Petra   │
     | in terms of functionality.      
 
+<a id="evaluation"></a>
 ## Evaluation
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
-- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
 - [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
 - [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
