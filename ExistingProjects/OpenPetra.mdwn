@@ -41,13 +41,15 @@ Links
 <a id="evaluation"></a>
 ## Evaluation
 
+<div class="alert alert-warning">The OpenPetra evaluation has been discontinued due to the instability of the linux client.</div>
+
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
-- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
-- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
-- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
-- [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
-- [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: Not sure. It provides an option to "Import GL[General Ledger] Transactions From Bank" which imports a CSV, other format file.
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: Has an editable, hiearchical chart of accounts. You can also export/import account hierarchies.
+- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: Not that I can find.
+- [[Income Report|UseCases/GeneratingReports#income-report]]: Yes, combined with the expense report
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: Yes, combined with the income report.
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases for Fund Accounting
 
@@ -68,8 +70,7 @@ restricted asset type?
 - [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]]
 
 ### [[UseCases/Collaborating]] evaluation
-- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
-- FIXME: Other uses cases need rewrite.
+- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: Yes
 
 ### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
 
