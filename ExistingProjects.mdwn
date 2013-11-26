@@ -35,16 +35,25 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/webERP]]: <http://www.weberp.org/> NOTE: [[Frontaccounting|ExistingProjects/Frontaccounting]] is a fork of webERP.
 
 
-## Projects Temporarily Rejected
 <a id="temp-reject"></a>
+## Projects Temporarily Rejected
+
+* [[ExistingProjects/BeansBooks]]
+  * [Not free software](https://beansbooks.com/home/opensource)
+  * The developers have been reached, not yet replied.
+* [[ExistingProjects/OpenPetra]]
+  * The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 and the client setup found in <http://www.pokorra.de/2013/11/install-openpetra-on-linux/> it crashes intermittently for various reasons.
+* [[ApacheOFBiz]]
+  * Contacted
+  * Due to OFBiz's apparent lack of documentation, e.g. <https://cwiki.apache.org/confluence/display/OFBENDUSER/12.2.6+Reports>, the evaluation has been discontinued.
 
 These projects have been rejected temporarily (i.e., evaluation is on hold)
 because of some issue that seems unresolvable at the moment, but may be
 resolved at a later date and will remove the blocker of looking more closely
 at the project.
    
-## Projects Rejected
 <a id="rejected"></a>
+## Projects Rejected
 
 These projects have been evaluated as part of this effort and rejected, both
 for a basis of this project or for any code reuse.  A few of the primary
@@ -61,11 +70,3 @@ linked page.
  -- Reinhard Mueller
 * [[ExistingProjects/Garradin]]
   * Entirely in french, would need l10n, i18n and might not be suitable for US or international use. *Disclaimer: I cannot read french, these are assumptions.*
-* [[ExistingProjects/BeansBooks]]
-  * [Not free software](https://beansbooks.com/home/opensource)
-  * The developers have been reached, not yet replied.
-* [[ExistingProjects/OpenPetra]]
-  * The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 and the client setup found in <http://www.pokorra.de/2013/11/install-openpetra-on-linux/> it crashes intermittently for various reasons.
-* [[ApacheOFBiz]]
-  * Contacted
-  * Due to OFBiz's apparent lack of documentation, e.g. <https://cwiki.apache.org/confluence/display/OFBENDUSER/12.2.6+Reports>, the evaluation has been discontinued.
