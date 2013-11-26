@@ -9,8 +9,6 @@ evaluate these projects to the UseCases we've collected so far.
 ## List of projects under evaluation
 
 * [[ExistingProjects/ADempiere]]
-* [[ApacheOFBiz]]
-  * Contacted
 * [[ExistingProjects/Bookyt]]
   * Contacted
 * [[ExistingProjects/ERP5]]
@@ -68,3 +66,6 @@ linked page.
   * The developers have been reached, not yet replied.
 * [[ExistingProjects/OpenPetra]]
   * The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 and the client setup found in <http://www.pokorra.de/2013/11/install-openpetra-on-linux/> it crashes intermittently for various reasons.
+* [[ApacheOFBiz]]
+  * Contacted
+  * Due to OFBiz's apparent lack of documentation, e.g. https://cwiki.apache.org/confluence/display/OFBENDUSER/12.2.6+Reports, the evaluation has been discontinued.
