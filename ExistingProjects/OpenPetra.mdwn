@@ -41,8 +41,9 @@ Links
 <a id="evaluation"></a>
 ## Evaluation
 
-<div class="alert alert-warning">The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 with the provided setup found in http://www.pokorra.de/2013/11/install-openpetra-on-linux/ it crashes intermittently for various reasons.</div>
-
+<div class="alert alert-info"><p>Due to the instability of the OpenPetra linux client we cannot continue the evaluations. The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 with the provided setup found in <http://www.pokorra.de/2013/11/install-openpetra-on-linux/> it crashes intermittently for various reasons.
+The preliminary evaluation should therefore be regarded as the most current information.</p></div>
+<!--
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: Not sure. It provides an option to "Import GL[General Ledger] Transactions From Bank" which imports a CSV, other format file.
@@ -119,7 +120,7 @@ does, so I think it's tough to do it as a list of questions.
      * If there aren't many, how hard would it be to take over the project if needed?
 - Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]?
 - How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?
-
+-->
 
 ## Pre-evaluation template evaluations
 
