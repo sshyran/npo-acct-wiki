@@ -42,7 +42,7 @@ Links
 ## Evaluation
 
 <div class="alert alert-info"><p>Due to the instability of the OpenPetra linux client we cannot continue the evaluations. The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 with the provided setup found in <http://www.pokorra.de/2013/11/install-openpetra-on-linux/> it crashes intermittently for various reasons.
-The preliminary evaluation should therefore be regarded as the most current information.</p><p>I will also include the following statement as requested by the OpenPetra developers.</p><p>Response from the OpenPetra team:</p><blockquote>The Linux client is currently not our focus. We know it isn't working well at present but we believe most problems could be overcome if somebody puts time and effort into it.”</blockquote></div>
+The preliminary evaluation should therefore be regarded as the most current information.</p><p>I will also include the following statement as requested by the OpenPetra developers.</p><p>Response from the OpenPetra team:</p><blockquote>The Linux client is currently not our focus. We know it isn't working well at present but we believe most problems could be overcome if somebody puts time and effort into it.</blockquote></div>
 <!--
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
