@@ -19,7 +19,11 @@ wnframework contains a database model abstraction which is used in some places, 
 
 Not using a database abstraction model such as SQLAlchemy reduces storage portability and adds security overhead to ensure that no malicious queries can be executed.
 
+Update: SQLAlchemy has a severe performance penalty based on our testing. Plus, SQL reduces the code complexity in many instances and has much better performance too. - *Rushabh*
+
 In those places I have seen, no input sanitation was performed, although they were only SELECT queries. I suspect that you could alter database contents by modifiying a SELECT query, but I have not managed to do so myself.
+
+Update: The library does not allow multiple SQL Queries to be executed, hence altering is not possible. There is possibility of overriding certain conditions. We will fix these on priority. - *Rushabh*
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: [Yes](https://demo.erpnext.com/app.html#trial-balance)
@@ -34,18 +38,22 @@ In those places I have seen, no input sanitation was performed, although they we
 Can each of these reports be generated, confined to a specific temporarily
 restricted asset type?
 
-**It does not seem like it**. There are 'Cost Centers', but they do not seem to be usable in fund accounting.
+*It does not seem like it*. There are 'Cost Centers', but they do not seem to be usable in fund accounting.
+
+Update: *Yes*. Cost Centers can be easily extended to manage funds. Each Income / Expense is tagged against cost center, so you can accurately track per Fund. Some of the terminology can be fixed if required - *Rushabh*
    
-- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
-- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
-- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
-- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
-- [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
-- [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: YES
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: YES
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: YES
+- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: YES
+- [[Income Report|UseCases/GeneratingReports#income-report]]: YES
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: YES
 
 ### Evaluation of [[Fund Accounting|UseCases/FundAccounting]] UseCases
 
-**No**. It does not seem like 'Cost Centers' can be used this way.
+*No*. It does not seem like 'Cost Centers' can be used this way. 
+
+Update: *Yes*. Please see earlier comment, each fund can be a cost center and invoices, expenses can be booked against it. Even budgeting can be done against a cost center. - *Rushabh*
 
 - [[Fund-only View|UseCases/FundAccounting#fund-view]]
 - [[Funds as part of whole org View|UseCases/FundAccounting#fundless-view]]
@@ -75,12 +83,12 @@ restricted asset type?
 
 - Does the system allow
   [[generally for draft transactions|UseCases/DraftTransactions#draft-general]]
-  that can be later approved before officially being posted to the books? No
+  that can be later approved before officially being posted to the books? Yes. Each transaction has a Draft and Submitted status. And separate rights can be given to separate roles for doing approvals. Plus rule based approvals based on properties also exist.
 
 ### Evaluation of WorkFlow UseCases
 - Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]] ? Yes
-- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ? No
-- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ? No
+- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ? Yes - there is a workflow system [User Docs](https://docs.erpnext.com/workflows.html)
+- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ? Exists - You can check in Accounts Receivable
 
 ### Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
@@ -106,4 +114,6 @@ and decided that until this policy can be corrected to something more fitting
 with actual copyright law and that will allow us to contribute under the
 stated license of the project, it's not worth further evaluation of the codebase,
 since this policy is just not acceptable.  bkuhn has
-[raised the issue on the ERPNext Developers' Forum](https://groups.google.com/forum/?_escaped_fragment_=msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ#!msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ).
+[raised the issue on the ERPNext Developers' Forum](https://groups.google.com/forum/?_escaped_fragment_=msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ#!msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ). 
+
+Udpate: **FIxed** - Rushabh
