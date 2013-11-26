@@ -46,6 +46,8 @@ You can rely on [[https://www.ohloh.net/p/Apache-OFBiz/analyses/latest/languages
 <a id="evaluation"></a>
 ## Evaluation
 
+<div class="alert alert-info">Due to [OFBiz's apparent lack of documentation](https://cwiki.apache.org/confluence/display/OFBENDUSER/12.2.6+Reports) the evaluation has been discontinued</div>
+
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
