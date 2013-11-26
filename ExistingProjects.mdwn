@@ -67,4 +67,4 @@ linked page.
   * [Not free software](https://beansbooks.com/home/opensource)
   * The developers have been reached, not yet replied.
 * [[ExistingProjects/OpenPetra]]
-  * The linux client is not stable as of 2013-11-25. This using the client from <http://www.pokorra.de/2013/11/install-openpetra-on-linux/>. The developers also acknowledge the fact that the linux client is not as stable as the windows client.
+  * The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 and the client setup found in <http://www.pokorra.de/2013/11/install-openpetra-on-linux/> it crashes intermittently for various reasons.
