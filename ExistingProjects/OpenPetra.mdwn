@@ -41,7 +41,7 @@ Links
 <a id="evaluation"></a>
 ## Evaluation
 
-<div class="alert alert-warning">The OpenPetra evaluation has been discontinued due to the instability of the linux client.</div>
+<div class="alert alert-warning">The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 with the provided setup found in http://www.pokorra.de/2013/11/install-openpetra-on-linux/ it crashes intermittently for various reasons.</div>
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
