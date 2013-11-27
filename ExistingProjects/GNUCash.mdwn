@@ -88,27 +88,28 @@ restricted asset type?
   that can be later approved before officially being posted to the books? It does not seem so.
 
 ### Evaluation of WorkFlow UseCases
-- Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]]? FIXME
-- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]]? FIXME
-- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]]? FIXME
+
+There is no specific workflow, GnuCash is a straight-up double-entry accounting program with report generation
+
+- Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]]? No, it's very basic, single-user workflow.
+- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]]? No, not that I can find.
+- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]]? It does not seem so
 
 ### Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
-FIXME: This is assessment of what the API for manipulating the accounting
-data does, so I think it's tough to do it as a list of questions.
+GnuCash can be configured to store the data in a PostgreSQL, MySQL or SQLite database, where you would have full access to all data from within another application.
 
 ### Evaluation of the [[Storage API|UseCases/StorageAPI]]
 
-FIXME: This is assessment of what the API for storing the accounting data
-does, so I think it's tough to do it as a list of questions.
+See above
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
 - Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]? Yes
 - Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]? Yes
 - Does the project
-  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?
+  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]? No, does not seem like it.
 - How many
-  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]?
+  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]? 11
      * If there aren't many, how hard would it be to take over the project if needed?
-- Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]?
-- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?
+- Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]? Yes
+- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]? Public IRC channel, public mailing list, public source code repository, public issue tracker.
