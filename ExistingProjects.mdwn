@@ -22,6 +22,7 @@ evaluate these projects to the UseCases we've collected so far.
   * Updated by Rushabh (ERPNext)
 * [[ExistingProjects/GNUCash]]
   * Evaluated by Joar
+  * Contacted on IRC
 * [[ExistingProjects/Kuali]]
   * Contacted
 * [[ExistingProjects/Ledger]]
