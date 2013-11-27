@@ -41,19 +41,25 @@ Josh Berkus: from my perspective, this has all of the drawbacks of ledger-cli, w
 
 Can each of these reports be generated, confined to a specific temporarily
 restricted asset type?
-   
+
+[GnuCash is not designed for fund accounting](http://lists.gnucash.org/pipermail/gnucash-user/2006-October/017931.html) although it can possibly be configured to use fund accounting.
+
+<!--
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
 - [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
 - [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
 - [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
 - [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
 - [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
+-->
 
 ### Evaluation of [[Fund Accounting|UseCases/FundAccounting]] UseCases
 
-- [[Fund-only View|UseCases/FundAccounting#fund-view]]
-- [[Funds as part of whole org View|UseCases/FundAccounting#fundless-view]]
-- [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]]
+*Not sure.*
+
+- [[Fund-only View|UseCases/FundAccounting#fund-view]]: FIXME
+- [[Funds as part of whole org View|UseCases/FundAccounting#fundless-view]]: FIXME
+- [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]]: FIXME
 
 ### [[UseCases/Collaborating]] evaluation
 - [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
@@ -61,30 +67,30 @@ restricted asset type?
 
 ### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
 
-- Does the system implement pure double-entry accounting?
+- Does the system implement pure double-entry accounting? Yes
 
 ### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
-- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]?
+- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]? No
 
-- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]?
+- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]? No
 
 ### Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
 
 - Does it support the concept of
   [[a single functional currency|UseCases/MultiCurrency]], while still
-  permitting multi-currency entries?
+  permitting multi-currency entries? GnuCash has one currency per account, and whenever a transfer occurs between two accounts with different currency you specify the exchange rate.
 
 ### Evaluation of [[draft transaction|UseCases/DraftTransactions]] UseCases
 
 - Does the system allow
   [[generally for draft transactions|UseCases/DraftTransactions#draft-general]]
-  that can be later approved before officially being posted to the books? 
+  that can be later approved before officially being posted to the books? It does not seem so.
 
 ### Evaluation of WorkFlow UseCases
-- Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]] ?
-- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ?
-- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ?
+- Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]]? FIXME
+- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]]? FIXME
+- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]]? FIXME
 
 ### Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
@@ -97,8 +103,8 @@ FIXME: This is assessment of what the API for storing the accounting data
 does, so I think it's tough to do it as a list of questions.
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
-- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?
-- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]?
+- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]? Yes
+- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]? Yes
 - Does the project
   [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?
 - How many
