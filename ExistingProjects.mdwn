@@ -23,8 +23,6 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/GNUCash]]
   * Evaluated by Joar
   * Contacted on IRC
-* [[ExistingProjects/Kuali]]
-  * Contacted
 * [[ExistingProjects/Ledger]]
 * [[ExistingProjects/LedgerSMB]]
 * [[ExistingProjects/npo-ledger-cli]]
@@ -53,6 +51,9 @@ at the project.
 * [[ApacheOFBiz]]
   * Contacted
   * Due to OFBiz's apparent lack of documentation, e.g. <https://cwiki.apache.org/confluence/display/OFBENDUSER/12.2.6+Reports>, the evaluation has been discontinued.
+* [[ExistingProjects/Kuali]]
+  * Contacted
+  * Discontinued due to the opacity of the Kuali organization.
    
 <a id="rejected"></a>
 ## Projects Rejected
