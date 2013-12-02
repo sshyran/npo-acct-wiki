@@ -8,9 +8,6 @@ evaluate these projects to the UseCases we've collected so far.
 
 ## List of projects under evaluation
 
-* [[ExistingProjects/ADempiere]]
-* [[ExistingProjects/Bookyt]]
-  * Contacted
 * [[ExistingProjects/ERP5]]
   * Contacted
   * Template filled in by Yusei
@@ -50,10 +47,16 @@ at the project.
   * The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 and the client setup found in <http://www.pokorra.de/2013/11/install-openpetra-on-linux/> it crashes intermittently for various reasons.
 * [[ApacheOFBiz]]
   * Contacted
-  * Due to OFBiz's apparent lack of documentation, e.g. <https://cwiki.apache.org/confluence/display/OFBENDUSER/12.2.6+Reports>, the evaluation has been discontinued.
+  * As a user: Due to OFBiz's apparent lack of documentation, e.g. <https://cwiki.apache.org/confluence/display/OFBENDUSER/12.2.6+Reports>, the evaluation has been discontinued.
 * [[ExistingProjects/Kuali]]
   * Contacted
-  * Discontinued due to the opacity of the Kuali organization.
+  * As a developer: Discontinued due to the opacity of the Kuali organization.
+* [[ExistingProjects/Bookyt]]
+  * Contacted
+     * Replied to my inquiriy about help with evaluating Bookyt but has not contributed any evaluations so far.
+  * As a user: The project seems to be in an early state, if anyone would like to spin it up and try it you're welcome.
+* [[ExistingProjects/ADempiere]]
+  * As a user: ADempiere is hard to get clear information about, the resources that are available are hard to navigate.
    
 <a id="rejected"></a>
 ## Projects Rejected
