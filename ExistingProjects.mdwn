@@ -29,7 +29,6 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
   * Template filled in by Joar
-* [[ExistingProjects/webERP]]: <http://www.weberp.org/> NOTE: [[Frontaccounting|ExistingProjects/Frontaccounting]] is a fork of webERP.
 
 
 <a id="temp-reject"></a>
@@ -71,6 +70,8 @@ linked page.
   * Data model somewhat messy, accounting not clearly separated.
   * Only one or two developers.
   * Workflow not easily configured.
+* [[ExistingProjects/webERP]]: <http://www.weberp.org/> NOTE: [[Frontaccounting|ExistingProjects/Frontaccounting]] is a fork of webERP.
+  * A brief look at the source code seems to indicate that webERP suffers from the same issues as Frontaccounting.
 * [[ExistingProjects/GNUEnterprise]] 
 > GNU Enterprise is not a Finance/ERP/Accounting software (yet). While the original project goal was to create exactly that, the maintainers at that time decided that as a first step, good development tools for database centered applications should be created. The focus of development then was strongly on these tools, and while they are to a certain extent usable to actually create database applications, further development in the project has come to a halt because most (all) developers shifted their energy to other projects.  
  -- Reinhard Mueller
