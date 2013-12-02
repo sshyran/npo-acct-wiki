@@ -42,7 +42,7 @@ at the project.
 
 * [[ExistingProjects/BeansBooks]]
   * [Not free software](https://beansbooks.com/home/opensource)
-    * The developers have been reached to try to solve this issue.
+    * The developers have been reached in an effort to solve this issue.
 * [[ExistingProjects/OpenPetra]]
   * The linux client has not been a focus of the OpenPetra developers, and as of 2013-11-25 with the setup described in <http://www.pokorra.de/2013/11/install-openpetra-on-linux/> it crashes intermittently for various reasons.
 * [[ApacheOFBiz]]
