@@ -15,7 +15,8 @@ evaluate these projects to the UseCases we've collected so far.
   * Contacted
   * Evaluated by Joar
   * [ERPNext's strange would-be copyright assignment policy is problematic](https://github.com/webnotes/erpnext#copyright-for-contributors)
-     for various reasons; bkuhn has [raised the issue on the ERPNext Developers' Forum](https://groups.google.com/forum/?_escaped_fragment_=msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ#!msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ). *[This issue has now been resolved](https://groups.google.com/d/msg/erpnext-developer-forum/jfsURU8Ew9A/Ejz_J_otzDQJ)*.
+     for various reasons; bkuhn has [raised the issue on the ERPNext Developers' Forum](https://groups.google.com/forum/?_escaped_fragment_=msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ#!msg/erpnext-developer-forum/jfsURU8Ew9A/HVDX1z3vvkgJ).
+    * [This issue has now been resolved](https://groups.google.com/d/msg/erpnext-developer-forum/jfsURU8Ew9A/Ejz_J_otzDQJ)
   * Updated by Rushabh (ERPNext)
 * [[ExistingProjects/GNUCash]]
   * Evaluated by Joar
