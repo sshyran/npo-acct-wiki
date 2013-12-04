@@ -18,13 +18,21 @@ Links:
 
 - You should preferably have the discipline of a programmer to use it
 
+<a id="evaluation"></a>
+## Evaluation
+
+**Note**: Due to the simplistic philosophy and architecture of ledger-cli, the sky, development ability and time are the limits to what ledger can achieve.
+
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
-- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: FIXME
-- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
-- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
-- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
-- [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
-- [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
+
+Conservancy has contributed a few scripts regarding reporting: <https://github.com/ledger/ledger/tree/master/contrib/non-profit-audit-reports>.
+
+- [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes, 
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: Yes, [if you're a hacker](https://github.com/ledger/ledger/wiki/Reconciling). Can also be found in ledger/contrib/non-profit-audit-reports mentioned above.
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: The trial balance report shows the chart of accounts during the selected period.
+- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: Can be found in ledger/contrib/non-profit-audit-reports mentioned above.
+- [[Income Report|UseCases/GeneratingReports#income-report]]: Yes
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: Yes
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases for Fund Accounting
 
@@ -54,9 +62,9 @@ restricted asset type?
 
 ### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
-- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]?
+- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]? Not by default.
 
-- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]?
+- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]? Not by default.
 
 ### Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
 
