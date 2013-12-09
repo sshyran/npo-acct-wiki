@@ -20,8 +20,10 @@ evaluate these projects to the UseCases we've collected so far.
   * Updated by Rushabh (ERPNext)
 * [[ExistingProjects/GNUCash]]
   * Evaluated by Joar
+    * Confirmed as reasonable by someone in the GnuCash IRC channel.
   * Contacted on IRC
 * [[ExistingProjects/Ledger]]
+  * Evaluated by Joar
 * [[ExistingProjects/LedgerSMB]]
 * [[ExistingProjects/npo-ledger-cli]]
 * [[ExistingProjects/OpenERP]]
@@ -30,7 +32,6 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/SQLLedger]]
 * [[ExistingProjects/Tryton]]
   * Template filled in by Joar
-
 
 <a id="temp-reject"></a>
 ## Projects Temporarily Rejected
