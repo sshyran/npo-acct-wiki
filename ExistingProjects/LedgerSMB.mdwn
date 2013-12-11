@@ -38,11 +38,11 @@ Dojo is a Javascript framework for dynamic web applications.  It handles everyth
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases
 - [[Trial Balance Report|UseCases/GeneratingReports#trial-balance]]: Yes
-- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: FIXME
-- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: FIXME
-- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: FIXME
-- [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
-- [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
+- [[Bank Reconciliation Report|UseCases/GeneratingReports#bank-reconcilation]]: Yes.  Also as of 1.3, past bank reconciliation reports can be retrieved and reviewed.
+- [[Chart of Accounts|UseCases/GeneratingReports#chart-of-accounts]]: Yes
+- [[Cash Disbursements Journal|UseCases/GeneratingReports#cash-disbursements]]: Partial, some work needed in 1.3.[1]  Fully supported in 1.4 beta.
+- [[Income Report|UseCases/GeneratingReports#income-report]]: Partial, some work needed.[2]
+- [[Expense Report|UseCases/GeneratingReports#expense-report]]: Partial, some work needed [2]
 
 ### Evaluation of [[Reporting|UseCases/GeneratingReports]] UseCases for Fund Accounting
 
@@ -56,60 +56,103 @@ restricted asset type?
 - [[Income Report|UseCases/GeneratingReports#income-report]]: FIXME
 - [[Expense Report|UseCases/GeneratingReports#expense-report]]: FIXME
 
+Developer's note:  I am not sure I understand the requirements of reporting temporarily and permanently restricted funds well enough to give a definite answer.  I *think* one could do this with a reporting dimension (like we use for projects and funds) in 1.4 (currently in beta, with the dimensions having a beta-quality backport for 1.3).  However for reporting purposes, this would currently hit the trial balance, chart of accounts, income, and expense reporting capabilities.  I would need to understand the use cases of temporarily restricted assets in reconciliation reports in this case before implementing such a feature, and the income and expense reporting is currently geared to for-profit businesses.  In both 1.3 and 1.4 it would be trivial to implement separate income and expense reporting rather than the income statement form that we have now but since the reporting has been replaced, it would be double the (small amount of) work to support both versions.
+
+Note that for 1.4 and the backport, reporting dimension units can be limited by dates, so any needed functionality could bootstrap on that.
+
 ### Evaluation of [[Fund Accounting|UseCases/FundAccounting]] UseCases
 
-- [[Fund-only View|UseCases/FundAccounting#fund-view]]
-- [[Funds as part of whole org View|UseCases/FundAccounting#fundless-view]]
-- [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]]
+- [[Fund-only View|UseCases/FundAccounting#fund-view]]  As of 1.4, reporting dimensions can be used for funds, and these are supported for most reports (trial balance, income, expense, etc).
+- [[Funds as part of whole org View|UseCases/FundAccounting#fundless-view]] Not sure about this one.  Right now one would have to run a single report for every relevant fund.
+- [[Ignore Funds for operations|UseCases/FundAccounting#fundless-view]] Attaching a transaction to a fund (or project, or department, etc) is optional with the 1.4 code (or backport).
 
 ### [[UseCases/Collaborating]] evaluation
-- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: FIXME
+- [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: Do you mean simultaneous entry?  Yes, that is fully supported.  Do you mean simultaneous other operations (like entry and reconciliation)?  Yes.  However we try very hard to avoid editing existing entries.  This is hardly supported except in a few edge cases of non-approved transactions (which have not hit the books). 
+
 - FIXME: Other uses cases need rewrite.
 
 ### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
 
-- Does the system implement pure double-entry accounting?
+- Does the system implement pure double-entry accounting?  Yes.
 
 ### Evaluation of [[TrackingDocumentation|UseCases/TrackingDocumentation]] UseCases
 
-- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]?
+- Does the system [[link up to external documentation|UseCases/TrackingDocumentation#document-link-up]]?  Yes, for ledger transactions.  The software can store the documentation in the db if needed.   However, it also supports storing URL's to external documentation.  Obviously backup lifecycles for external documentation is separate.
 
-- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]?
+- Does it have a [[the ability to explore transactions via documentation linkage|UseCases/TrackingDocumentation#document-link-explore]]?  No.  This would have to be added. 
 
 ### Evaluation of [[Handling multiple currencies|UseCases/MultiCurrency]] UseCases
 
 - Does it support the concept of
   [[a single functional currency|UseCases/MultiCurrency]], while still
-  permitting multi-currency entries?
+  permitting multi-currency entries?  Yes, with some limitations. [3]
 
 ### Evaluation of [[draft transaction|UseCases/DraftTransactions]] UseCases
 
 - Does the system allow
   [[generally for draft transactions|UseCases/DraftTransactions#draft-general]]
-  that can be later approved before officially being posted to the books? 
+  that can be later approved before officially being posted to the books? Yes.  Both individual draft transactions and batches of vouchers are supported as of 1.3 for all non-inventory transactions (for inventory transactions one can implement 4-eyes principles in other ways in 1.3, but 1.4 beta has drafts and vouchers for them as well and I could backport that if needed).
 
 ### Evaluation of WorkFlow UseCases
-- Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]] ?
-- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ?
-- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ?
+- Is a [[specific workflow dictated by the system|UseCases/WorkFlow#workflow-dictated]] ?  To some extent.
+- Is a [[the workflow configurable|UseCases/WorkFlow#workflow-configurable]] ?  Not really.If a workflow is supported it can't really be restricted.  This would be a place for customization.
+- [[Unaccrued Invoice|UseCases/WorkFlow#unaccrued-invioice]] ?  Not yet.  This is on our roadmap.  What we'd like to do is attach accrual periods to invoices so that adjusting can be done automatically in the course of reporting but this is probably not going to happen until 1.5 at the earliest.
 
 ### Evaluation of the [[Reading and Reporting API|UseCases/ReadingAPI]]
 
-FIXME: This is assessment of what the API for manipulating the accounting
-data does, so I think it's tough to do it as a list of questions.
+(Developer's evaluation here).
+
+Reporting in LedgerSMB 1.3 is done by basically programming in new reports.  I would not recommend going that way for new deployments since we have a backport of the 1.4 reporting engine which is stable and tested.  With this add-on basically, to create a new tabular report you have to create the following things at a minimum (particularly complex reports may require more):
+
+1.  A Template Toolkit template for the criteria for the report to run.
+2.  A workflow script for handling the request (this is trivial Perl code and I have examples on my blog).  Basically all this does is map a given target to a report (in 3 lines of code, typically).
+3.  A PL/PGSQL or SQL user defined function to turn those inputs into report data, and
+4.  A largely declarative Perl module which describes the report's inputs and outputs, and optionally preprocesses some of it.
+
+Now, if you want to access the report from a thick client, you have a little more work to do but not too much.  This does require a programmer to do, but the primary skill required is SQL, and an ability to copy/paste Perl and modify based on documentation is sufficient there.
 
 ### Evaluation of the [[Storage API|UseCases/StorageAPI]]
 
-FIXME: This is assessment of what the API for storing the accounting data
-does, so I think it's tough to do it as a list of questions.
+(Developer's review here)
+Currently in 1.3 and 1.4, most transactions do not have ready to use db-level storage APIs and the ones inherited from SQL-Leger are a pain to work with from an external application perspective.  I would not recommend going through our old code here to post things although it can be done.  There are working invoice (for defined goods/services) classes using new code for invoices, but they are not part of the main project.  They are, however, maintained by the project and therefore expected to continue to be usable for 1.3 and 1.4.  For simple amount entries there are currently no good classes available but these could be written in an afternoon (and I would be happy to contribute that work to be honest).  I would expect that such classes would be the basis for whatever we do in 1.5 in this area.
 
 ### Evaluation of the [[Community Health|UseCases/CommunityHealth]]
-- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?
-- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]?
+
+(Self-evaluation here, by developer in community)
+
+- Is the [[license both determined as Free Software by FSF and OSI-approved|USeCases/CommunityHealth#license-approved]]?  We use the GPL v2+ for most parts, and in a few places the 2-clause BSD license (for example our documentation is under this license and our spun-off client access libraries are also.  Same with our PHP integration classes). 
+
+- Is the [[license GPL-compatible||UseCases/CommunityHealth#gpl-compatible]]?  Yes.
+
 - Does the project
-  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?
+  [[require assignment of copyright or a CLA to get code upstreamed|UseCases/CommunityHealth#no-cla-for-profit]]?  No.
+
 - How many
-  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]?
-     * If there aren't many, how hard would it be to take over the project if needed?
-- Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]?
-- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?
+  [[active developers/companies contribute to the project||USeCases/CommunityHealth#dev-count]]? Over the last year we have had 6 committers, and a number of additional contributors.  Not a huge number but not too bad.  Most of those are repeat contributors with strong track records.  We are multi-vendor and not controlled by any company.  The launch of Efficito challenges that perception a bit but that may be a reason to expand the core steering committee.
+
+     * If there aren't many, how hard would it be to take over the project if needed?  I am not sure I understand the question.  If you are asking how hard it would be to become a committer in general or get on the core committee, we tend to be fairly conservative about these things.  After all, this is people's money....    We operate based on something kind of similar to an apprenticeship model.  Nobody gets commit access on the first contribution.  We expect collaboration first, personal communication and discussion, etc.  And over time  have no problem granting commit access.  In terms of getting on the steering committee what we tend to look for are two things:  good solid commits and a perspective which helps the project along.   I personally think (and would advocate) for an NPO presence on our steering committee.   However I can't commit without all of us getting together and there already being a bit of a track record of interaction.
+
+- Is there good [[developer documentation|UseCases/CommunityHealth#dev-docs]]?  For old SQL-Ledger code, not so much.  For the new code added in 1.3, we have tried to document this extensively, and for 1.4 there is a lot more.  I expect we will get to where we want to be around 1.5 or 1.6. 
+
+- How easy it to [[engage as a developer with the community|UseCases/CommunityHealth#dev-welcoming]]?  Well, we like to think we are welcoming ;-)
+
+
+Caveats and further notes by developer:
+
+[1]  We have payment and receipt searching functions done but no report built on them in the new code.  There is an old code report inherited from SQL-Ledger.  However, we only replaced it in the 1.4 beta.
+
+[2]  It should be trivial to put together two different variants of the income statement report for this.
+
+[3] Currently everything is done in a master currency and everything except journal entries assumes a single conversion rate per direction for a day (i.e. one buy and one sell rate for each currency).  Allowing multiple conversion rates for the day would be a significant amount of work, but the key issue would be one of testing and making sure that everywhere that expected the single rate conversion was moved over.  This is not a trivial amount of work but it isn't tremendous either.  It would benefit from significant collaboration with the current developers though.  This is something we plan on tackling though in 1.5 (allowing for per-transaction conversion rates).  Also floating values in a foreign currency (for example having a bank account in a currency that is not one's book currency) is more work in terms of reporting fx gains and losses than we would like at the moment.
+
+If you go with LedgerSMB, my recommendation would be to start working with the 1.4 beta.  There are likely to be additional bugs you will run into but:
+1.  You can define additional reporting dimensions (like restricted asset groups, or funds).
+2.  Reporting is a lot easier.  I can write 2 or so moderately complex reports in a day on the current framework.
+3.  More consistency with the 4-eyes principle and unapproved transactions.
+4.  Better code for use in other environments in many cases.  Also have proof of concept invoicing code for thick clients for both 1.3 and 1.4.
+
+This being said the old code that we inherited is painful to work with.  To the extent it must be modified it's good to work with others and we in the community can help. We do hope to have all the financial code on the new framework by 1.5.
+
+Finally I am not very happy with the design of the financial portions of the database.  These were largely inherited from SQL-Ledger and we have not re-engineered them yet because we wanted to get the framework up to snuff first.  We have the worst of the issues under control but the db is needlessly complex here and will likely be simplified to some extent in the future.
+
+Finally for any additional modules, we'd recommend using PGObject::Simple::Role as a database interface if using Perl.  If you want to use a different language we'd be happy to work with you to help create a db adaptor in your language of choice (we currently have them for Perl and PHP, but hope to have them in a number of different languages soon including Java, Python, and Ruby).  I have a proof of concept point of sale that uses PGObject::Simple::Role and that module is quite a bit more full-featured than our existing database routines (it is BSD-licensed btw).  There is no question we will be moving to that interface for 1.5.
