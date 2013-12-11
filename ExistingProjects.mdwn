@@ -25,6 +25,7 @@ evaluate these projects to the UseCases we've collected so far.
 * [[ExistingProjects/Ledger]]
   * Evaluated by Joar
 * [[ExistingProjects/LedgerSMB]]
+  * Contacted
 * [[ExistingProjects/npo-ledger-cli]]
 * [[ExistingProjects/OpenERP]]
 * [[ExistingProjects/OpenBravo]] : <http://www.openbravo.com/>
