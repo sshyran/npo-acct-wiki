@@ -69,7 +69,7 @@ Note that for 1.4 and the backport, reporting dimension units can be limited by 
 ### [[UseCases/Collaborating]] evaluation
 - [[Simultaneous Editing of Ledger|UseCases/Collaborating#simultaneous-ledger-edits]]: Do you mean simultaneous entry?  Yes, that is fully supported.  Do you mean simultaneous other operations (like entry and reconciliation)?  Yes.  However we try very hard to avoid editing existing entries.  This is hardly supported except in a few edge cases of non-approved transactions (which have not hit the books). 
 
-- FIXME: Other uses cases need rewrite.
+- Developer's note: Financial logic slated for rewrite with basic API's doable in an afternoon.
 
 ### Evaluation of [[Double-entry Accounting|UseCases/DoubleEntryAccounting]] UseCases
 
