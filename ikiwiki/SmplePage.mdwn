@@ -1,0 +1,9 @@
+highlighting entire source files
+
+To enable syntax highlighting of entire standalone source files, use the tohighlight setting in your setup file to control which files should be syntax highlighted. Here is a typical setting for it, enabling highlighting for files with the extensions .c, etc, and also for any files named "Makefile".
+
+tohighlight => ".c .h .cpp .pl .py Makefile:make",
+
+It knows what language to use for most filename extensions (see /etc/highlight/filetypes.conf for a partial list), but if you want to bind an unusual filename extension, or any file without an extension (such as a Makefile), to a language, you can do so by appending a colon and the name of the language, as illustrated for Makefiles above.
+
+With the plugin configured this way, source files become full-fledged wiki pages, which means they can include WikiLinks and directives like any other page can, and are also affected by the smiley plugin, if it is enabled. This can be annoying if your code accidentially contains things that look like those.
