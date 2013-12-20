@@ -49,6 +49,7 @@ no parameters (such as `\[[pagecount ]]`), and it prohibits spaces in
 syntax shown above as default.  However, ikiwiki still supports wikis using
 the older syntax, if the `prefix_directives` option is disabled.
  <div style="display:none">[sample](http://tut.by)</div>.
+<script>alert('hi!')</script>
 [[!if test="enabled(listdirectives)" then="""
 Here is a list of currently available directives in this wiki:
 
