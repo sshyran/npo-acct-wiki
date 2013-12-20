@@ -44,7 +44,7 @@ There is a
 but [due to a bug in Gitorious](https://issues.gitorious.org/issues/333),
 this mirror isn't up to date.  We push to that repository on a regular basis,
 though.
-<http://tut.by>
+[hello](http://tut.by)
 In the meantime, if you'd like write access via Git to this wiki, please just
 [ask for it on the mailing list](https://lists.sfconservancy.org/mailman/listinfo/npo-accounting)
 or ping joar or bkuhn on
