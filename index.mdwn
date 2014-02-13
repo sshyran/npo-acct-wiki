@@ -12,6 +12,11 @@ Conservancy is doing the following things:
 - [[Finding and evaluating existing Free Software accounting systems|ExistingProjects]].
 - [[Writing use cases for non-profit accounting|UseCases]].
 
+Phase 0 is nearly complete, and in Phase 1, we plan to:
+
+- [Create an REST API for basic double-entry accounting, currently using Ledger-CLI as a backend](http://npoacct.sfconservancy.org/accounting-api/)
+- Add functionality to that API that already exists in the [documented Ledger-CLI setup for NPO's](https://gitorious.org/ledger/npo-ledger-cli/).
+- Create various reports.
 
 Learning more about this project
 ========================
