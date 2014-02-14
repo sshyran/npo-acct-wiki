@@ -1,0 +1,43 @@
+Google Summer of Code 2014 Ideas
+================================
+
+Welcome, potential Google Summer of Code students!  This projects is
+currently called "The NPO Accounting Project", for lack of a better name.
+
+The project is coordinated by
+[Software Freedom Conservancy, Inc.](https://sfconservancy.org/) which is a
+501(c)(3) charitable not-for-profit organization in the USA.  We run all our
+operations solely and completely on Free Software.
+
+One area that we've had great difficulty is regarding non-profit accounting
+software.  We've launch this project to improve the state of accounting
+Open Source and Free Software for non-profits.
+
+## Possible GSoC 2014 Projects
+
+1. Add all necessary the tag types found
+   [the tutorial on the Ledger-CLI setup for fiscal sponsor 501(c)3 organizations](https://gitorious.org/ledger/npo-ledger-cli/)
+   into the
+   [REST API for basic double-entry accounting](http://npoacct.sfconservancy.org/accounting-api/).
+ 
+   This will require the student to get familiar (or already be familiar)
+   with how Ledger-CLI works, how REST APIs work, and learn some basics of
+   double entry accounting.
+
+2. Build a better test suite for [Ledger-CLI](http://www.ledger-cli.org/).
+
+   Since this project relies so heavily on Ledger-CLI, we'd really like there
+   to be a full test coverage for Ledger-CLI.  To do that, a student will
+   need to be already somewhat familiar C++ and willing to learn about how to
+   set up test suites for C++ programs, and likes writing tests.  The student
+   could easily spend the whole summer just writing tests and not finish.
+
+3. Build a better Python interface to Ledger-CLI for use by our API.
+
+   Right now, Ledger-CLI has a rather incomplete Python interface, based on
+   [Boost.Python](http://www.boost.org/doc/libs/1_55_0/libs/python/doc/).
+   However, the right approach is probably to use
+   [SWIG](http://www.swig.org/) or some other similar mechanism to build a
+   proper Python API.  Perhaps Ledger-CLI could stick with Boost.Python, but
+   what's there clearly needs an overhaul.  The upside of using SWIG will be
+   that we can get APIs for other languages too. 
