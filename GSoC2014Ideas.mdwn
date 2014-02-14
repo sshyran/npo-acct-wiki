@@ -45,11 +45,12 @@ skills and background best when submitting your application.
    set up test suites for C++ programs, and likes writing tests.  The student
    could easily spend the whole summer just writing tests and not finish.
 
-    Ledger-CLI does have the beginnings of a test suite, but its test harness
-    needs work and improvement, and it would be very good if a test coverage
-    report was generated.  There is also work to be done to investigate what
-    test coverage tools should be used  for the project.
-
+    Ledger-CLI does have a basic test suite, but it might turn out that using
+    a more "full featured" test harness is useful.  The student will
+    investigate and discuss this possibility with the mentor.  It would also
+    be nice if lconv or other test-coverage tool could generate reports
+    automatically.
+    
     While this project is of primary interest to this project, it will
     require careful coordination with Ledger-CLI as an upstream, and we'll
     help mentor the student in that.
