@@ -48,7 +48,7 @@ skills and background best when submitting your application.
     Ledger-CLI does have a basic test suite, but it might turn out that using
     a more "full featured" test harness is useful.  The student will
     investigate and discuss this possibility with the mentor.  It would also
-    be nice if lconv or other test-coverage tool could generate reports
+    be nice if lcov or other test-coverage tool could generate reports
     automatically.
     
     While this project is of primary interest to this project, it will
