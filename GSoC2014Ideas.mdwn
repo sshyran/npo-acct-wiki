@@ -24,6 +24,12 @@ Open Source and Free Software for non-profits.
    with how Ledger-CLI works, how REST APIs work, and learn some basics of
    double entry accounting.
 
+    A successful student should be able to complete that work about
+    three-quarters the way through the summer, and then be able to focus on
+    actually writing a few specialized NPO-style report using the API.  A
+    great acid test will be to use the API to implement the
+    [IRS required charity public support test](http://www.irs.gov/Charities-&-Non-Profits/Exempt-Organizations-Annual-Reporting-Requirements-Form-990,-Schedules-A-and-B:-Public-Charity-Support-Test).
+
 2. Build a better test suite for [Ledger-CLI](http://www.ledger-cli.org/).
 
    Since this project relies so heavily on Ledger-CLI, we'd really like there
