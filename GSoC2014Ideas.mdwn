@@ -56,3 +56,7 @@ Open Source and Free Software for non-profits.
    proper Python API.  Perhaps Ledger-CLI could stick with Boost.Python, but
    what's there clearly needs an overhaul.  The upside of using SWIG will be
    that we can get APIs for other languages too. 
+
+   While this project is of primary interest to this project, it will require
+   careful coordination with Ledger-CLI as an upstream, and we'll help mentor
+   the student in that.
