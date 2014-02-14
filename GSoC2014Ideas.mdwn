@@ -38,6 +38,15 @@ Open Source and Free Software for non-profits.
    set up test suites for C++ programs, and likes writing tests.  The student
    could easily spend the whole summer just writing tests and not finish.
 
+    Ledger-CLI does have the beginnings of a test suite, but its test harness
+    needs work and improvement, and it would be very good if a test coverage
+    report was generated.  There is also work to be done to investigate what
+    test coverage tools should be used  for the project.
+
+    While this project is of primary interest to this project, it will
+    require careful coordination with Ledger-CLI as an upstream, and we'll
+    help mentor the student in that.
+    
 3. Build a better Python interface to Ledger-CLI for use by our API.
 
    Right now, Ledger-CLI has a rather incomplete Python interface, based on
