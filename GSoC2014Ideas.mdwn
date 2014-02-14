@@ -10,19 +10,22 @@ The project is coordinated by
 operations solely and completely on Free Software.
 
 One area that we've had great difficulty is regarding non-profit accounting
-software.  We've launch this project to improve the state of accounting
-Open Source and Free Software for non-profits.  Since we're a young project,
-there are only the three potential projects below for a GSoC 2014 student.
-Assuming Google picks us for GSoC 2014, we'll be selecting just one student,
-but we've provided three project choices as we need all of these items done
-anyway, and we want to find the best possible student/project match. 
+software.  We've launch this project to improve the state of accounting Open
+Source and Free Software for non-profits.  Since this NPO Accounting project
+is just getting started, there are only the three potential projects below
+for a GSoC 2014 student.  Assuming Google picks us for GSoC 2014, we'll be
+selecting just one student, but we've provided three project choices.  We
+need all of these items below done anyway, and we want to find the best
+possible student/project match.  Please pick the project that fits your
+skills and background best when submitting your application.
 
 ## Possible GSoC 2014 Projects
 
 1. Add all necessary the tag types found
    [the tutorial on the Ledger-CLI setup for fiscal sponsor 501(c)3 organizations](https://gitorious.org/ledger/npo-ledger-cli/)
    into the
-   [REST API for basic double-entry accounting](http://npoacct.sfconservancy.org/accounting-api/).
+   [REST API for basic double-entry accounting](http://npoacct.sfconservancy.org/accounting-api/),
+   and then write some reports using that new API.
  
    This will require the student to get familiar (or already be familiar)
    with how Ledger-CLI works, how REST APIs work, and learn some basics of
