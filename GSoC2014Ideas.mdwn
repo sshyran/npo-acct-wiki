@@ -1,7 +1,7 @@
 Google Summer of Code 2014 Ideas
 ================================
 
-Welcome, potential Google Summer of Code students!  This projects is
+Welcome, potential Google Summer of Code students!  This project is
 currently called "The NPO Accounting Project", for lack of a better name.
 
 The project is coordinated by
