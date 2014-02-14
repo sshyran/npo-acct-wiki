@@ -11,7 +11,11 @@ operations solely and completely on Free Software.
 
 One area that we've had great difficulty is regarding non-profit accounting
 software.  We've launch this project to improve the state of accounting
-Open Source and Free Software for non-profits.
+Open Source and Free Software for non-profits.  Since we're a young project,
+there are only the three potential projects below for a GSoC 2014 student.
+Assuming Google picks us for GSoC 2014, we'll be selecting just one student,
+but we've provided three project choices as we need all of these items done
+anyway, and we want to find the best possible student/project match. 
 
 ## Possible GSoC 2014 Projects
 
