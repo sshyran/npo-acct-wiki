@@ -37,6 +37,7 @@ skills and background best when submitting your application.
     great acid test will be to use the API to implement the
     [IRS required charity public support test](http://www.irs.gov/Charities-&-Non-Profits/Exempt-Organizations-Annual-Reporting-Requirements-Form-990,-Schedules-A-and-B:-Public-Charity-Support-Test).
 
+
 2. Convert  [Ledger-CLI](http://www.ledger-cli.org/) to use fixed-point
    arithmetic.
 
@@ -53,6 +54,7 @@ skills and background best when submitting your application.
       * Shepherd the patch upstream.
       * Time permitting: verify that other Ledger implementations don't
         face the same problem.
+
 
 3. Build a better test suite for [Ledger-CLI](http://www.ledger-cli.org/).
 
@@ -72,6 +74,7 @@ skills and background best when submitting your application.
     require careful coordination with Ledger-CLI as an upstream, and we'll
     help mentor the student in that.
     
+
 4. Build a better Python interface to Ledger-CLI for use by our API.
 
    Right now, Ledger-CLI has a rather incomplete Python interface, based on
