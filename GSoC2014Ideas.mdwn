@@ -37,7 +37,24 @@ skills and background best when submitting your application.
     great acid test will be to use the API to implement the
     [IRS required charity public support test](http://www.irs.gov/Charities-&-Non-Profits/Exempt-Organizations-Annual-Reporting-Requirements-Form-990,-Schedules-A-and-B:-Public-Charity-Support-Test).
 
-2. Build a better test suite for [Ledger-CLI](http://www.ledger-cli.org/).
+2. Convert  [Ledger-CLI](http://www.ledger-cli.org/) to use fixed-point
+   arithmetic.
+
+   Currently Ledger-CLI uses floating point arithmetic, which is definitely a
+   mistake for an accounting system.  This causes
+   [off-by-one bugs](http://bugs.ledger-cli.org/show_bug.cgi?id=992) on some
+   types of transactions.  This should be fixed.
+
+   A successful student on this task will:
+        * Write various test cases for Ledger-CLI that will clearly show the
+          floating point issue.
+        * Rework the codebase to use fixed-point arithmetic so those bugs are
+          closed.
+        * Shepherd the patch upstream.
+        * Time permitting: verify that other Ledger implementations don't
+          face the same problem.
+
+3. Build a better test suite for [Ledger-CLI](http://www.ledger-cli.org/).
 
    Since this project relies so heavily on Ledger-CLI, we'd really like there
    to be a full test coverage for Ledger-CLI.  To do that, a student will
@@ -55,7 +72,7 @@ skills and background best when submitting your application.
     require careful coordination with Ledger-CLI as an upstream, and we'll
     help mentor the student in that.
     
-3. Build a better Python interface to Ledger-CLI for use by our API.
+4. Build a better Python interface to Ledger-CLI for use by our API.
 
    Right now, Ledger-CLI has a rather incomplete Python interface, based on
    [Boost.Python](http://www.boost.org/doc/libs/1_55_0/libs/python/doc/).
