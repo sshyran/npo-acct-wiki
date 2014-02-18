@@ -46,13 +46,13 @@ skills and background best when submitting your application.
    types of transactions.  This should be fixed.
 
    A successful student on this task will:
-        * Write various test cases for Ledger-CLI that will clearly show the
-          floating point issue.
-        * Rework the codebase to use fixed-point arithmetic so those bugs are
-          closed.
-        * Shepherd the patch upstream.
-        * Time permitting: verify that other Ledger implementations don't
-          face the same problem.
+      * Write various test cases for Ledger-CLI that will clearly show the
+        floating point issue.
+      * Rework the codebase to use fixed-point arithmetic so those bugs are
+        closed.
+      * Shepherd the patch upstream.
+      * Time permitting: verify that other Ledger implementations don't
+        face the same problem.
 
 3. Build a better test suite for [Ledger-CLI](http://www.ledger-cli.org/).
 
