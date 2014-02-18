@@ -12,9 +12,9 @@ operations solely and completely on Free Software.
 One area that we've had great difficulty is regarding non-profit accounting
 software.  We've launch this project to improve the state of accounting Open
 Source and Free Software for non-profits.  Since this NPO Accounting project
-is just getting started, there are only the three potential projects below
+is just getting started, there are only the four potential projects below
 for a GSoC 2014 student.  Assuming Google picks us for GSoC 2014, we'll be
-selecting just one student, but we've provided three project choices.  We
+selecting just one student, but we've provided four project choices.  We
 need all of these items below done anyway, and we want to find the best
 possible student/project match.  Please pick the project that fits your
 skills and background best when submitting your application.
