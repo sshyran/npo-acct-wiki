@@ -51,9 +51,14 @@ skills and background best when submitting your application.
       * Rework the codebase to use fixed-point arithmetic so those bugs are
         closed.
       * Shepherd the patch upstream.
+      * Close any bug tickets in the bug tracker that relate to this issue.
       * Time permitting: verify that other Ledger implementations don't
         face the same problem.
-  
+
+   Note that because this would be a major "bombing run" sort of change,
+   there may be some resistance to upstreaming this patch, so this task may
+   be harder than it looks on the surface from a community advocacy angle.  
+      
 3. Build a better test suite for [Ledger-CLI](http://www.ledger-cli.org/).
 
    Since this project relies so heavily on Ledger-CLI, we'd really like there
