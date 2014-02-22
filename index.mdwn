@@ -6,7 +6,7 @@ NPO Accounting Software Project
 
 Conservancy welcomes the help of anyone who is interested in this issue to
 design and develop this software.  If you want to get involved right now,
-look below for [[information about how to get involved with this project|#howtohelp]].
+look below for [[information about how to get involved with this project|index#howtohelp]].
 
 
 BTW, we're [[hoping to participate in GSoC 2014|GSoC2014Ideas]].  We think
