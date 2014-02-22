@@ -5,10 +5,13 @@ NPO Accounting Software Project
 [effort to create accounting software for non-profit organizations](https://sfconservancy.org/campaign/).
 
 Conservancy welcomes the help of anyone who is interested in this issue to
-design and develop this software.
+design and develop this software.  If you want to get involved right now,
+look below for [[information about how to get involved with this project|#howtohelp]].
+
 
 BTW, we're [[hoping to participate in GSoC 2014|GSoC2014Ideas]].  We think
 there are enough ideas for probably only one, maybe two, students.
+
 
 ## Phase 0
 
@@ -38,15 +41,17 @@ You can learn more about what we done so far on this project by:
 
 Helping and Collaborating on this Project
 ========================
-
+<a id="howtohelp"></a>
 You can help us and/or collaborate with us on this project by:
 
   * Editing this Wiki!
+  * Submit patches and merge requests to [accounting API repository](http://npoacct.sfconservancy.org/accounting-api/)
+  * Submit patches and merge requests to [npo-accounting Ledger CLI tutorial](https://gitorious.org/ledger/npo-ledger-cli/).
   * Joining the discussion on [the mailing list for this project](https://lists.sfconservancy.org/mailman/listinfo/npo-accounting)
   * Joining the discussion on
     [the IRC channel, #npoacct on irc.freenode.net](irc:irc.freenode.net/npoacct).
   * [Donating money to fund this effort!](https://sfconservancy.org/campaign/)
-
+  
 ----
 
 About This Wiki
