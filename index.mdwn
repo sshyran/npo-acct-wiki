@@ -45,7 +45,7 @@ Helping and Collaborating on this Project
 You can help us and/or collaborate with us on this project by:
 
   * Editing this Wiki!
-  * Submit patches and merge requests to [accounting API repository](http://npoacct.sfconservancy.org/accounting-api/)
+  * Submit patches and merge requests to [accounting API repository](http://npoacct.sfconservancy.org/accounting-api/).
   * Submit patches and merge requests to [npo-accounting Ledger CLI tutorial](https://gitorious.org/ledger/npo-ledger-cli/).
   * Joining the discussion on [the mailing list for this project](https://lists.sfconservancy.org/mailman/listinfo/npo-accounting)
   * Joining the discussion on
