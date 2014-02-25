@@ -13,11 +13,16 @@ One area that we've had great difficulty is regarding non-profit accounting
 software.  We've launch this project to improve the state of accounting Open
 Source and Free Software for non-profits.  Since this NPO Accounting project
 is just getting started, there are only the four potential projects below
-for a GSoC 2014 student.  Assuming Google picks us for GSoC 2014, we'll be
-selecting just one student, but we've provided four project choices.  We
-need all of these items below done anyway, and we want to find the best
-possible student/project match.  Please pick the project that fits your
-skills and background best when submitting your application.
+for a GSoC 2014 student.  Students who wish to apply to our org should pick
+one specific project below, and focus their application on that project.
+
+We'll likely select just one student, but we've provided multiple project
+choices.  Students who wish to apply to our org should pick *one* of the four
+projects below, and focus their application on that project.
+
+We need all of these items below done anyway, and we want to find the best
+possible student/project match.  Please pick the *single* project below that
+fits your skills and background best when submitting your application.
 
 ## Possible GSoC 2014 Projects
 
