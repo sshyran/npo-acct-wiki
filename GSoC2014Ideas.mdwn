@@ -41,7 +41,11 @@ fits your skills and background best when submitting your application.
     actually writing a few specialized NPO-style report using the API.  A
     great acid test will be to use the API to implement the
     [IRS required charity public support test](http://www.irs.gov/Charities-&-Non-Profits/Exempt-Organizations-Annual-Reporting-Requirements-Form-990,-Schedules-A-and-B:-Public-Charity-Support-Test).
-  
+
+   This particular project description is vague because we'd like to see a
+   creative application from someone who has done some research into how
+   non-profit accounting workflow works and wants to help implement it.
+
 2. Convert  [Ledger-CLI](http://www.ledger-cli.org/) to use fixed-point
    arithmetic.
 
