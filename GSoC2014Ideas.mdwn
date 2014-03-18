@@ -26,7 +26,7 @@ fits your skills and background best when submitting your application.
 
 ## Possible GSoC 2014 Projects
 
-1. Add all necessary the tag types found
+1. Add all the necessary tag types found in 
    [the tutorial on the Ledger-CLI setup for fiscal sponsor 501(c)3 organizations](https://gitorious.org/ledger/npo-ledger-cli/)
    into the
    [REST API for basic double-entry accounting](http://npoacct.sfconservancy.org/accounting-api/),
