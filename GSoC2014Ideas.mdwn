@@ -100,6 +100,12 @@ fits your skills and background best when submitting your application.
    careful coordination with Ledger-CLI as an upstream, and we'll help mentor
    the student in that.
 
-5. Add a JSON/RESTful API to [Hledger](http://hledger.org)'s [hledger-web](http://hackage.haskell.org/package/hledger-web) app, mirroring the C++/python API.
-    This would provide an alternate implementation useful for testing, validation and future-proofing.
+5. Add a JSON/RESTful API to [Hledger](http://hledger.org)'s
+    [hledger-web](http://hackage.haskell.org/package/hledger-web) app,
+    mirroring the C++/python API (improvement for which is described in (1)
+    above, as part of another task).  This would provide an alternate
+    implementation useful for testing, validation and future-proofing.
 
+    The ideal here would be that the NPO Accounting Project could use
+    *either* Ledger-CLI *or* hledger as a back-end.  This work may require
+    coordination with other students who might be working on (1).
