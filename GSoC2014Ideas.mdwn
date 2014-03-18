@@ -100,7 +100,7 @@ fits your skills and background best when submitting your application.
    careful coordination with Ledger-CLI as an upstream, and we'll help mentor
    the student in that.
 
-5. Add a JSON/RESTful API to [Hledger](http://hledger.org)'s hledger-web app, mirroring the C++/python API.
+5. Add a JSON/RESTful API to [Hledger](http://hledger.org)'s [hledger-web](http://hackage.haskell.org/package/hledger-web) app, mirroring the C++/python API.
     This would provide an alternate, single-language implementation
     useful for testing, validation and future-proofing.
 
