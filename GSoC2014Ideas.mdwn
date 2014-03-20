@@ -68,6 +68,14 @@ fits your skills and background best when submitting your application.
    Note that because this would be a major "bombing run" sort of change,
    there may be some resistance to upstreaming this patch, so this task may
    be harder than it looks on the surface from a community advocacy angle.  
+
+   Application tips for this task: an application from a student who does the
+   following will be considered a very good application:
+      * Write a patch (before submitting your application) for ledger-cli
+        that uses the existing test framework to add a useful new test.
+      * Submit a pull request to ledger-cli to add that test to upstream.
+      * If your patch is accepted by ledger-cli's maintainers before your
+        application is considered, that will be looked upon most favorably.
       
 3. Build a better test suite for [Ledger-CLI](http://www.ledger-cli.org/).
 
